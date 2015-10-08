@@ -1,0 +1,10 @@
+1.	Tekniker påtrykker systemet tre kendte tryk
+2.	Tekniker aflæser responsene på GUI
+3.	Tekniker noterer afvigelserne fra de kendte tryk
+	[Undtagelse 3.a: der er ingen afvigelser]
+4. 	Tekniker kalibrerer afvigelsen i systemets software
+5.	UC4 startes forfra.
+
+
+	[Undtagelse 3.a: der er ingen afvigelser]
+		UC4 afsluttes
