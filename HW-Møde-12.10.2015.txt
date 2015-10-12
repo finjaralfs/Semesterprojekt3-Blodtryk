@@ -1,0 +1,10 @@
+Møde 12/10-2015-Hardware
+Tilstede: Helle, Rune, Finja
+
+-beregning af komponentværdier af modstandene og kondensator, valgte værdier som vi kunne finde i skabet (Snak med Thomas om komponentvalg) - C2 var opgivet til 680nF
+-Beregning af overføringsfunktionen, knækfrekvensen
+-Opbygningen af Lavpasfilter
+-Testede filteret med forskellige frekvenser for at se, om den virker som LP-filter
+-Screenshots af de forskellige frekvenser (1Hz,5Hz,20Hz,50Hz,100Hz,500Hz,5000Hz,50000Hz)
+-Bodeplot
+-Spørg Thomas om afvigelse af knækfrekvens på bodeplot (7,95Hz afvigelse)
