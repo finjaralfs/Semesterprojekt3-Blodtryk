@@ -1,0 +1,426 @@
+
+\documentclass[a4paper,11pt,oneside]{memoir}
+
+% lidt marginer
+	\setlrmarginsandblock{3cm}{*}{1}
+	\setulmarginsandblock{3cm}{*}{1}
+% mere højde til header
+	\setheadfoot{2cm}{\footskip}          
+	\checkandfixthelayout[nearest]
+% stadard dansk opsaetning
+% æøå, andre: ansinew, applemac eller utf8
+	\usepackage[utf8]{inputenc} 
+% dansk opsætning  
+	\usepackage[danish]{babel} 
+% fikser babel fejl           
+	\renewcommand\danishhyphenmins{22}     
+	\usepackage[T1]{fontenc} 
+% lidt bedre CM font             
+	\usepackage{lmodern}
+% god matematik 
+	\usepackage{amsmath,amssymb,bm}
+	\usepackage{amsthm}
+% Billeder
+	\usepackage{graphicx}
+% farver
+	\usepackage{xcolor}
+% fjerne automatisk sidetallet hvis kun een side i alt
+	\AtEndDocument{%
+		\ifnum\value{lastsheet}=1\thispagestyle{empty}\fi}
+% lægger info i header i stedet, vi piller ved plain og justerer empty
+	\makeoddhead{plain}{Vejledermødereferater, gruppe 3}% venstre side
+	{Semesterprojekt 3}%
+	{\today}% hoejre side 
+	%\makeheadrule{plain}{\textwidth}{\normalrulethickness}
+	\copypagestyle{empty}{plain}
+% vi soerger lige for at fjerne sidetallet ved empty
+	%\makeoddhead{empty}{}{}{}
+	%\makeoddfoot{empty}{}{}{}
+	\pagestyle{plain}
+%Matematisk mængde notation
+	\newcommand{\N}{\ensuremath{\mathbb{N}}}
+	\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+	\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+	\newcommand{\R}{\ensuremath{\mathbb{R}}}
+	\newcommand{\C}{\ensuremath{\mathbb{C}}}
+	\newcommand{\F}{\ensuremath{\mathbb{F}}}
+	\newcommand{\K}{\ensuremath{\mathbb{K}}}
+	\newcommand{\mP}{\ensuremath{\mathbb{P}}}
+\begin{document}
+
+%--------------------------MØDE 1---------------------------------
+
+\begin{center} 
+\huge{\textsc{1. vejledermøde - Samuel}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 1
+\\
+\textbf{Dato:} 9/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 45 minutter
+\\
+
+\subsection{Referat:}
+
+\begin{itemize}
+\item Vi bør ikke dele det op, da der ikke er nok teknisk, at skrive i rapporten – så ”rapportgruppen” trækker nitten. Del op i en Software-gruppe og en Hardware-gruppe, og få uddelt roller som referent, dagsordens-mødeleder, osv. 
+\item Vi får hardwaren udleveret, hvor vi så selv skal udvikle en forstærker til systemet. Her skal vejledningen fra Peter bruges – meld ind, hvis der er noget i projektet der ikke fungerer. Spørg Thomas og Peter, de er eksperter på hardware-området.
+\item Overordnet handler projektet om, at få trykket ud af ”blodtryksmåleren” og få det omdannet til et ”blodtryk”. Opdel i de to grupper, og kommunikér i de to grupper! Hver enkelt skal have et ansvarsområde i hhv. hardware-delen og software-delen. 
+
+\item Samuel anbefaler 1-2 gruppemøder i ugen, for at sørge for, at få udleveret informationer. En gruppe før, har skiftet mellem at være hardware og software-gruppe i mellem de forskellige deadlines. 
+
+\item Læringsmålene – er ikke revideret. Lad dokumentet (rapportvejledning) styre os. Vi skal nok nå omkring læringsmålene – men brug det vi lærer i fagene.  
+
+\item Eksamen er en gruppeeksamen, hvor alle kommer ind. Alle eksamineres sammen til en introduktion til at starte med, og derefter stilles spørgsmål ud i lokalet, hvor alle kan svare, og der til sidst er spørgsmål til den enkelte – alle vejledere er tilstede. I og med at alle vejledere er tilstede, forsøger vejlederne at nå omkring læringsmålene. 
+
+\item Det er ikke et krav, at alle programmerer, og der skal ikke stå forfatter på softwaren – alle skal vide det hele. Hav en overordnet forståelse – hele gruppen hæfter for rapporten, og rapporten er den der står til grund for karakteren.  
+
+\item Lige stor arbejdsbyrde imellem software og hardware. Agile i udviklingsprocessen, supplér hinanden. Skriv rapporten sammen – skriv eventuelt dokumenterne efterhånden, og send dem til review i resten af gruppen. Lav ikke dokumenterne i de to grupper! Del med hinanden – så rapporten bliver sammenhængende. 
+
+\item Vi skal starte med at stille krav op til blodtryksapparatet: ”blodtrykket skal måles korrekt” med specifikationer – usikkerheden. 
+
+\item Stumptryk og endetryk – 3-4 mm kviksølv. Introen til blodtryksmåling får vi i KVI efterhånden. 
+
+\item Vi må gerne have kontakt med ”folk vi kender” ude på eksempelvis Skejby. Problemet med at have kontakt med ikke-familiære folk på sygehusene, er at vi ”virker for dumme” på 3. semester. Spørg endelig de familiære kontakter. Hvor vigtigt er et præcist blodtryk? Spørg eventuelt lægerne. 
+
+\item 120 (systolisk)/80 (diastolisk) er et normalt blodtryk. Snak ikke hypertension. Undersøg i stedet i forhold til tilfælde hvor blodtrykket eksempelvis dykker fatalt. Det handler ikke om blodtryksmåler ved lægen – men på eksempelvis en operationsstue. 
+\item Lav intelligent system, med grænseværdier – overvej alarmering. Feedback med lægen og systemet.
+\item Nøjagtigheden bestemmer lidt hvor meget vi skal skrive omkring selve blodtrykket – dette kan så beskrives patofysiologisk. 
+\item Vi får mulighed for at teste systemet oppe i laboratoriet, og så er analog vores ”bedste ven”. Her kan vi teste det meste af det. 
+\item ALT skal \textit{”fucking”} dokumenteres – skriv ned som logbog hver gang noget skal testes. Skriv overordnet for hvert møde – også mødet i de to små grupper. Beslutningerne skal skrives ned, men ikke detaljeret hver gang. Lav de dokumenter der giver mening (ISE).
+\item Arbejdsmetoder: gode erfaringer med at bruge Scrum. Det giver god mening at bruge den struktur, og opdeler rollerne, som man gør i Scrum. Giver god projektstyring. 
+\item Start med fællessamarbejde omkring ISE-delen og Use Cases. Hvilken vej vil vi med projektet? Derefter kan projektet deles op i de to grupper, og sørge for, at de to grupper følges ad. Vælg eventuelt en gruppeleder i de to grupper. 
+\item Hardware: få loddet en plade med hardwaren. 
+\item Fin ide at bruge Latex, stor arbejdsbyrde i starten, men nemt til sidst. 
+\item Målet er, at alle grupperne i år nærmest afleverer det samme projekt. Valgfrie krav, er der hvor grupperne bliver forskellige. 
+\item Er det på intensiv? På operationsstue? Login? GUI? Design? 
+
+\end{itemize}
+
+
+\newpage
+
+%--------------------------MØDE 2---------------------------------
+
+\begin{center} 
+\huge{\textsc{2. vejledermøde - Thomas}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 2
+\\
+\textbf{Dato:} 21/9-15
+\\
+\textbf{Tilstede:} Helle, Lars, Joakim, Rune og Signe 
+\\
+\textbf{Ikke tilstedeværende:} Finja
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 60 minutter
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Thomas vil gerne ugentligt have et overblik over hvad der er nået/lavet
+\begin{itemize}
+\item Inviter eventuelt vejleder til PT
+\end{itemize}
+\item Ugentligt vejledermøde tirsdag kl. 12.15
+\begin{itemize}
+\item Mail kommer hovedsageligt til at foregå mellem vejleder og Joakim, som også er 'ScrumMaster' - men ellers kollektiv ledelse 
+\end{itemize} 
+\item Det er vigtigt, at vi alle har 'fingrene i suppen', dvs. vi må gerne opdele i hardware- og softwarehold, men vi skal alle være med på, hvad der udvikles.
+\item Tidsplanen er OK, datoerne kommer til at fremgå af PT
+\\
+\end{itemize}
+
+\textbf{Kravspecifikation}
+\begin{itemize}
+\item Systemkrav skal eventuelt kaldes 'systembeskrivelse'
+\item Aktører er udemærket, også i forhold til primær/sekundær
+\item Gem eventuelt kun på offentlig database - vejleder tjekker op på det 
+\item \textbf{UC's}:
+\begin{itemize}
+\item Login til sundhedsfagligt personale, kan udvikles som selvstændig UC
+\item Alarmering: tag højde for patienter med blodtryk der fra start er forhøjet - hvorud fra der alarmeres efter en stigning derudfra. Eventuelt en 'drejeknap' hvor algoritmen kan ændres, så der tages højde for eventuelt højt blodtryk
+\item Kalibrering: UC eller kun under udvikling? - Det undersøger vejleder
+\item UC1; ét signal med tre udtryk (ikke tre signaler). Navn er eventuelt ikke nødvendigt, da CPR indeholder alt det vigtige.
+\item UC2; loginprocedure? 
+\end{itemize}
+\item \textbf{Accepttest}:
+\begin{itemize}
+\item Vær helt sikre på, at kravspecifikation og accepttest stemmer fuldstændig overens!
+\item Test2; VPN er kun nødvendigt for os - skriv det eventuelt som note (skal ikke være oprettet i en eventuel hospitalssituation) 
+\item Test3; kalibrering?
+\end{itemize}
+\item Prototype/færdigt produkt? Vejleder undersøger, men evnetuelt går vi med prototypen, for at kunne specificere bedst muligt til vores program 
+\item \textbf{Ikke-funktionelle krav}:
+\begin{itemize}
+\item Vi behøver ingen nedre grænse i forhold til nøjagtigheden af blodtryksmålingen 
+\item Igen i forhold til kendte patienter med højt blodtryk (skal kunne reguleres)
+\item Genovervej præcisering af nøjagtighed - skal eventuelt være lavere (evt. 5 mmHg) - de 5-10 mmHg er forskellen om med/mod blodåren - specificer!
+\item Reliability? - skriv note om, at det ikke er muligt at teste, eller lav en test over den korte periode
+\end{itemize}
+\item Vejleder synes det ser fornuftigt ud, lav login-UC, vær sikker på at kravspecifikation og accepttest stemmer fuldstændig overens 
+\item Vi kan endelig skrive til Thomas, hvis der er noget.
+\item Vend vejledermødtidspunkt med Finja
+\end{itemize}
+
+\newpage
+
+%--------------------------MØDE 3---------------------------------
+
+\begin{center} 
+\huge{\textsc{3. vejledermøde - Thomas}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 3 
+\\
+\textbf{Dato:} 29/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 45 minutter
+\\
+
+\subsection{Referat:}
+\textbf{Generelt:}
+\begin{itemize}
+\item Vi starter generelt, Thomas gennemgår de ting han skulle undersøge fra sidste møde
+\begin{itemize}
+\item Thomas har undersøgt og læst om Scrum
+\item Sprints, a la hvad har vi lavet/nået, med ugentlige opfølgninger som vi så bruger til det ugentlige vejledermøde
+\end{itemize}
+\item Finja har undersøgt Github - vi kan så småt begynde at bruge det
+\begin{itemize}
+\item Versionsstyring skal hænge sammen
+\end{itemize}
+\item GUI'en ser fin ud - men +/- knappen fjernes, og indgår i databasen
+\item Funktionelle krav stemmer overens med UC
+\end{itemize}
+
+\textbf{UC1 og UC2:}
+\begin{itemize}
+\item Nulpunktsjustering og kalibrering skal kunne gøres (nulpunktsjustering dagligt (ved hver gang det skal bruges), og kalibrering årligt)
+\begin{itemize}
+\item Implementer det eventuelt så nulpunktsjusteringen sker så snart man trykker på "hent"-knappen
+\item Skriv det op som ikke-funktionelle krav, for ikke at inkludere det i UC 
+\end{itemize}
+\item Vær opmærksom på at UC og accepttest skal hænge sammen
+\end{itemize}
+
+\textbf{Helles gennemgang af besøg på dagkirurgisk:}
+\begin{itemize}
+\item Informationen fra sygehuset skal anvendes i rapporten, det er et fantastisk godt input i forhold til virkeligheden
+\item Skal akut-knappen indgå i rapporten, som en tanke i forprojektet, og derved en beskrivelse af \textit{hvorfor} vi droppede den ide, grundet besøget på sygehuset? Det er klart relevant at inddrage. Inddrag det eventuelt i Design/implementering omkring overvejelserne - forklar at designet tager udgangspunkt i det Helle har fra sygehuset 
+\begin{itemize}
+\item Fortæller systemet selv teknikeren at han skal kalibrere, han tekniker godt være sekundæraktør
+\end{itemize}
+\end{itemize}
+
+\textbf{UC til kalibrering?}
+\begin{itemize}
+\item Tekniker-aktør er en fin idé - da det skal gøres
+\begin{itemize}
+\item Teknikeren skal indgå både i aktørbeskrivelsen, aktør-kontekst-diagrammet osv. 
+\item Er tekniker primær/sekundær? 
+\item Hvis SP skal tage initiativ til kalibrering, skal tekniker være sekundær
+\item Skal tekniker tage initiativ til at kalibrere, skal han være primær
+\item Kan tekniker være sekundær i UC-diagram og primær i den aktuelle UC (Thomas synes det er fint, at han er sekunær i UC-diagram, da han ikke er den der tager initiativ i systemet)
+\item Vær enige om, \textit{hvorfor} han er primær/sekundær, skriv eventuelt en beskrivelse heraf
+\item Hør eventuelt Kim ad 
+\end{itemize}
+\item Vi kan godt lave UC til kalibrering så vi selv kan teste det - (nulpunktsjustering forskyder grafen) den kan laves både i HW (forstærker modstand) og i SW (justerer en faktor der ganges på den målte spænding)
+\item Brug væskeflow til kalibrering - virker dette, kan vi gå et skridt længere ind mod sensoren og teste
+\item Testbarhed?
+\begin{itemize}
+\item Vi kan godt lave testen, selvom vi ikke kan komme i lab
+\end{itemize}
+\end{itemize}
+
+\textbf{Grafens visning:}
+\begin{itemize}
+\item Det kan gøres på tre forskellige måder, det er op til gruppen hvilken der er bedst at bruge, 'overskrivning' kunne være en fin løsning - det bruges også på sygehuset
+\item Rune undersøger 
+\item Vi kan lave forskellige grænseflader, så vi kan evt. vise flere metoder
+\end{itemize}
+
+\textbf{Kommende møder:}
+\begin{itemize}
+\item Løbende aftaler, fra gang til gang i stedet for den faste tirsdag
+\item Vi skal stadig have ugentligt møde
+\item Vi aftaler løbende med møde i næste uge
+\end{itemize}
+
+\textbf{Ikke-funktionelle krav:}
+\begin{itemize}
+\item Se rettelser, nogle krav skal eventuelt være funktionelle (nulpunktsstyring skal stå i ikke-funktionelle og ikke indgå som krav i UC, hvor kalibrering ikke skal indgå i ikke-funktionelle krav, da den får sin egen UC)
+\item Kravet om 5-10 mmHg er eventuelt meget, genovervej! Det kan være okay, men argumenter \textit{hvorfor}
+\item Krav om til/fra skal indgå i UC - skriv evt. under hovedforløb at filterfunktion kan slåes til/fra (spørg evt. Kim?) 
+\end{itemize}
+
+\newpage
+
+%--------------------------MØDE 4---------------------------------
+
+\begin{center} 
+\huge{\textsc{4. møde - review m. gr. 4}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Review:} 4
+\\
+\textbf{Dato:} 7/10-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 2 timer
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Kommentarer fra gr. 4
+\begin{itemize}
+\item Kravene i systembeskrivelsen står både i systembeskrivelse, UC og ikke-funktionelle krav
+\item UC1: forudsætninger - tilsluttet og funktionelt, operativt 
+\item Præciser nulpunktsjustering i UC, at systemet gør det selv
+\end{itemize}
+\item Foretager rettelser i Latex
+\item Rettelse til UC-diagram
+\begin{itemize}
+\item Angiv hvilket nummer UC er
+\item Der skal være forbindelse fra Database til "Mål blodtryk"
+\item Slet 'prikkerne'
+\end{itemize}
+\item Spørg Kim omkring Tekniker, samt initialisere (UC2)
+\item Spørg Thomas omkring Filter-UC samt alarmerings-UC. 'Med digitalt filter' som default? Gem-UC, tekniker til fejl ved at gemme?
+\end{itemize}
+
+\newpage
+
+%--------------------------MØDE 5---------------------------------
+
+\begin{center} 
+\huge{\textsc{5. vejledermøde - Thomas}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 5
+\\
+\textbf{Dato:} 7/10-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 45 minutter
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Thomas synes (personligt) at de fire UC's vi har nu er fint - snakker med de andre vejledere
+\item Anbefalingen lyder, at Tekniker skal være primær, for at komme udenom eventuelle problemer i UC
+\item Jo mere specifikt i UC, jo nemmere er det at teste (jo mere specifik, jo bedre)
+\item UC 'Gem data': Thomas undersøger test af problemer man ikke har kontrol over til næste gang
+\begin{itemize}
+\item Skriv eventuelt som forudsætning, at der er adgang til databasen, for at gemme
+\item Slet den undtagelse, at systemet ikke gemmer 
+\end{itemize}
+\item Med digitalt filter kan være default, og uden digitalt filter kan så slås til/fra (extension)
+\item Uddyb at nulpunktsjusteringen sker i UC2 - ikke-funktionelt krav (!!!) 
+\item UC4; forudsætning
+\begin{itemize}
+\item Væskesøjle med pulserende tryk. Søjlen kan give to/tre tryk - vi laver en nulpunktsjustering hver gang. Vi laver en spænding med mmHg, og skal have en lineær linje. Vi kan teste hvert tryk flere gange (evt. med dage imellem), for at kigge på variationen.
+\item Vi kan sætte det pulserende tryk på
+\item Hvis vi med signalet springer transduceren over, og går direkte på spændingen, kan vi teste med Analog D
+\item Vi kan sætte en kendt spænding på DAQ, for at se at systemet gør som det skal 'den anden vej'
+\item Skriv UC som om, at teknikeren skal justere det 
+\end{itemize}
+\item Nulpunktsjustering
+\begin{itemize}
+\item Nulpunktsjustering skal ske inden proben sættes ind - eventuelt når patientdata hentes 
+\item Indsættelse af probe kan evt. skrives i et punkt i UC2
+\item Nulpunktsjusteringen sker i henhold til transduceren 
+\end{itemize}
+\item Alt hvad vi laver i test, skal dokumenteres. 
+\item Detaljeret kravspecifikation, men de tekniske ting (som læger ikke ved noget om) skal eventuelt indgå i udvikling og design, men ikke i kravspecifikationen
+\item Antialiaseringsfilter skal testes
+\item Thomas synes det er en god ide med prototype på fumlebræt og den endelige på printplade
+\item Dokumentation i henhold til forstærker og filter: fint med screenshots fra grafer (dataplot), bodeplots, osv.
+\item Tredjeordensfilter: Thomas ved ikke umiddelbart om der er fordel ved tredjeordensfilter, og heller ikke om det er et krav at det skal være andenordens 
+\item Forstærkningstrin, antialiaseringstrin - eventuelt i samme kredsløb
+\item Software skal vi snakke med Lars om 
+\item Sampling med 1000 Hz, hvor den maksimale frekvens vi kan tage med er 500 Hz. Vi skal så have signalet dæmpet til 70 dB (på 1 dekade). Blodtrykket er generelt på omkring 1 Hz. 
+\item Gruppe 4 har møde med Lars i morgen omkring software - hør eventuelt om vi kan koble os på 
+\item Ugentligt møde, hvor vi aftaler dagen løbende 
+\begin{itemize}
+\item Næste møde: fredag d. 23 oktober kl. 12
+\end{itemize}
+\end{itemize}
+
+
+\newpage
+
+
+%--------------------------MØDE 1---------------------------------
+
+\begin{center} 
+\huge{\textsc{6. vejledermøde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 6
+\\
+\textbf{Dato:} 9/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 45 minutter
+\\
+
+\subsection{Referat:}
+
+
+\newpage
+
+
+%\begin{itemize}
+%\item Visere, impedans/admittans
+%\item Knudepunkts- og maskeligninger
+%\begin{itemize}
+%\item Første underpunkt
+%\item Andet underpunkt
+%\end{itemize}
+%\end{itemize}
+
+
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.45]{eventhandler.PNG}
+%\caption{Eventhandlere}
+%\end{figure}
+
+%$$\sin^2 s + \cos^2 s = 1 \ \forall s \in \R$$
+
+\end{document}

@@ -1,0 +1,518 @@
+\documentclass[a4paper,11pt,oneside]{memoir}
+
+% lidt marginer
+	\setlrmarginsandblock{3cm}{*}{1}
+	\setulmarginsandblock{3cm}{*}{1}
+% mere højde til header
+	\setheadfoot{2cm}{\footskip}          
+	\checkandfixthelayout[nearest]
+% stadard dansk opsaetning
+% æøå, andre: ansinew, applemac eller utf8
+	\usepackage[utf8]{inputenc} 
+% dansk opsætning  
+	\usepackage[danish]{babel} 
+% fikser babel fejl           
+	\renewcommand\danishhyphenmins{22}     
+	\usepackage[T1]{fontenc} 
+% lidt bedre CM font             
+	\usepackage{lmodern}
+% god matematik 
+	\usepackage{amsmath,amssymb,bm}
+	\usepackage{amsthm}
+% Billeder
+	\usepackage{graphicx}
+% farver
+	\usepackage{xcolor}
+% fjerne automatisk sidetallet hvis kun een side i alt
+	\AtEndDocument{%
+		\ifnum\value{lastsheet}=1\thispagestyle{empty}\fi}
+% lægger info i header i stedet, vi piller ved plain og justerer empty
+	\makeoddhead{plain}{Logbøger, gruppe 3}% venstre side
+	{Semesterprojekt 3}%
+	{\today}% hoejre side 
+	%\makeheadrule{plain}{\textwidth}{\normalrulethickness}
+	\copypagestyle{empty}{plain}
+% vi soerger lige for at fjerne sidetallet ved empty
+	%\makeoddhead{empty}{}{}{}
+	%\makeoddfoot{empty}{}{}{}
+	\pagestyle{plain}
+%Matematisk mængde notation
+	\newcommand{\N}{\ensuremath{\mathbb{N}}}
+	\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+	\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+	\newcommand{\R}{\ensuremath{\mathbb{R}}}
+	\newcommand{\C}{\ensuremath{\mathbb{C}}}
+	\newcommand{\F}{\ensuremath{\mathbb{F}}}
+	\newcommand{\K}{\ensuremath{\mathbb{K}}}
+	\newcommand{\mP}{\ensuremath{\mathbb{P}}}
+\begin{document}
+
+%-----------------------------------------LOGBOG 1---------------------------------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 1. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 1
+\\
+\textbf{Dato:} 8/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:}
+\\
+
+\subsection{Referat:}
+
+\begin{itemize}
+\item Vi snakker om at inddele os i grupper - forsøger os med en rolle fordeling
+\begin{itemize}
+\item To på software
+\item To på hardware
+\end{itemize}
+\item Vi aftaler at Signe er mødereferent - Helle er backup
+\item Joakim er ansvarlig for dagsorden
+\item \textbf{Aftaler:}
+\begin{itemize}
+\item Møde en gang om ugen (evt. aftalt dag) - onsdag?
+\item Eventuelt fast mødetid med vejleder (spørg Thomas)
+\item Samarbejdsaftale lave i morgen, d. 10/9-15, efter møde med Samuel
+
+\end{itemize}
+\end{itemize}
+
+\newpage
+
+% --------------------------------------------LOGBOG MØDE 2------------------------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 2. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 2
+\\
+\textbf{Dato:} 9/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:}
+\\
+
+\subsection{Referat:}
+
+\begin{itemize}
+\item Vi deler os op i en softwaregruppe og en hardwaregruppe
+\end{itemize}
+\begin{itemize}
+\item Tovholder i hver gruppe - og der er så møde en gang i ugen, hvor vi samler trådene. 
+\item Hver gang grupperne mødes, skal der skrives en "logbog" over hvad der er lavet, hvilke beslutninger der er taget, og hvor langt mødet er.
+\item Der er oprettet Google Docs til deling af dokumenter i opstartsfasen - dokumenterne skal efterhånden skrives ind i Latex.
+\item Vi starter med kravspecifikation og use cases
+\begin{itemize}
+\item Vi går ud fra en blodtryksmåler i en operationsstue
+\end{itemize}
+\item Vi vil eventuelt gerne kunne gemme i systemet, lave bip-lyde og vise diastolisk og systolisk blodtryk
+\item Vi starter med use cases
+\item Der skal fremover bruges Github til deling af (Latex-)dokumenter 
+\item Trykket omdannes til analog spænding
+\item Vi opdeler use cases mellem os
+\begin{itemize}
+\item Foretag måling: Joakim og Lars
+\item Gem data: Rune og Finja
+\item Alarmering: Helle og Signe
+\end{itemize}
+\end{itemize}
+\newpage
+
+%-----------------------------LOGBOG 3-------------------------------------------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 3. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 3
+\\
+\textbf{Dato:} 11/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 30 minutter
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Vi retter/laver samarbejdsaftale, så denne er helt på plads
+\item Vi inddeler os i ansvarsområder:
+\begin{itemize}
+\item Softwaregruppen: Lars, Joakim og Signe
+\item Hardwaregruppen: Rune, Finja og Helle
+\end{itemize}
+\item Der bliver lavet en dagsorden til mødet mandag d. 14/9-15
+\begin{itemize}
+\item Tidsplan
+\item Arbejdsmetode (Scrum)
+\begin{itemize}
+\item Hertil lektie: læs op på Scrum
+\end{itemize}
+\item Use cases
+\item Aktørkontekstdiagram
+\item Kravspecifikation/accepttest
+\end{itemize}
+\item Der er aftalt lektier: læs op på Scrum, kig på hardware/software og Latex
+\item Samarbejdsaftalen underskrives først i næste uge (mandag/tirsdag)
+\end{itemize}
+
+\newpage
+
+
+%---------------------------------------------LOGBOG 4------------------------------------------------
+\begin{center} 
+\huge{\textsc{Logbog 4. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 4
+\\
+\textbf{Dato:} 14/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 4 timer 
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Vi snakker om arbejdsmetoder og tidsplan - hvor vi vil bruge Scrum 
+\begin{itemize}
+\item Hvem skal være Scrum-master? Product-owner?
+\item Samuel har en platform til oprettelse af Scrum-board.
+\end{itemize}
+\item Vi laver sprints til kravspecifikation alle sammen, deler op i forhold til hardware og software og sammen til sidst.
+\item Vi starter på udkast til systemkrav i dokumentet 'kravspecifikation' i Google Docs
+\item Vi gennemgår sammen systemkrav
+\item Skal vi have én eller to skærme?
+\item Spørgsmål til vejleder:
+\begin{itemize}
+\item Digital filtrering?
+\end{itemize}
+\item Vi påbegynder at opskrive ikke-funktionelle krav
+\item Vi har udviklet et forslag til use cases, påbegyndt aktørkontekstdiagrammer- og beskrivelser samt use case-diagrammer
+\item Vi har fået adgang til Pivotal Tracker
+\item Vi deler op hvad der skal gøres og hvem? 
+\item Vi skal have lavet aktørbeskrivelser 
+\item Samuel giver introduktion til Pivotal Tracker
+\item Vi laver en tidsplan (samlet)
+\item Vi aftaler en dato til møde med vejleder (Thomas) og laver en dagsorden dertil 
+\begin{itemize}
+\item Introduktion til projektet/vejleders holdning
+\item Kravspecifiktaion
+\item Use cases
+\item Tidsplan
+\end{itemize}
+\end{itemize}
+
+\newpage
+
+%------------------------------------------LOGBOG 5------------------------------------------------
+\begin{center} 
+\huge{\textsc{Logbog 5. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 5
+\\
+\textbf{Dato:} 21/9-15
+\\
+\textbf{Tilstede:} Joakim, Lars, Rune, Helle og Signe 
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 1 time
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Det diskuteres hvorledes 'Hent data' skal have sin egen UC eller være en del af en allerede eksisterende 
+\item Login skal bestå af et simpelt brugernavn samt kode 
+\item Lav eventuelt en 'gæstelogin' til hurtig måling 
+\item UC's:
+\begin{itemize}
+\item UC1: Login 
+\item UC2: Start måling
+\item UC3: Gem måling
+\end{itemize}
+\item Der skal laves noget, så et allerede kendt blodtryk kan reguleres 
+\end{itemize}
+\newpage
+
+%---------------------LOGBOG 6-----------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 6. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 6
+\\
+\textbf{Dato:} 23/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 2 timer
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Helle har snakket med onkel og søster, vi tager eventuelt derud på Skejby og ser på en OP-stue
+\item Vi snakker kort om opstart på programmering - største problem bliver eventuelt at få DAQ'en tilkoblet programmet 
+\item Systembeskrivelse skal tegnes ind, samt billede af systemet 
+\item KS rettes til 
+\item Der udvikles skitser til de forskellige trin - som lægges ind i Latex
+\item Vi tilretter UC's
+\item Mødes igen mandag d. 28/9 fra 10-12 og får rettet det sidste til
+\item Vi tager ud og besøger Skejby i morgen, torsdag efter kl. 14 
+\item Møde med vejleder tirsdag d. 29/9 kl. 12.15
+\end{itemize}
+
+%\begin{itemize}
+%\item Visere, impedans/admittans
+%\item Knudepunkts- og maskeligninger
+%\begin{itemize}
+%\item Første underpunkt
+%\item Andet underpunkt
+%\end{itemize}
+%\end{itemize}
+\newpage
+
+%---------------------LOGBOG 7-----------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 7. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 7
+\\
+\textbf{Dato:} 28/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 2 timer
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Helle starter med at fortælle om besøg på Skejby (se PDF)
+\begin{itemize}
+\item De har to skærme på OP, én til kirurgen og én til anestæsisygeplejersken
+\item Akutfunktion ikke nødvendig, de \textit{skal} nå at logge ind, inden en operation
+\item Lægen kan trykke på en "pause"-knap, hvor alarmen stopper i 3 minutter, hvor lægen så har de 3 minutter til at redde situationen
+\item Lyd er vigtigt, for at lægen opdager det
+\item Fryse-funktion
+\item Blodtrykket går ud fra baseline (ca. 1/3 over det laveste blodtryk)
+\item Der måles altid invasivt og opad)
+\item Trykket i væskebeholderen skal være lidt over det øverste blodtryk, for at der ikke stadser blod op i måleapperatet 
+\item Automatisk kalibrering 
+\item Fejlkilde: Luftbobler i slangen
+\end{itemize}
+\item Vi laver eventuelt en UC til kalibrering 
+\item Akut-funktionen slettes 
+\item Der skal laves en alarmlyd (evt. noget lys også)
+\item Overvejelserne før og efter snak med Ulf Thyge Larsen (overlæge på dagkirurgisk) og sammenligne med resultater 
+\item Rune har skrevet noget kode, som han gennemgår - vi skal være enige omkring, hvad vi vil have 
+\begin{itemize}
+\item Idegenerering af Chart i programmet
+\end{itemize}
+\item Vi retter kravspecifikation til (har oprettet et forprojekt med de gamle ideer)
+\item Finja læser om Github - som vi forhåbentlig kan bruge fra i morgen
+\item Møde med vejleder i morgen d. 29/9-15
+\end{itemize}
+
+\newpage
+
+%---------------------LOGBOG 8-----------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 8. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 8
+\\
+\textbf{Dato:} 29/9-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Rettelser efter møde med vejleder
+\item Tekniker som sekundær i UC-diagram (han er sekundærrolle i forhold til systemets mål) og primær i UC 
+\end{itemize}
+
+\newpage
+
+%---------------------LOGBOG 9-----------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 9. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 9
+\\
+\textbf{Dato:} 30/9-15
+\\
+\textbf{Tilstede:} Lars, Joakim og Signe
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Rettelse af accepttest
+\item Skal password indgå som **** ?
+\item Funktionelle samt ikke-funktionelle krav er stillet op
+\end{itemize}
+
+\newpage
+
+
+%---------------------LOGBOG 10-----------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 10. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 10
+\\
+\textbf{Dato:} 5/10-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 
+\\
+
+\subsection{Referat:}
+\textbf{Review af gr. 4}
+\begin{itemize}
+\item \textbf{Ikke-funktionelle krav (og generelt)}
+\begin{itemize}
+\item Kald eventuelt Thomas til projektvejleder - og skriv gerne efternavnet på
+\item Husk og rette ansvarsområder - det er ikke jeres navne - og hvilke initialer har hvem?
+\item Genovervej indledning - uddyb mere eller forkort og gør mere præcis?
+\item Ikke-funktionelle krav skal eventuelt komme efter funktionelle krav - man kastes direkte ind i systemet, uden at have nogen idé om aktører osv.
+\item Små rettelser til ikke-funktionelle krav - se noter
+\item Angiv eventuelt krav med tal, så disse kan henvises til
+\end{itemize}
+\item \textbf{Funktionelle krav}
+\begin{itemize}
+\item Aktør-kontekst diagram under overskriften, og der mangler figurtekst
+\item Bruger/sundhedsfagligt personale?
+\item Use case diagram - figurtekst
+\item Skal data ikke hentes? I så fald skal database have kontakt med opstart system
+\item UC1: Udfyld kalibrering
+\item UC2: Hvad menes med samtidige forløb? Log-in eller login? Knapper i UC skal angives i ikke-funktionelle krav? Hvilke login-oplysninger skal bruges - og skal der så være adgang til databasen? Skriv eventuelt hvad målet er for use casen? Undtagelse 2.a, hvordan (nulpunktsjusterings-knap overflødig)???
+\item UC3: Initialisere, er det ikke målet? Resultat/mål (resultat starter med 'at'). Beskrivelse af alarmering? 'Knappen' er stavet forkert hele vejen igennem.
+\item UC4: Skal UC3 være færdig før UC4 starter?
+\item UC5: Samtidige forekomster? Bruger justerer grænseværdier - hvordan? Resultat/mål?
+\item UC6: Resultat er godt! 60 sekunder er ikke længe? Hvad sker der efter trykket på 'udskyd alarm'?
+\item UC7: Initialisere/mål? Undtagelse 2.a skal eventuelt komme efter pkt. 3 - hvordan ved computeren lige efter indtastning, at CPR er forkert? Hvad menes med UC3 i undtagelser?
+\end{itemize}
+\item \textbf{Accepttest use cases}
+\begin{itemize}
+\item Lav eventuelt test af ikke-funktionelle krav først, da det er det der kommer først i kravspecifikation
+\item UC2: Krav stemmer ikke overens med accepttest - brugeroplysninger? Log ind på en tredje måde. OK-vindue indgår ikke i UC2 i kravspecifiktaion? Test af UC2 og undtagelser sammen? 
+\item UC3: Undtagelse 1.a, hvad er de værdier? Pil op/ned???
+\item UC4: God, men hvor påsættes sinussignal?
+\item UC5: Er resultatet 'bare' at det står i tekstfeltet? Sker der ikke noget i grafen?
+\item UC6: Fin
+\item UC7:  
+\end{itemize}
+\item \textbf{Accepttest af ikke-funktionelle krav}
+\begin{itemize}
+\item Krav 4: hvordan?
+\item 'At' i forventet resultat?
+\item Mangler resultat
+\item Reliability: det kan i ikke teste?
+\item Der skal stå hvad der skal gøres, og ikke bare "login"
+\end{itemize}
+\item Generelt: kravspecifikation og accepttest skal stemme overens, ellers rigtig fint!
+\item Ret initialisere i UC1 (vores egen. 
+\end{itemize}
+
+\newpage
+
+%---------------------LOGBOG 11-----------------------------
+
+\begin{center} 
+\huge{\textsc{Logbog 11. møde}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Logbog:} Møde 11
+\\
+\textbf{Dato:} 20/10-15
+\\
+\textbf{Tilstede:} Helle, Lars, Finja, Joakim og Signe
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item HW-gruppen har i ferien lavet andenordensfiltret
+\item Mail fra Thomas med smårettelser fra ferien gennemgås, og de nødvendige rettelser foretages
+\item Latex dokumenterne (Logbog, dokumentation, mødereferat) ligges ind i Github 
+\end{itemize}
+
+\newpage
+
+
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.45]{eventhandler.PNG}
+%\caption{Eventhandlere}
+%\end{figure}
+
+%$$\sin^2 s + \cos^2 s = 1 \ \forall s \in \R$$
+
+\end{document}
