@@ -1,0 +1,71 @@
+\chapter{Baggrund}\label{kapitel_Baggrund}
+Udarbejdelsen af gruppens produkt har krævet indsamling og forståelse af en vis viden inden for blodtryk og blodtryksmåling.
+Væsentlige dele af denne viden præsenteres her i et afsnit med sundhedsfaglig teori et med teknologisk teori.
+
+\section{Sundhedsfaglig teori}
+
+Kroppens blodtryk beskrives med forskellige værdier---det systoliske blodtryk, det diastoliske blodtryk, middelblodtrykket og pulsblodtrykket.
+
+\begin{itemize}
+    \item Kort om det store kredsløb.
+    Det systemiske kredsløb og det vi vil måle på.
+    Aorta og større arteriers elastiske funktion [lille bog, første mærke].
+    Sørger for nogenlunde konstant blodtryk i kapillærerne [lille bog].
+    Tryk i organerne.
+    \item Faktorer betydende for det arterielle blodtryk: Blodkarrernes diameter, viskositeten af blodet (flere erytrocytten medfører højere viskositet) og blodkarets længde. [anafys-bog]
+    \item Regulering af blodtrykket - både sammenlagt og til organerne [lille bog].
+    \item Systolisk (aorta ved tømning af venstre hjertekammer), diastolisk (aorta ved fyldning af venstre hjertekammer og altså med lukkede aortaklapper).
+    Oscillerende.
+    Pulserende.
+    Hjertecyklus - fyldning og sammentrækning.
+    \textsl{Figur visende de fire tryk? [stor bog, s. 437]}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.2]{figurer/BlodtrykValues}
+        \caption{De forskellige værdier.
+        Her beskriver vi, hvordan de udregnes.}
+        \label{figBP_Values}
+    \end{figure}
+    \item Pulsblodtrykket er forskellen mellem det systoliske og diastoliske blodtryk [stor bog].
+    Afhænger af stroke volume (SV) og arterial compliance (C) [lille bog].
+    Eller på dansk: Blodtryk = minutvolumen gange totale perifære modstand [anafys-bog].
+    \item Middelblodtrykket er det gennemsnitslige blodtryk over en hjertecyklus [stor bog].
+    Autoregulering, hormonelregulering og nervøsregulering.
+    \item Trykket skal tages i niveau med hjertet, da det hydrostatiske tryk fra væskesøjlen af blod er højere under hjerteniveau og lavere over.
+    Derfor foretages målingen ved overarmens arteria brachialis for en siddende eller stående patient.
+    På en liggende patient benyttes lyskens arteria femoralis også. [stor bog]
+    \textsl{Billede af deres placering?
+    Tilføj at målingen også sker her, fordi det er store arterier og de er let tilgængelige.}
+    \item Invasiv måling: Ved operation eller forskning.
+    Hvor findes apparaterne?
+    Intensivafdelinger, operationsstuer, lægehelikopteren og i forskningslaboratorier~\cite{Stengaard:2014aa}.
+    \item Hvilken arterie måles på?
+    \item Tabel over forhold der påvirker blodtrykket (DAHS standard for blodtryksmåling, tabel 1).
+\end{itemize}
+
+\textbf{Sygdom}\\
+Kort.
+Sygedommes relation med blodtrykket.
+Hvad fortæller det intra-arterielle blodtryk lægen i forskellige situationer?
+\begin{itemize}
+    \item Shock.
+    \item Kredsløbsshock aka kardiogent shock.
+    \item Hæmoragi/blødning [stor bog].
+    To forsvarsmekanismer for at opretholde blod
+    \item Hypertension.
+    \item Tabel over blodtryk og sygdom (Hypertension - sundhed.dk, tabel 1).
+\end{itemize}
+
+
+\section{Teknologisk teori}
+\begin{itemize}
+    \item Hvordan fungerer et invasivt blodtryksapparat?
+    \item Diskrepans fra auskulatorisk.
+    \begin{quote}
+    \textsl{Den auskultatoriske måling tenderer til at give systoliske værdier som er lidt lavere og diastoliske værdier som er lidt højere end intra-arteriel måling.}~\cite{Strandgaard:2013aa}
+    \end{quote}
+    \item Viden fra KVI.
+    \item Forskellige funktioner.
+    Fx algoritme til måling af centrale blodtryk og mulighed for at finde atrieflimren.
+    \item Årlig kalibrering?
+\end{itemize}

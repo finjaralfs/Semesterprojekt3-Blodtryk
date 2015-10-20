@@ -1,0 +1,33 @@
+\input{preamble_jacob}
+\raggedbottom
+
+\externaldocument[D-]{Dokumentation}
+
+\begin{document}
+	
+\frontmatter						% Nummereres med romerske tal.
+\include{formalia/RForside}
+\include{formalia/Underskrifter}
+\include{rfiler/Resume}
+\include{rfiler/Forkortelser}
+\cleardoublepage		
+
+\tableofcontents*                   % Indsætter en indholdsfortegnelse før Indledning.
+
+\mainmatter                         % Her findes de nummererede kapitler modsat \frontmatter og \backmatter. Nummereres med arabiske tal.
+\include{rfiler/Indledning}
+\include{rfiler/Projektformulering}
+\include{rfiler/Baggrund}
+\include{rfiler/Arbejdsmetoder}
+\include{rfiler/Resultater}
+\include{rfiler/Diskussion}
+\include{rfiler/Konklusion}
+\include{rfiler/Erfaringer}
+\include{rfiler/Udvikling}
+
+\backmatter
+\include{rfiler/Bilagliste}
+
+\bibliography{bibliografi/PRJ3}    % Sætter bibliografien bagerst i dokumentet. Bruger bib-filen PRJ3.
+
+\end{document}

@@ -1,0 +1,246 @@
+\chapter{Accepttest}\label{kapitel_AT}
+
+\begin{longtabu} to \linewidth{@{}l l l X[j]@{}}
+    Version &    Dato &    Ansvarlig &    Beskrivelse\\[-1ex]
+    \midrule
+    0.1 &    30/9-15 &    HR, JL, LB og SV &    Første udkast til accepttest\\
+    1.0 &    8/10-15 &    Alle &    Rettelser efter review\\
+    Tekst &    Tekst &    Tekst &    Tekst.\\
+    Tekst &    Tekst &    Tekst &    Tekst.\\
+\label{version_Systemark}
+\end{longtabu}
+
+\textbf{Formål}\\
+Formålet med dokumentet.
+
+\newpage
+
+\section{Funktionelle krav}
+
+
+%------------------Use case 1--------------------
+\subsection{Use case 1}
+
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC1: Log ind \\
+\midrule
+\textbf{Scenarie} & Hovedscenarie\\
+\midrule
+\textbf{Forudsætning} & Systemet er operationelt\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
+    \midrule
+  1. Indtast ID "Bruger1" &    Det indtastede ID vises på Log ind-GUI &    \\
+   2. Indtast tilhørende password "1234" &    Det indtastede password vises i GUI &    \\
+   3. Tryk på "\textit{Log ind}"\- -knappen &    Der bliver logget ind &    \\
+   \midrule
+\caption{Accepttest af Use Case 1.}\\
+\label{AT_UC1}
+\end{longtabu}
+
+
+
+%---------------Use case 1 - undtagelser------------
+\subsection{Use case 1 - undtagelse pkt. 3.a}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC1: Log ind \\
+\midrule
+\textbf{Scenarie} & Undtagelse 3.a\\
+\midrule
+\textbf{Forudsætning} & Systemet er operationelt\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &  \textbf{Resultat} &  \textbf{Godkendt}\\[-1ex]
+    \midrule
+   1. Tryk på \textit{Log ind}-knappen &    Systemet gør opmærksom på fejl, og beder om ny indtastning af ID samt password &    \\
+   \midrule
+\caption{Accepttest af Use Case 1 - undtagelse.}\\
+\label{AT_UC1}
+\end{longtabu}
+
+\newpage
+
+%--------------------Use case 2--------------------
+\subsection{Use case 2}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC2: Mål blodtryk \\
+\midrule
+\textbf{Scenarie} & Hovedscenarie\\
+\midrule
+\textbf{Prækondition} & UC1 er succesfuldt kørt. VPN forbindelse skal være oprettet, når der testes på IHA.\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
+    \midrule
+  1. Indtast CPR-nummer "1212923434" &    Det indtastede CPR-nummer vises i "Patient"\ GUI &    \\
+  2. Tryk på "\textit{Hent patientoplysninger}"\- -knappen	&	"Diagnostik"\ GUI vises med patients CPR-nummer, samt målingen vises kontinuert på grafen\\
+  3. Se efter måling på graf	&	Målingen kan ses kontinuert på grafen\\
+4. Tryk i "Diagnostik"\ GUI "\textit{Med digitalt filter}"	&	Det ses på "Diagnostik"\- -GUI, at det digitale filter er slået til. Dette kan ses på grafen.\\
+5. Tryk i "Diagnostik"\  GUI "\textit{Uden digitalt filter}"	&	Det ses på "Diagnostik"\ GUI, at det digitale filter er slået fra. Dette kan ses på grafen.\\
+%Se efter grønt skær på grænsefladen	&	"Diagnostik"\ GUI har et grønt skær ved normalt blodtryk\\
+   \midrule
+\caption{Accepttest af Use case 2}\\
+\label{AT_UC2}
+\end{longtabu}
+
+\newpage
+
+
+%--------------------Use case 2 - undtagelse--------------------
+\subsection{Use case 2 - undtagelse pkt. 2.a}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC2: Mål blodtryk \\
+\midrule
+\textbf{Scenarie} & Undtagelse 2.a\\
+\midrule
+\textbf{Prækondition} & UC1 er succesfuldt kørt. VPN forbindelse skal være oprettet, når der testes på IHA.\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
+    \midrule
+1. Tryk på "\textit{Hent}"\- -knappen &    Systemet gør opmærksom på fejl, og beder om ny indtastning af CPR-nummer &    \\
+   \midrule
+\caption{Accepttest af Use case 2 - undtagelse 2.a}\\
+\label{AT_UC2}
+\end{longtabu}
+
+\newpage
+
+%--------------------Use case 2 - undtagelse--------------------
+\subsection{Use case 2 - undtagelse pkt. 5.a}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC2: Mål blodtryk \\
+\midrule
+\textbf{Scenarie} & Undtagelse 5.a\\
+\midrule
+\textbf{Prækondition} & UC1 er succesfuldt kørt. Sundhedsfagligt personale har placeret intraarteriel nål i patienten. VPN forbindelse skal være oprettet, når der testes på IHA.\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
+    \midrule
+  1a.  Konstruer højt diastolisk tryk (>140) &   "Diagnostik" GUI får et rødt skær og der alarmeres med lyd &    \\
+  1b. Konstruer lavt diastolisk tryk (<100)	&	"Diagnostik" GUI får et rødt skær og der alarmeres med lyd &    \\
+  1c. Konstruer højt systolisk tryk (>90)	&	"Diagnostik" GUI får et rødt skær og der alarmeres med lyd &    \\
+  1d. Konstruer lavt systolisk tryk (<60)	&	"Diagnostik" GUI får et rødt skær og der alarmeres med lyd &    \\
+2. Tryk på "\textit{Lydløs}"	&	Lyden forsvinder i tre minutter	& \\
+3. Normaliser blodtrykket	&	Alarmen stopper, alarmlyden forsvinder og brugergrænsefladen får et grønt skær	& \\
+   \midrule
+\caption{Accepttest af Use case 2 - undtagelse 5.a}\\
+\label{AT_UC2}
+\end{longtabu}
+
+\newpage
+
+%--------------------Use case 3--------------------
+\subsection{Use case 3}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC3: Gem data \\
+\midrule
+\textbf{Scenarie} & Hovedscenarie\\
+\midrule
+\textbf{Forudsætning} & UC2 er gennemført.\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat} & \textbf{Godkendt}\\[-1ex]
+    \midrule
+ 1. Tryk på "\textit{Gem data}"\- -knappen &    Systemet giver beskeden "\textit{Data gemt}" &    \\
+ 2. Tjek i databasen, om de korrekte data er gemt &    De korrekte data er gemt i databasen &    \\
+  3. Systemet giver beskeden "\textit{Data gemt}" &    Pop-up meddelelsen om at data er gemt kommer frem &    \\
+   \midrule
+\caption{Accepttest af Use case 3}\\
+\label{AT_UC3}
+\end{longtabu}
+
+
+%--------------------Use case 3 - undtagelse 2.a--------------------
+%\subsection{Use case 3 - undtagelse 2.a}
+%\begin{longtabu} to \linewidth{@{} X[j] X[j] l@{}}
+%\midrule
+%\textbf{Use case under test} & UC3: Gem data \\
+%\midrule
+%\textbf{Scenarie} & Undtagelse 2.a\\
+%\midrule
+%\textbf{Prækondition} &  UC "\textit{Log ind}" og "\textit{Mål blodtryk}" er gennemført\\
+%\midrule
+%\textbf{Handling} &    \textbf{Forventet resultat} &    \textbf{Godkendt}\\[-1ex]
+%    \midrule
+%   Tryk på "\textit{Gem data}"-knappen) &    Sysetemet giver beskeden "\textit{Data ikke gemt}" &    \\
+%   Tryk "\textit{OK}"	&	UC3 starter fra pkt. 1\\
+%   \midrule
+%\caption{Accepttest af Use case 3 - undtagelse 2.a}\\
+%\label{AT_UC3}
+%\end{longtabu}
+
+\newpage
+
+%--------------------Use case 4 ---------------------
+\subsection{Use case 4}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC4: Kalibrer system \\
+\midrule
+\textbf{Scenarie} & Hovedscenarie\\
+\midrule
+\textbf{Prækondition} & \\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} & \textbf{Resultat}	&    \textbf{Godkendt}\\[-1ex]
+    \midrule
+   ... &    ... &    \\
+   \midrule
+\caption{Accepttest af Use case 4}\\
+\label{AT_UC4}
+\end{longtabu}
+
+\newpage
+
+\section{Ikke-funktionelle krav}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{1.1cm}| >{\raggedright\arraybackslash}p{2.7cm} | >{\raggedright\arraybackslash}p{2.7cm} | >{\raggedright\arraybackslash}p{2.7cm} | >{\raggedright\arraybackslash}p{2.2cm} |>{\raggedright\arraybackslash}p{2.2cm}|}
+%\begin{longtabu} to \linewidth{@{} X[j] | X[j] | X[J] | X[J] | l@{} }
+   \hline
+\textbf{Krav nr.} & \textbf{Krav}	&	\textbf{Test}	&	\textbf{Forventet}	&\textbf{Resultat}	&	\textbf{Godkendt} \\
+\hline
+1	&	Programmet skal programmeres i C$\#$, Visual Studio &	 Åbn programmet	& 	Det ses i programmet om det er programmeret i C$\#$	&	\\
+\hline
+2	&	Systemet bør kunne angive pulsen via en lyd ved hvert pulsslag ved … Hz &	 Pulsen indlæses i systemet, og frekvensen måles 	&	Pulsen angives af en lyd med ... Hz	&	\\
+\hline
+3	&	Blodtrykket skal kunne gemmes i database &	 Det tjekkes, om det korrekte data er gemt i en database 	&	Det korrekte data er gemt i databasen	&	\\
+\hline
+4	&	Programmet skal kunne foretage en nulpunktsjustering &	 Det tjekkes, om systemet er nulpunktsjusteret ved opstart af hver måling 	&	Systemet har foretaget korrekt nulpunktsjustering	&	\\
+\hline
+5	&	Blodtrykket skal måles inden for 10 mmHg præcision &	 Det tjekkes at systemet måler blodtrykket inden for den angivne værdi 	&	Blodtrykket er målt inden for 10 mmHg præcision	&	\\
+\hline
+%6	&	Systemet skal kunne filtrere blodtrykket i selve programmet via et digitalt filter, som skal kunne slås til og fra &	 Det tjekkes i programmet, om blodtrykket er filtreret og om det digitale filter kan slås til/fra 	&	Systemet filtrerer blodtrykket i programmet	&	\\
+%\hline
+6	&	Programmet skal indeholde en "\textit{Log ind}"\- -knap &	 Det ses i \textit{Log ind}-GUI, om programmet indeholder en "\textit{Log ind}"\- -knap 	&	Programmet indeholder en "\textit{Log ind}"\- -knap	&	\\
+\hline
+7	&	Programmet skal indeholde en "\textit{Hent patientoplysninger}"\- -knap &	 Det ses i \textit{Patient}-GUI, om programmet indeholder en "\textit{Hent patientoplysninger}"\- -knap 	&	Programmet indeholder en "\textit{Hent patientoplysninger}"\- -knap	&	\\
+\hline
+8	&	Programmet skal indeholde en "\textit{Gem data}"\- -knap &	 Det ses i \textit{Gem data}-GUI, om programmet indeholder en "\textit{Gem data}"\- -knap 	&	Programmet indeholder en "\textit{Gem data}"\- -knap	&	\\
+\hline
+9	&	Programmet skal indeholde en "\textit{Lydløs}"\- -knap &	 Det ses i \textit{Diagnostik}-GUI, om programmet indeholder en "\textit{Lydløs}"\- -knap 	&	Programmet indeholder en "\textit{Lydløs}"\- -knap	&	\\
+\hline
+%11	&	Det bør være muligt at starte/stoppe uden at skulle genstarte programmet  &	 Programmet stoppes, hvorved det tjekkes om programmet genstarter 	&	Programmet kan startes/stoppes uden at genstarte	&	\\
+%\hline
+%12	&	Blodtrykket skal vises kontinuert på en GUI, hvor der ses systolisk og diastolisk tryk  &	 Det ses på brugergrænsefladen om blodtrykket vises kontinuert, og om systolisk samt diastolisk tryk vises 	&	Blodtrykket vises kontinuert og diastolisk samt systolisk tryk vises	&	\\
+%\hline
+10	&	Systemet bør kunne køre fejlfrit i et år &	 Kan ikke testes 	&		&	\\
+\hline
+11	&	Systemet bør have en MTTR på højst 24 timer & Kan ikke testes	  	&		&	\\
+\hline
+12	&	Systemet skal kontinuert vise en grafisk afbildning af blodtrykket, hvor tryk er op af y-aksen og tiden er på x-aksen i intervaller af 6 sekunder &	 Det ses på \textit{Diagnostik}-GUI om denne indeholder en grafisk afbildning, hvor tryk er op ad y-aksen og tid er op ad x-aksen 	&	\textit{Diagnostik}-GUI indeholder en grafisk afbildning med de korrekte værdier op af y- og x-aksen	&	\\
+\hline
+13	&	Softwaren bør være opbygget af trelagsmodellen &	 Det ses i programmet, om dette er opbygget af trelagsmodellen 	&	Programmet er opbygget af trelagsmodellen	&	\\
+%\hline
+%12	&	Systemet skal kunne kalibreres af tekniker &	 Systemet kalibreres  	&	Systemet kalibreres korrekt	&	\\
+%\hline
+%12	&	Der skal være adgang til en computer med Visual Studio og National Instrument. &	 Det tjekkes om der er adgang til Visual Studio samt National Instruments  	&	Der er adgang til en computer med de nødvendige programmer	&	\\
+\hline
+\caption{Ikke-funktionelle krav}\\
+\label{Ikke-funktionelle krav}
+\end{longtable}
+
+
+
+

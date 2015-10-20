@@ -1,0 +1,38 @@
+\changetocdepth {2}
+\select@language {danish}
+\contentsline {chapter}{Resum\IeC {\'e}}{iii}{chapter*.1}
+\contentsline {chapter}{Forkortelser}{v}{chapter*.2}
+\contentsline {chapter}{\chapternumberline {1}Indledning}{1}{chapter.1}
+\contentsline {chapter}{\chapternumberline {2}Projektformulering}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Projektformulering}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Pr\IeC {\ae }cisering}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}M\IeC {\r a}lgruppe}{3}{section.2.3}
+\contentsline {chapter}{\chapternumberline {3}Baggrund}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Sundhedsfaglig teori}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Teknologisk teori}{5}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}Arbejdsmetoder}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Redskaber}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Projektstyring}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}Udviklingsproces}{7}{section.4.3}
+\contentsline {chapter}{\chapternumberline {5}Resultater}{9}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Diskussion}{11}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Konklusion}{13}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Opn\IeC {\r a}ede erfaringer}{15}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Udvikling}{17}{chapter.9}
+\contentsline {section}{\numberline {9.1}Kravspecifikation}{17}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Akt\IeC {\o }rbeskrivelse}{17}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Use case diagram}{17}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Use case beskrivelser}{17}{subsection.9.1.3}
+\contentsline {subsubsection}{Use case X: Navn}{17}{section*.3}
+\contentsline {subsubsection}{Use case X: Navn}{17}{section*.4}
+\contentsline {subsection}{\numberline {9.1.4}Fullydressed use case for use case X}{17}{subsection.9.1.4}
+\contentsline {section}{\numberline {9.2}Systemarkitektur}{17}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Hardware}{17}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Software}{17}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Produktet}{17}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Hardware}{18}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Software}{18}{subsection.9.3.2}
+\contentsline {section}{\numberline {9.4}Accepttest}{18}{section.9.4}
+\contentsline {section}{\numberline {9.5}Opfyldelse af kravspecifikation}{18}{section.9.5}
+\contentsline {section}{\numberline {9.6}Videreudvikling}{18}{section.9.6}
+\contentsline {chapter}{Bilagsliste}{19}{chapter*.5}
