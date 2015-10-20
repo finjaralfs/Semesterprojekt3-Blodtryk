@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  20 OCT 2015 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  20 OCT 2015 13:00
 entering extended mode
 **Dokumentation.tex
 (Dokumentation.tex
@@ -2064,23 +2064,26 @@ Underfull \vbox (badness 10000) detected at line 151
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 [5]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 152.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 152.
- [6]
+Underfull \hbox (badness 1975) in paragraph at lines 189--189
+[]\T1/cmr/m/n/10.95 Sundhedsfagligt personale trykker på "\T1/cmr/m/it/10.95 Ti
+l\T1/cmr/m/n/10.95 "- -
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 189--189
+[]\T1/cmr/m/n/10.95 Sundhedsfagligt personale trykker på "\T1/cmr/m/it/10.95 Fr
+a\T1/cmr/m/n/10.95 "- -
+ []
+
+
 Underfull \vbox (badness 10000) detected at line 189
  []
 
@@ -2092,77 +2095,89 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 190.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 190.
+[6]
+Underfull \vbox (badness 10000) detected at line 227
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 228.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 228.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 228.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 228.
 [7]
-Underfull \hbox (badness 1888) in paragraph at lines 226--226
+Underfull \hbox (badness 1888) in paragraph at lines 264--264
 []\T1/cmr/m/n/10.95 Tekniker kalibrerer afvigelsen i systemets
  []
 
 
-Underfull \vbox (badness 10000) detected at line 226
+Underfull \vbox (badness 10000) detected at line 264
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 227.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 227.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 227.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 227.
+(babel)             in language  on input line 265.
 [8]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 268.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 268.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 234.
+(babel)             in language  on input line 272.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 234.
+(babel)             in language  on input line 272.
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--270
+Underfull \hbox (badness 10000) in paragraph at lines 305--308
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 308.
 [9]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 283.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 283.
- <login.PNG, id=283, 155.07938pt x 128.73094pt>
+(babel)             in language  on input line 321.
+ <login.PNG, id=284, 155.07938pt x 128.73094pt>
 File: login.PNG Graphic file (type png)
  <use login.PNG>
-Package pdftex.def Info: login.PNG used on input line 288.
+Package pdftex.def Info: login.PNG used on input line 326.
 (pdftex.def)             Requested size: 149.1026pt x 123.76884pt.
 
-<patient.png, id=284, 191.21437pt x 126.4725pt>
+<patient.png, id=285, 191.21437pt x 126.4725pt>
 File: patient.png Graphic file (type png)
  <use patient.png>
-Package pdftex.def Info: patient.png used on input line 295.
+Package pdftex.def Info: patient.png used on input line 333.
 (pdftex.def)             Requested size: 170.3974pt x 112.70876pt.
 
-<dia.PNG, id=285, 338.76563pt x 297.36093pt>
+<dia.PNG, id=286, 338.76563pt x 297.36093pt>
 File: dia.PNG Graphic file (type png)
  <use dia.PNG>
-Package pdftex.def Info: dia.PNG used on input line 303.
+Package pdftex.def Info: dia.PNG used on input line 341.
 (pdftex.def)             Requested size: 271.01285pt x 237.88905pt.
 
-<fejl.PNG, id=286, 203.25937pt x 147.55125pt>
+<fejl.PNG, id=287, 203.25937pt x 147.55125pt>
 File: fejl.PNG Graphic file (type png)
  <use fejl.PNG>
-Package pdftex.def Info: fejl.PNG used on input line 309.
+Package pdftex.def Info: fejl.PNG used on input line 347.
 (pdftex.def)             Requested size: 182.93173pt x 132.79488pt.
 )
 Package babel Info: Redefining danish shorthand "|
@@ -2622,7 +2637,7 @@ as been already used, duplicate ignored
                    \relax 
 l.45 ...{longtabu} to \linewidth{@{}l l l X[j]@{}}
                                                   
-<figurer/Tidsplan.pdf, id=386, 691.06404pt x 444.62651pt>
+<figurer/Tidsplan.pdf, id=387, 691.06404pt x 444.62651pt>
 File: figurer/Tidsplan.pdf Graphic file (type pdf)
 
 <use figurer/Tidsplan.pdf>
@@ -2760,13 +2775,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 27438 strings out of 493698
- 486008 string characters out of 3141958
+ 27436 strings out of 493698
+ 485979 string characters out of 3141958
  833085 words of memory out of 3000000
- 30220 multiletter control sequences out of 15000+200000
+ 30217 multiletter control sequences out of 15000+200000
  24184 words of font info for 61 fonts, out of 3000000 for 9000
  1027 hyphenation exceptions out of 8191
- 53i,12n,90p,10465b,1030s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,12n,90p,10465b,899s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
 C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:
 /Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fil
@@ -2786,9 +2801,9 @@ lic/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /cm-super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookm
 an/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a
 .pfb>
-Output written on Dokumentation.pdf (43 pages, 660949 bytes).
+Output written on Dokumentation.pdf (43 pages, 661798 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
+ 548 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
