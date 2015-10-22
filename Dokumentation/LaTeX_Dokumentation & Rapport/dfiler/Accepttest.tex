@@ -133,10 +133,31 @@ Formålet med dokumentet.
 \newpage
 
 %--------------------Use case 3--------------------
-\subsection{Use case 3}
+\subsection{Use case 3 - Filtrer}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
-\textbf{Use case under test} & UC3: Gem data \\
+\textbf{Use case under test} & UC3: Filtrer signal \\
+\midrule
+\textbf{Scenarie} & Hovedscenarie \\
+\midrule
+\textbf{Prækondition} & UC2 er kørt succesfuldt\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
+    \midrule
+1. Tryk på "\textit{Fra}"\- -knappen &    Systemet slår filteret fra, og viser dette i radiobutton på GUI &    \\
+2.	Tryk på "\textit{Til}"\- -knappen	&	Systemet slår filteret til, og viser dette i radiobutton & 	\\
+   \midrule
+\caption{Accepttest af Use case 2 - undtagelse 2.a}\\
+\label{AT_UC3}
+\end{longtabu}
+
+\newpage
+
+%--------------------Use case 4--------------------
+\subsection{Use case 4}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC4: Gem data \\
 \midrule
 \textbf{Scenarie} & Hovedscenarie\\
 \midrule
@@ -148,8 +169,8 @@ Formålet med dokumentet.
  2. Tjek i databasen, om de korrekte data er gemt &    De korrekte data er gemt i databasen &    \\
   3. Systemet giver beskeden "\textit{Data gemt}" &    Pop-up meddelelsen om at data er gemt kommer frem &    \\
    \midrule
-\caption{Accepttest af Use case 3}\\
-\label{AT_UC3}
+\caption{Accepttest af Use case 4}\\
+\label{AT_UC4}
 \end{longtabu}
 
 
@@ -174,11 +195,11 @@ Formålet med dokumentet.
 
 \newpage
 
-%--------------------Use case 4 ---------------------
-\subsection{Use case 4}
+%--------------------Use case 5 ---------------------
+\subsection{Use case 5}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
-\textbf{Use case under test} & UC4: Kalibrer system \\
+\textbf{Use case under test} & UC5: Kalibrer system \\
 \midrule
 \textbf{Scenarie} & Hovedscenarie\\
 \midrule
@@ -188,8 +209,8 @@ Formålet med dokumentet.
     \midrule
    ... &    ... &    \\
    \midrule
-\caption{Accepttest af Use case 4}\\
-\label{AT_UC4}
+\caption{Accepttest af Use case 5}\\
+\label{AT_UC5}
 \end{longtabu}
 
 \newpage

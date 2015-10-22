@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  22 OCT 2015 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  22 OCT 2015 14:04
 entering extended mode
 **Dokumentation.tex
 (Dokumentation.tex
@@ -1716,6 +1716,12 @@ LaTeX Warning: Label `AT_UC2' multiply defined.
 
 LaTeX Warning: Label `AT_UC2@cref' multiply defined.
 
+
+LaTeX Warning: Label `AT_UC2' multiply defined.
+
+
+LaTeX Warning: Label `AT_UC2@cref' multiply defined.
+
 ) (dfiler/Bilag.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -1809,7 +1815,7 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 6.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
 \c__siunitx_mathtt_int=\count341
 
-(formalia/DForside.tex <figurer/ASE.png, id=131, 439.6425pt x 136.25906pt>
+(formalia/DForside.tex <figurer/ASE.png, id=135, 439.6425pt x 136.25906pt>
 File: figurer/ASE.png Graphic file (type png)
 
 <use figurer/ASE.png>
@@ -1997,7 +2003,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 38.
- <ak.PNG, id=218, 458.46281pt x 350.81062pt>
+ <ak.PNG, id=223, 458.46281pt x 350.81062pt>
 File: ak.PNG Graphic file (type png)
  <use ak.PNG>
 Package pdftex.def Info: ak.PNG used on input line 43.
@@ -2020,7 +2026,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 64.
 
-<uc.PNG, id=227, 458.46281pt x 350.81062pt>
+<uc.PNG, id=232, 458.46281pt x 350.81062pt>
 File: uc.PNG Graphic file (type png)
  <use uc.PNG>
 Package pdftex.def Info: uc.PNG used on input line 69.
@@ -2456,93 +2462,118 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 136.
 
-Underfull \hbox (badness 1527) in paragraph at lines 153--153
+Underfull \hbox (badness 3428) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 1. Tryk på "\T1/cmr/m/it/10.95 Fra\T1/cmr/m/n/10.95 "- -
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 Systemet slår fil-te-ret
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 2. Tryk på "\T1/cmr/m/it/10.95 Til\T1/cmr/m/n/10.95 "- -
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 Systemet slår fil-te-ret
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 152
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 154.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 154.
+[20]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 157.
+
+Underfull \hbox (badness 1527) in paragraph at lines 174--174
 []\T1/cmr/m/n/10.95 Systemet gi-ver be-ske-
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 153--153
+Underfull \hbox (badness 2990) in paragraph at lines 174--174
 []\T1/cmr/m/n/10.95 2. Tjek i da-ta-ba-sen,
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 153--153
+Underfull \hbox (badness 4024) in paragraph at lines 174--174
 []\T1/cmr/m/n/10.95 De kor-rek-te da-ta er
  []
 
 
-Underfull \vbox (badness 10000) detected at line 153
+Underfull \vbox (badness 10000) detected at line 174
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 175.
-[20]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 178.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 178.
-
-Underfull \vbox (badness 10000) detected at line 193
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 195.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 195.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 195.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 [21]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 199.
 
-Overfull \hbox (35.75711pt too wide) in alignment at lines 199--242
+Underfull \vbox (badness 10000) detected at line 214
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 216.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 216.
+[22]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 218.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 218.
+
+Overfull \hbox (35.75711pt too wide) in alignment at lines 220--263
  [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 242
+Underfull \vbox (badness 10000) detected at line 263
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 263.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 263.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 263.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 242.
-[22])
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 263.
+[23])
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 19.
- [23]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 21.
- [24
-
-
-] (dfiler/Bilag.tex
+(babel)             in language  on input line 19.
+ [24] (dfiler/Bilag.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2556,6 +2587,8 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 2.
  [25
+
+
 
 
 ]
@@ -2590,7 +2623,7 @@ as been already used, duplicate ignored
                    \relax 
 l.45 ...{longtabu} to \linewidth{@{}l l l X[j]@{}}
                                                   
-<figurer/Tidsplan.pdf, id=363, 691.06404pt x 444.62651pt>
+<figurer/Tidsplan.pdf, id=369, 691.06404pt x 444.62651pt>
 File: figurer/Tidsplan.pdf Graphic file (type pdf)
 
 <use figurer/Tidsplan.pdf>
@@ -2719,19 +2752,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
 (dfiler/Bilag.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
-Package rerunfilecheck Info: File `Dokumentation.out' has not changed.
-(rerunfilecheck)             Checksum: 74BC20E4BB29C928683CCC3867D6089E;2106.
 
+
+Package rerunfilecheck Warning: File `Dokumentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Dokumentation.out':
+(rerunfilecheck)             Before: CC8F65E43D0155F16BFB24E487830AF8;2181
+(rerunfilecheck)             After:  DA2F39C7D90C7C6A7B441F752659E196;2181.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 27404 strings out of 493698
- 485556 string characters out of 3141958
+ 27410 strings out of 493698
+ 485629 string characters out of 3141958
  833085 words of memory out of 3000000
- 30195 multiletter control sequences out of 15000+200000
+ 30199 multiletter control sequences out of 15000+200000
  24184 words of font info for 61 fonts, out of 3000000 for 9000
  1027 hyphenation exceptions out of 8191
  53i,12n,90p,10465b,899s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2754,9 +2793,9 @@ lic/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /cm-super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookm
 an/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a
 .pfb>
-Output written on Dokumentation.pdf (41 pages, 518696 bytes).
+Output written on Dokumentation.pdf (41 pages, 520737 bytes).
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
