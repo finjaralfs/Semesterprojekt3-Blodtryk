@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  23 OCT 2015 08:39
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  22 OCT 2015 14:04
+>>>>>>> origin/master
 entering extended mode
 **Dokumentation.tex
 
@@ -1796,9 +1800,19 @@ LaTeX Warning: Label `AT_UC2' multiply defined.
 
 LaTeX Warning: Label `AT_UC2@cref' multiply defined.
 
+<<<<<<< HEAD
 )
 ("E:\Programmer\AU\SP3\Semesterprojekt3-Blodtryk\Dokumentation\LaTeX_Dokumentat
 ion & Rapport\dfiler/Bilag.aux"))
+=======
+
+LaTeX Warning: Label `AT_UC2' multiply defined.
+
+
+LaTeX Warning: Label `AT_UC2@cref' multiply defined.
+
+) (dfiler/Bilag.aux))
+>>>>>>> origin/master
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
@@ -1897,9 +1911,13 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 6.
 (E:\Programmer\LaTeX\MiKTeX\tex\latex\stmaryrd\ustmry.fd)
 \c__siunitx_mathtt_int=\count339
 
+<<<<<<< HEAD
 ("E:\Programmer\AU\SP3\Semesterprojekt3-Blodtryk\Dokumentation\LaTeX_Dokumentat
 ion & Rapport\formalia/DForside.tex"
 <figurer/ASE.png, id=131, 439.6425pt x 136.25906pt>
+=======
+(formalia/DForside.tex <figurer/ASE.png, id=135, 439.6425pt x 136.25906pt>
+>>>>>>> origin/master
 File: figurer/ASE.png Graphic file (type png)
  <use figurer/ASE.png>
 Package pdftex.def Info: figurer/ASE.png used on input line 6.
@@ -1992,13 +2010,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 [1
 
 
+<<<<<<< HEAD
 ] <ak.PNG, id=218, 458.46281pt x 350.81062pt>
+=======
+]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 38.
+ <ak.PNG, id=223, 458.46281pt x 350.81062pt>
+>>>>>>> origin/master
 File: ak.PNG Graphic file (type png)
  <use ak.PNG>
 Package pdftex.def Info: ak.PNG used on input line 43.
 (pdftex.def)             Requested size: 412.61272pt x 315.72662pt.
+<<<<<<< HEAD
  [2 <E:/Programmer/AU/SP3/Semesterprojekt3-Blodtryk/Dokumentation/LaTeX_Dokumen
 tation & Rapport/ak.PNG>] <uc.PNG, id=227, 458.46281pt x 350.81062pt>
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 47.
+ [2 <./ak.PNG>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 49.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 64.
+
+<uc.PNG, id=232, 458.46281pt x 350.81062pt>
+>>>>>>> origin/master
 File: uc.PNG Graphic file (type png)
  <use uc.PNG>
 Package pdftex.def Info: uc.PNG used on input line 69.
@@ -2230,38 +2283,155 @@ Underfull \vbox (badness 10000) detected at line 131
  []
 
 [19]
+<<<<<<< HEAD
 Underfull \hbox (badness 1527) in paragraph at lines 153--153
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 136.
+
+Underfull \hbox (badness 3428) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 1. Tryk på "\T1/cmr/m/it/10.95 Fra\T1/cmr/m/n/10.95 "- -
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 Systemet slår fil-te-ret
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 2. Tryk på "\T1/cmr/m/it/10.95 Til\T1/cmr/m/n/10.95 "- -
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 Systemet slår fil-te-ret
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 152
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 154.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 154.
+[20]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 157.
+
+Underfull \hbox (badness 1527) in paragraph at lines 174--174
+>>>>>>> origin/master
 []\T1/cmr/m/n/10.95 Systemet gi-ver be-ske-
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 153--153
+Underfull \hbox (badness 2990) in paragraph at lines 174--174
 []\T1/cmr/m/n/10.95 2. Tjek i da-ta-ba-sen,
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 153--153
+Underfull \hbox (badness 4024) in paragraph at lines 174--174
 []\T1/cmr/m/n/10.95 De kor-rek-te da-ta er
  []
 
 
-Underfull \vbox (badness 10000) detected at line 153
+Underfull \vbox (badness 10000) detected at line 174
  []
 
+<<<<<<< HEAD
 [20]
 Underfull \vbox (badness 10000) detected at line 193
  []
 
 [21]
 Overfull \hbox (35.75711pt too wide) in alignment at lines 199--242
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 196.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 196.
+[21]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 199.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 199.
+
+Underfull \vbox (badness 10000) detected at line 214
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 216.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 216.
+[22]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 218.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 218.
+
+Overfull \hbox (35.75711pt too wide) in alignment at lines 220--263
+>>>>>>> origin/master
  [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 242
+Underfull \vbox (badness 10000) detected at line 263
  []
 
+<<<<<<< HEAD
 [22]) [23] [24
+=======
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 263.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 263.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 263.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 263.
+[23])
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 19.
+ [24] (dfiler/Bilag.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 2.
+ [25
+>>>>>>> origin/master
+
+
 
 
 ]
@@ -2283,7 +2453,7 @@ has been already used, duplicate ignored
                    \relax 
 l.45 ...{longtabu} to \linewidth{@{}l l l X[j]@{}}
                                                   
-<figurer/Tidsplan.pdf, id=363, 691.06404pt x 444.62651pt>
+<figurer/Tidsplan.pdf, id=369, 691.06404pt x 444.62651pt>
 File: figurer/Tidsplan.pdf Graphic file (type pdf)
 
 <use figurer/Tidsplan.pdf>
@@ -2343,15 +2513,22 @@ ion & Rapport\dfiler/Accepttest.aux")
 ion & Rapport\dfiler/Bilag.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
-Package rerunfilecheck Info: File `Dokumentation.out' has not changed.
-(rerunfilecheck)             Checksum: 74BC20E4BB29C928683CCC3867D6089E;2106.
 
+
+Package rerunfilecheck Warning: File `Dokumentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Dokumentation.out':
+(rerunfilecheck)             Before: CC8F65E43D0155F16BFB24E487830AF8;2181
+(rerunfilecheck)             After:  DA2F39C7D90C7C6A7B441F752659E196;2181.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  27130 strings out of 493921
  485195 string characters out of 3147672
  815688 words of memory out of 3000000
@@ -2377,8 +2554,37 @@ grammer/LaTeX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb><E:/Programmer/La
 TeX/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb><E:/Programmer/LaTeX/MiKTeX/fonts
 /type1/urw/bookman/ubkl8a.pfb>
 Output written on Dokumentation.pdf (41 pages, 519028 bytes).
+=======
+ 27410 strings out of 493698
+ 485629 string characters out of 3141958
+ 833085 words of memory out of 3000000
+ 30199 multiletter control sequences out of 15000+200000
+ 24184 words of font info for 61 fonts, out of 3000000 for 9000
+ 1027 hyphenation exceptions out of 8191
+ 53i,12n,90p,10465b,899s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
+C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:
+/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/cm-super/sfcc1440.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/cm-super/sfcc1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/cm-super/sfrm2488.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/cm-super/sfti1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/cm-super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookm
+an/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a
+.pfb>
+Output written on Dokumentation.pdf (41 pages, 520737 bytes).
+>>>>>>> origin/master
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
