@@ -420,6 +420,75 @@
 \newpage
 
 
+%--------------------------MØDE 7---------------------------------
+
+\begin{center} 
+\huge{\textsc{7. vejledermøde - Thomas}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 7
+\\
+\textbf{Dato:} 23/10-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 45 minutter
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Thomas læser kravspecifikation og accepttest igennem og vender tilbage med kommentarer 
+\item HW gennemgår BDD og IBD
+\item \textbf{BDD:}
+\begin{itemize}
+\item Der behøver ikke yderligere specifikationer end blot computer, dette specialiseres i software
+\item Detajlegraden skal ikke nødvendigvis være så høj i BDD - komponenterne skal være overordnet (evt. tekst med detaljeret hardware-beskrivelse)
+\item Filteret og forstærker kan godt slåes sammen
+\end{itemize}
+\item \textbf{IBD:}
+\begin{itemize}
+\item I IBD kan filteret og forstærker godt slåes sammen
+\item Man kan eventuelt gøre begge dele, eller komme udenom det med tekst
+\item IBD ser umiddelbart godt ud indtil videre 
+\item Kald det gerne \textit{forstærket signal} i stedet for \textit{spænding} - og angiv gerne enheden (V)
+\item Gør diagrammet i sig selv overskueligt, og så uddyb i tekst
+\end{itemize}
+\item Transducer omdanner et fysisk signal til et andet fysisk signal
+\item Den hidtil udviklede hardware gennemgås 
+\item Batteriet svarer til en forsyningsspænding fra 9 V (+) til 0 V (-) og i praksis kan OpAmp ikke levere så tæt på forsyningsgrænsen (den kan ikke arbejde i ydergrupperne, så vi er nødt til ikke at levere til 9 V og 0 V
+\item Vi kan komme udenom problemet, ved at bruge to batterier - ved så at give den to 9 V's forsyning (og bruge Analog til at lave et stel-punkt), altså en 9 V og - 9 V
+\item Vi kan eventuelt lave det således, at både filteret og forstærkeren trækker fra samme batteri, for at udnytte begge batterier (og undgå fejlen)
+\item Jo mindre modstanden er, jo mere strøm trækker den, og jo større de er, jo mere støj genererer de - 3,9 K$\Omega$ godkender Thomas umiddelbart
+\begin{itemize}
+\item Det er bare vigtigt, at modstandene og kondensatoren følges ad
+\end{itemize}
+\item Genereres et støjfyldt signal, og smider en sinus oveni, skulle man gerne kunne se virkningen 
+\item Nu skal vi have regnet på, hvad transduceren kan levere, og hvor meget forstærkeren skal forstærkes
+\item Transduceren giver 5 mikroV pr. mmHg
+\item Blodtryk på 0 svarer til det atmosfærisk tryk (760)  
+\item Spændingen vi får ud af transduceren er det atmosfæriske tryk med blodtrykket oveni (i mmHg), og så skal vi udregne .....
+\item Transduceren skal have (uendelig) høj indgangsmodstand
+\item Instrumenteringsforstærker
+\begin{itemize}
+\item Bygget af tre OpAmp
+\item Outputtet af de to sammensatte OpAmp fungerer som input for den tredje - og det er output på den tredje OpAmp der bruges og måles (INA114)
+\item Brug evt. Reference-benet til at sætte en spænding på 
+\item Nulpunktsjusteringen vil i praksis give en spænding, som oversættes til et digitalt tal, som kommer ind i softwaren 
+\end{itemize}
+\item Det kan give et problem at bruge en almindelig OpAmp til små signaler, hvor instrumenteringsforstærkeren har en meget høj indgangsimpedans, som ikke giver problemer. Gain kan justeres med en modstand
+\item Til test bruges Analog, men havde håbet på, at bare kunne bruge batteri til det færdige produkt - som forsyning
+\item Ændring/vejledning til SP omkring nulpunktsjusteringen 
+\item Møde igen tirsdag d. 27/10 kl. 14.00
+\end{itemize}
+
+
+\newpage
+
+
 %\begin{itemize}
 %\item Visere, impedans/admittans
 %\item Knudepunkts- og maskeligninger

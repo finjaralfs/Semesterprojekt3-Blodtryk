@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  21 OCT 2015 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  23 OCT 2015 13:08
 entering extended mode
 **vejledermode.tex
 (vejledermode.tex
@@ -865,26 +865,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--400
 
  []
 
-[10] (vejledermode.aux) ) 
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 429--441
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 465.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 465.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 465
+.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 465.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 465.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 465.
+LaTeX Font Info:    Try loading font information for U+msa on input line 465.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 465.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [11] [12]
+(vejledermode.aux) ) 
 Here is how much of TeX's memory you used:
- 6933 strings out of 493698
- 88572 string characters out of 3141958
+ 7040 strings out of 493698
+ 90720 string characters out of 3141958
  190123 words of memory out of 3000000
- 10193 multiletter control sequences out of 15000+200000
- 27366 words of font info for 25 fonts, out of 3000000 for 9000
+ 10265 multiletter control sequences out of 15000+200000
+ 50121 words of font info for 49 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  31i,11n,35p,396b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
-/lmsy10.pfb>
-Output written on vejledermode.pdf (10 pages, 154335 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on vejledermode.pdf (12 pages, 161679 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
