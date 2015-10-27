@@ -488,6 +488,96 @@
 
 \newpage
 
+%--------------------------MØDE 6---------------------------------
+
+\begin{center} 
+\huge{\textsc{6. vejledermøde - Programmering (Brian)}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 6
+\\
+\textbf{Dato:} 27/10-15
+\\
+\textbf{Tilstede:} Joakim, Lars og Signe
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 45 minutter
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Brian har lavet en spiseseddel, som han gennemgår
+\begin{itemize}
+\item Vi skal have en tråd i GUI, som opdaterer sig selv i chart 
+\item Algoritmer osv. i logik (som kaldes af GUI og kalder data)
+\item Tråd i datalag som henter data ind - når denne sættes igang, henter den meget hurtigt data ind (hvor vi skal vise eksempelvis hver tiende)
+\item ClassLibery er et nyt projekt der indeholder tomme klasser, som kan bruges - men vi kan også bare tilføje klasser som vi plejer
+\item Brian har delegate i GUI og det hardcore i datalaget, som han vil hjælpe os med - men vi skal have oprettet projektet og lavet GUI'en til en start
+\end{itemize}
+\item DTO bruges til at kunne tilgå alle tre lag (som eksempelvis kan være en patient eller DAQ-data, som kan være kendt alle tre lag)
+\begin{itemize}
+\item Vi bruger DTO for, at alle tre lag har adgang til data, dvs. at når en patient sendes fra datalag op til logik og til GUI, ville logik og GUI ikke vide hvad patient er, hvis ikke de kendte til DTO'en
+\item Hvis vi skal ændre i data, kan vi blot ændre i DTO, og så er det ændret alle steder 
+\item Angiver hvordan en patient er i systemet, grundstrukturen ligger i DTO'en, hvor datalag fx kobler CPR-nummeret på, logiklag beregner puls og GUI viser dataen
+\item "Reglerne"\ for data i vores system ligger i DTO'en
+\end{itemize}
+\end{itemize}
+
+
+\newpage
+
+%--------------------------MØDE 7---------------------------------
+
+\begin{center} 
+\huge{\textsc{7. vejledermøde - Thomas}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 7
+\\
+\textbf{Dato:} 27/10-15
+\\
+\textbf{Tilstede:} Alle
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 60 minutter
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item SW har oprettet VS dokument og lavet udkast til GUI
+\item Domænemodellen
+\begin{itemize}
+\item Domænemodel gennemgåes for Thomas
+\item Detaljegraden er fin, umiddelbart mangler der ikke nogle komponenter
+\end{itemize}
+\item Applikationsmodel er OK og sekvens kommer senere 
+\item PatientCPR skal eventuelt ind under "Diagnostik"\ GUI
+\item Udvid nulpunktsjustering i UC, fjern fra ikke-funktionelle krav - tilføj "nulpunktsjuster"\- -knap
+\item Nulpunktsjustering flyttes til UC2, så grafen ikke kan vises hvis ikke der er nulpunktsjusteret
+\item Kalibrering UC, overvej hvad det hedder ...
+\item \textbf{Hardware}
+\begin{itemize}
+\item HW har sat de to batterier sammen til +9 V og -9 V, det fungerer rigtig godt 
+\item Lavpasfilteret virker som det skal
+\item Problemet med, at den ikke kunne komme langt nok ned, er løst med de to batterier 
+\item Overvej med de 200 mmHg, højtryk og blodtrykket
+\item Referencepunkt - de -9 V gange med 2?
+\item Ground på Analog i forhold til printplade? Hvis Grpund tages fra, er det kun fællespunktet for batterierne der angiver et 0-punkt
+\item Batterierne og Analog har forskellige opfattelser af hvad 0 V er 
+\item Stel defineres af batterierne 
+\end{itemize}
+\item Design og specifikationer skal afleveres til den anden gruppe - inkluderer det også komponentværdier osv.? Thomas undersøger det til næste gang.
+\end{itemize}
+
+
+\newpage
+
 
 %\begin{itemize}
 %\item Visere, impedans/admittans
