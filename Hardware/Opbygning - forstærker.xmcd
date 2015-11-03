@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?validation-md5-digest 2f4a34ac7fed17ad3a9b0952a5a320b7?>
+<?validation-md5-digest 8989d378095a3da4afaa101eb15818d4?>
 <worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
 	<pointReleaseData/>
 	<metadata>
@@ -13,9 +13,9 @@
 			<revisedBy>Bruger</revisedBy>
 		</userData>
 		<identityInfo>
-			<revision>4</revision>
+			<revision>5</revision>
 			<documentID>F4BADBC0-46C8-425A-A37E-AA2442E76CCC</documentID>
-			<versionID>54045628-DEB7-4E10-8E37-04B6AF041FEB</versionID>
+			<versionID>C440F8A0-49F2-45D5-8C5C-799EDE9432A0</versionID>
 			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
 			<branchID>00000000-0000-0000-0000-000000000000</branchID>
 		</identityInfo>
@@ -120,7 +120,7 @@
 			</math>
 			<rendering item-idref="1"/>
 		</region>
-		<region region-id="5" left="36" top="21" width="63.75" height="16.5" align-x="82.5" align-y="30" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="31" left="36" top="33" width="63.75" height="16.5" align-x="82.5" align-y="42" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:id xml:space="preserve" subscript="min">mmHg</ml:id>
@@ -129,7 +129,7 @@
 			</math>
 			<rendering item-idref="2"/>
 		</region>
-		<region region-id="7" left="36" top="51" width="69" height="16.5" align-x="83.25" align-y="60" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="32" left="36" top="57" width="69" height="16.5" align-x="83.25" align-y="66" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:id xml:space="preserve" subscript="max">mmHg</ml:id>
@@ -464,12 +464,13 @@ lSuIyhVE5Qqicle0Od3RiRTT0p0DlMrdAamY6Um0/+1sWVC5R5yeVn+Gyj0ikFwqD3f/U1G5
 W5C1+ZSI+nsve1XuitrQILce6a/9YXWMyhVE5QqicgVRuWKk9AWjzMIgtYTF4wAAAABJRU5E
 rkJggg==</item>
 		<item item-id="12">iVBORw0KGgoAAAANSUhEUgAAADYAAAARCAYAAACW7F9TAAAAAXNSR0IArs4c6QAAAARnQU1B
-AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEISURBVEhL7VTbDcQgDGMuBmIepmEZ
-hsmREFqn7Z1aRE/qwxI/UZvYjsHRTfEKuxqeIixRcI4cn5C0dg5y9HVOOT5mrRbkSF7qnrDM
-kH928gJhmaLXZtJ83Xgc2MCtWct6KJWKyYjDwk4XAzCkQUwKQJyNdoQ6jm9MBmkEwRWMi/Ox
-jBqFSlrmFDEtikviKdiY9kVxtTF2EqKQ0hdhShKNaecnCb3P8A0TRyEnCauNmaC53IOQYyiz
-1BRNw9+EVaizsD2Ljo3xrCnacJeG3zHGRhSjcW9LdCdkFj4eTQA8JEZ8RYewtpV65iE73O+E
-kNTeJuoimusLI3mbB7jMG7sZXmFXw02FEX0A24Ishh2jlGgAAAAASUVORK5CYII=</item>
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEbSURBVEhL7VSJDcQgDGMuBmIepmEZ
+hsmREFpDaXXl2pP6WKISuR6OHVNDN8Ur7Gp4irBAzhgyvFzQ2jmI3maetKyPWk2InqzULWGZ
+If/5si8QFslbPUwOXx58HNjAHldbd6mSMRmxW9jpYgBV0yAmOGicjTaEOvZPTIg0guAKxsVY
+n6iOQm5aeJKYEsW28eDqmI5FcTExdhKiEMKKMG0SjSlrswm9z/AON45C9ghDXtnLk9GJIh/M
+L1aX+yBE7xKXmqJp+JuwDHUWpldjYGLMNUUb7tIPdwx5ZS9PRieKvnKvJ3oQwoUfjyIAPiSV
++IwBYWUqec0kc23V/UFIk3p2FXURzfXGSJ7mRi/Tb2nJXp43wG2FtXiFXQtEH7fC9q22FFDr
+AAAAAElFTkSuQmCC</item>
 		<item item-id="13">iVBORw0KGgoAAAANSUhEUgAAAAcAAAARCAYAAAAR3bZVAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVChTvY/RDYAwCESZi4GYh2lY
 hmHOK8ZojfjXXkJCePS4Cn60A6YrRISl8HzCdNiYVMsli8Y2DMrFD5hwj+peMGB1U7qXVzBr
