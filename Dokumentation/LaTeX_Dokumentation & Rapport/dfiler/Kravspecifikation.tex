@@ -9,6 +9,7 @@
     2.0 &    28/9-15 &    Alle &    Tilføjer ny use case, "\textit{Kalibrer systemet}", og tilretter "\textit{Log ind}"\ use case\\
 2.1	&	29/9-15	&	Alle	& 	\\
 3.0	&	7/10-15	&	Alle	&	Tilrettelser efter review med gr. 4\\   
+4.0	&	4/11-15	&	Alle	&	Gennemgang med ændringer efter rettelser fra vejledere\\
 \label{version_KS}
 \end{longtabu}
 
@@ -52,11 +53,11 @@ Der er udarbejdet et aktør-kontekst diagram med tilhørende aktørbeskrivelser,
     \textbf{Aktørnavn} &        \textbf{Type} &    \textbf{Beskrivelse}\\[-1ex]
     \midrule
     Sundhedsfagligt personale &    Primær &    Aktøren starter, foretager og afslutter målingen. Aktøren skal have relevans i henhold til en operationsstue samt have kendskab til proceduerne herved\\
-    Patient &        Sekundær &    Aktørens blodtryk undersøges ved at tilslutte blodtryksmålesystemet til patientens arterier.\\
+    Transducer &        Sekundær &    Transduceren omsætter tryk til et analogt elektrisk signal\\
     Database &        Sekundær &    Måledataene gemmes i databasen.\\
     Tekniker &       Sekundær &    Kalibrerer systemet\\
     
-\caption{Aktørbeskrivelse.}\\
+\caption{Aktørbeskrivelse}\\
 \label{actortable}
 \end{longtabu}
 
@@ -70,7 +71,7 @@ Der er ud fra de overordnede, definerede krav til projektet, udviklet et use cas
 \caption{Use case diagram}
 \end{figure}
 
-
+\newpage
 
 \subsection{Use cases}
 Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hvert scenarie. Disse indgår herunder. 
@@ -97,7 +98,7 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
                 &    2. &    Sundhedsfagligt personale indtaster tilhørende password\\[-1ex]
                 &    3. &    Sundhedsfagligt personale trykker på \textit{"Log ind"}-knappen\newline
                 			[3a. \textit{Fejl i indtastede ID eller password}]\\[-1ex]
-                &	4.	&	Automatisk nulpunktsjustering foretages\\[-1ex]
+%                &	4.	&	Automatisk nulpunktsjustering foretages\\[-1ex]
                             
     \toprule
     Undtagelser &    3a. & [\textit{Fejl i indtastede ID eller password}] \\[-1ex]
@@ -119,7 +120,7 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
     Scenarie &&    Hovedscenarie\\
     Use case ID &&    UC2\\
     Primær aktør &&    Sundhedsfagligt personale\\
-    Sekundær aktør(er) &&    Patient, database\\
+    Sekundær aktør(er) &&    Transducer, database\\
     Initialisere &&    Efter UC1 er kørt succesfuldt\\
     Mål &&    At overvåge patientens blodtryk og vise dette kontinuert på en graf\\
     Forudsætninger &&    UC1 er kørt succesfuldt. Sundhedsfagligt personale har placeret intraarteriel nål i patienten\\
@@ -128,8 +129,10 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
     Hovedforløb &    1. &    Sundhedsfagligt personale indtaster patientens CPR-nummer\\[-1ex]
     			&    2. &    Sundhedsfagligt personale trykker på knappen \textit{"Hent patientoplysninger"}\newline
     			[2a. \textit{Det indtastede CPR-nummer er ikke gyldigt}]\\[-1ex]
-                &    3. &    Systemet viser målingen kontinuert i en graf på GUI\newline
-                [3a. \textit{Blodtryk er for højt eller lavt}]\\
+    			&	3.	&	Automatisk nulpunktsjustering foretages\newline
+    			[3a. \textit{Ny nulpunktsjustering}]\\[-1ex]
+                &    4. &    Systemet viser målingen kontinuert i en graf på GUI\newline
+                [4a. \textit{Blodtryk er for højt eller lavt}]\\
 %                &    4. &    Sundhedsfagligt personale har mulighed for, på GUI'en, at vælge mellem funktionerne:\\[-1ex]
  %               &	a. &	"\textit{Med digitalt filter}"\\[-1ex]
  %               &	b.	&	"\textit{Uden digitalt filter}"\\[-1ex]
@@ -139,7 +142,10 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
     \toprule
     Undtagelser &    2a. &    [\textit{Det indtastede CPR nummer er ikke gyldigt}]\\[-1ex]
     &	1. &	Systemet gør bruger opmærksom på fejl, og beder om ny indtastning af CPR nummer\\[-1ex]
-    &	3a.	&	[\textit{Blodtryk er for højt eller lavt}]\\[-1ex]
+    &	3a.	&	[\textit{Ny nulpunktsjustering}]\\[-1ex]
+    &	1.	&	Sundhedsfagligt personale trykker på "\textit{Ny nulpunktsjustering}"\- -knappen\\[-1ex]
+    &	2.	&	Der foretages ny nulpunktsjustering\\[-1ex]
+    &	4a.	&	[\textit{Blodtryk er for højt eller lavt}]\\[-1ex]
     &	1.	&	Systemet alarmerer sundhedsfagligt personale\\[-1ex]
     &	2.	&	Sundhedsfagligt personale har nu mulighed for at slå systemets alarm på "\textit{Lydløs}"\- -tilstand i en periode på tre minutter\\[-1ex]
     &	3.	&	Alarmen stopper ved normalisering af blodtrykket\\
@@ -239,9 +245,9 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
     Primær aktør &&    Tekniker\\
     Sekundær aktør(er) &&    \\
     Initialisere &&    Systemet\\
-    Mål &&    At kalibrere systemet\\
+    Mål &&    At justere systemet i forhold til kalibrering\\
     Forudsætninger &&    Tekniker er tilkaldt\\
-    Resultat &&    Systemet er kalibreret\\
+    Resultat &&    Systemet er justeret\\
     \toprule
     Hovedforløb &    1. &    Tekniker påtrykker systemet tre kendte tryk\\[-1ex]
                 &    2. &   Tekniker aflæser responserne på GUI\\[-1ex]
@@ -249,7 +255,7 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
                              %[3a. \textit{...}]\newline
                              [3a. \textit{Der er ingen afvigelser}]\\[-1ex]
                 %&    4. &    ....\\[-1ex]
-                &    4. &   Tekniker kalibrerer afvigelsen i systemets software\\[-1ex]
+                &    4. &   Tekniker justerer afvigelsen i systemets software\\[-1ex]
                              %[5a. \textit{...}]\\
                &	5.	&	UC5 startes forfra\\[-1ex]
     \toprule
@@ -282,8 +288,10 @@ MoSCoW er angivet i en parantes med enten M, S, C eller W.
 \item Patient-CPR, ansvarligt sundhedspersonale, ansvarlig organisation, dato
 \item Rådata, samplerate (Hz), interval (s), data format, måleformat, starttid, antal målinger
 \end{enumerate}
-\item (M) Programmet skal kunne foretage en nulpunktsjustering 
+%\item (M) Programmet skal kunne foretage en nulpunktsjustering 
 \item (M) Blodtrykket skal måles indenfor 10 mmHg præcision
+\item (M) Forstærkeren skal kunne forstærke det elektriske signalet 
+\item (M) Lavpasfilteret skal kunne filtrere støj fra det elektriske signal
 %\item (M) Systemet skal kunne filtrere blodtrykssignalet i selve programmet via et digitalt filter
 %\begin{enumerate}
 %\item (M) Dette skal kunne slås til og fra
@@ -293,8 +301,12 @@ MoSCoW er angivet i en parantes med enten M, S, C eller W.
 \textbf{Usability}
 \item (M) Programmet skal indeholde en "\textit{Log ind}"\- -knap
 \item (M) Programmet skal indeholde en "\textit{Hent patientoplysninger}"\- -knap
-\item (M) Programmet skal indeholde en "\textit{Gem data}"\- -knap
+\item (M) Programmet skal indeholde en "\textit{Ny nulpunktsjustering}"\- -knap
 \item (M) Programmet skal indeholde en "\textit{Lydløs}"\- -knap
+\item (M) Programmet skal indeholde en "\textit{Gem data}"\- -knap
+\item (M) Programmet skal indeholde en "\textit{Til}"\- -radiobutton
+\item (M) Programmet skal indeholde en "\textit{Fra}"\- -radiobutton
+
 %\item (S) Det bør være muligt at starte/stoppe uden at skulle genstarte programmet
 %\item (M) Blodtrykket skal vises kontinuert i en graf på en GUI, hvor både diastolisk og systolisk tryk indgår
 
