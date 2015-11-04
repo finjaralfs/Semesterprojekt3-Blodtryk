@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  4 NOV 2015 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  4 NOV 2015 13:13
 entering extended mode
 **Dokumentation.tex
 (Dokumentation.tex
@@ -2015,11 +2015,11 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 39.
- <ak.PNG, id=203, 458.46281pt x 350.81062pt>
+ <ak.PNG, id=203, 436.63126pt x 335.75438pt>
 File: ak.PNG Graphic file (type png)
  <use ak.PNG>
 Package pdftex.def Info: ak.PNG used on input line 44.
-(pdftex.def)             Requested size: 412.61272pt x 315.72662pt.
+(pdftex.def)             Requested size: 392.9645pt x 302.17615pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining danish shorthand "~
@@ -2876,7 +2876,7 @@ lic/cm-super/sfti1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 -super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/
 ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pf
 b>
-Output written on Dokumentation.pdf (48 pages, 559567 bytes).
+Output written on Dokumentation.pdf (48 pages, 555121 bytes).
 PDF statistics:
  557 PDF objects out of 1000 (max. 8388607)
  126 named destinations out of 1000 (max. 500000)
