@@ -5,8 +5,7 @@
     \midrule
     0.1 &    30/9-15 &    HR, JL, LB og SV &    Første udkast til accepttest\\
     1.0 &    8/10-15 &    Alle &    Rettelser efter review\\
-    Tekst &    Tekst &    Tekst &    Tekst.\\
-    Tekst &    Tekst &    Tekst &    Tekst.\\
+    2.0	&	4/11	&	HR, SV	&	Tilrettelser efter rettelser fra vejledere\\
 \label{version_Systemark}
 \end{longtabu}
 
@@ -18,8 +17,10 @@ Formålet med dokumentet.
 \section{Funktionelle krav}
 
 
+\subsection{Accepttest af use cases}
+
 %------------------Use case 1--------------------
-\subsection{Use case 1}
+\large \textbf{Use case 1}
 
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
@@ -42,7 +43,7 @@ Formålet med dokumentet.
 
 
 %---------------Use case 1 - undtagelser------------
-\subsection{Use case 1 - undtagelse pkt. 3.a}
+\large \textbf{Use case 1 - undtagelse pkt. 3a}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
 \textbf{Use case under test} & UC1: Log ind \\
@@ -62,7 +63,7 @@ Formålet med dokumentet.
 \newpage
 
 %--------------------Use case 2--------------------
-\subsection{Use case 2}
+\large \textbf{Use case 2}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
 \textbf{Use case under test} & UC2: Mål blodtryk \\
@@ -73,11 +74,12 @@ Formålet med dokumentet.
 \midrule
 \textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
     \midrule
-  1. Indtast CPR-nummer "1212923434" &    Det indtastede CPR-nummer vises i "Patient"\ GUI &    \\
-  2. Tryk på "\textit{Hent patientoplysninger}"\- -knappen	&	"Diagnostik"\ GUI vises med patients CPR-nummer, samt målingen vises kontinuert på grafen\\
-  3. Se efter måling på graf	&	Målingen kan ses kontinuert på grafen\\
-4. Tryk i "Diagnostik"\ GUI "\textit{Med digitalt filter}"	&	Det ses på "Diagnostik"\- -GUI, at det digitale filter er slået til. Dette kan ses på grafen.\\
-5. Tryk i "Diagnostik"\  GUI "\textit{Uden digitalt filter}"	&	Det ses på "Diagnostik"\ GUI, at det digitale filter er slået fra. Dette kan ses på grafen.\\
+  1. Indtast CPR-nummer "1212923434" &    Det indtastede CPR-nummer vises i "Diagnostik"\ GUI &    \\
+  2. Tryk på "\textit{Hent patientoplysninger}"\- -knappen	&	"Diagnostik"\ GUI vises med patients CPR-nummer\\
+  3. Nulpunktsjustering foretages	&	Nulpunktsjustering vises %og målingen vises kontinuert på grafen
+  4. Se efter måling på graf	&	Målingen kan ses kontinuert på grafen\\
+%4. Tryk i "Diagnostik"\ GUI "\textit{Med digitalt filter}"	&	Det ses på "Diagnostik"\- -GUI, at det digitale filter er slået til. Dette kan ses på grafen.\\
+%5. Tryk i "Diagnostik"\  GUI "\textit{Uden digitalt filter}"	&	Det ses på "Diagnostik"\ GUI, at det digitale filter er slået fra. Dette kan ses på grafen.\\
 %Se efter grønt skær på grænsefladen	&	"Diagnostik"\ GUI har et grønt skær ved normalt blodtryk\\
    \midrule
 \caption{Accepttest af Use case 2}\\
@@ -88,7 +90,7 @@ Formålet med dokumentet.
 
 
 %--------------------Use case 2 - undtagelse--------------------
-\subsection{Use case 2 - undtagelse pkt. 2.a}
+\large \textbf{Use case 2 - undtagelse pkt. 2a}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
 \textbf{Use case under test} & UC2: Mål blodtryk \\
@@ -99,7 +101,7 @@ Formålet med dokumentet.
 \midrule
 \textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
     \midrule
-1. Tryk på "\textit{Hent}"\- -knappen &    Systemet gør opmærksom på fejl, og beder om ny indtastning af CPR-nummer &    \\
+1. Tryk på "\textit{Hent patientoplysninger}"\- -knappen &    Systemet gør opmærksom på fejl, og beder om ny indtastning af CPR-nummer &    \\
    \midrule
 \caption{Accepttest af Use case 2 - undtagelse 2.a}\\
 \label{AT_UC2}
@@ -108,14 +110,34 @@ Formålet med dokumentet.
 \newpage
 
 %--------------------Use case 2 - undtagelse--------------------
-\subsection{Use case 2 - undtagelse pkt. 5.a}
+\large \textbf{Use case 2 - undtagelse pkt. 3a}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
 \textbf{Use case under test} & UC2: Mål blodtryk \\
 \midrule
-\textbf{Scenarie} & Undtagelse 5.a\\
+\textbf{Scenarie} & Undtagelse 3.a\\
 \midrule
-\textbf{Prækondition} & UC1 er succesfuldt kørt. Sundhedsfagligt personale har placeret intraarteriel nål i patienten. VPN forbindelse skal være oprettet, når der testes på IHA.\\
+\textbf{Prækondition} & UC1 er succesfuldt kørt. VPN forbindelse skal være oprettet, når der testes på IHA.\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
+    \midrule
+1. Tryk på "\textit{Ny nulpunktsjustering}"\- -knappen &    Systemet foretager ny nulpunktsjustering &    \\
+   \midrule
+\caption{Accepttest af Use case 2 - undtagelse 3.a}\\
+\label{AT_UC2}
+\end{longtabu}
+
+\newpage
+
+%--------------------Use case 2 - undtagelse--------------------
+\large \textbf{Use case 2 - undtagelse pkt. 4a}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC2: Mål blodtryk \\
+\midrule
+\textbf{Scenarie} & Undtagelse 4.a\\
+\midrule
+\textbf{Prækondition} & UC1 er succesfuldt kørt. VPN forbindelse skal være oprettet, når der testes på IHA.\\
 \midrule
 \textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
     \midrule
@@ -126,14 +148,14 @@ Formålet med dokumentet.
 2. Tryk på "\textit{Lydløs}"	&	Lyden forsvinder i tre minutter	& \\
 3. Normaliser blodtrykket	&	Alarmen stopper, alarmlyden forsvinder og brugergrænsefladen får et grønt skær	& \\
    \midrule
-\caption{Accepttest af Use case 2 - undtagelse 5.a}\\
+\caption{Accepttest af Use case 2 - undtagelse 4.a}\\
 \label{AT_UC2}
 \end{longtabu}
 
 \newpage
 
 %--------------------Use case 3--------------------
-\subsection{Use case 3 - Filtrer}
+\large \textbf{Use case 3}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
 \textbf{Use case under test} & UC3: Filtrer signal \\
@@ -144,17 +166,38 @@ Formålet med dokumentet.
 \midrule
 \textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat}	& \textbf{Godkendt}\\[-1ex]
     \midrule
-1. Tryk på "\textit{Fra}"\- -knappen &    Systemet slår filteret fra, og viser dette i radiobutton på GUI &    \\
-2.	Tryk på "\textit{Til}"\- -knappen	&	Systemet slår filteret til, og viser dette i radiobutton & 	\\
+1. Tryk på "\textit{Fra}"\- -radiobutton &    Systemet slår filteret fra, og viser dette i radiobutton på GUI &    \\
+2.	Tryk på "\textit{Til}"\- -radiobutton	&	Systemet slår filteret til, og viser dette i radiobutton & 	\\
    \midrule
-\caption{Accepttest af Use case 2 - undtagelse 2.a}\\
+\caption{Accepttest af Use case 3}\\
+\label{AT_UC3}
+\end{longtabu}
+
+
+
+%--------------------Use case 3 - undtagelse 2.a--------------------
+\large \textbf{Use case 3 - undtagelse pkt. 2a}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] l@{}}
+\midrule
+\textbf{Use case under test} & UC3: Gem data \\
+\midrule
+\textbf{Scenarie} & Undtagelse 2a\\
+\midrule
+\textbf{Prækondition} &  UC1 og UC2 er gennemført\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &    \textbf{Godkendt}\\[-1ex]
+    \midrule
+   1. Tryk på "\textit{Gem data}"\- -knappen &    Sysetemet giver beskeden "\textit{Data ikke gemt - tekniker er tilkaldt}" &    \\
+   2. Tryk "\textit{OK}"	&	UC3 starter fra pkt. 1\\
+   \midrule
+\caption{Accepttest af Use case 3 - undtagelse 2.a}\\
 \label{AT_UC3}
 \end{longtabu}
 
 \newpage
 
 %--------------------Use case 4--------------------
-\subsection{Use case 4}
+\large \textbf{Use case 4}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
 \textbf{Use case under test} & UC4: Gem data \\
@@ -174,42 +217,49 @@ Formålet med dokumentet.
 \end{longtabu}
 
 
-%--------------------Use case 3 - undtagelse 2.a--------------------
-%\subsection{Use case 3 - undtagelse 2.a}
-%\begin{longtabu} to \linewidth{@{} X[j] X[j] l@{}}
-%\midrule
-%\textbf{Use case under test} & UC3: Gem data \\
-%\midrule
-%\textbf{Scenarie} & Undtagelse 2.a\\
-%\midrule
-%\textbf{Prækondition} &  UC "\textit{Log ind}" og "\textit{Mål blodtryk}" er gennemført\\
-%\midrule
-%\textbf{Handling} &    \textbf{Forventet resultat} &    \textbf{Godkendt}\\[-1ex]
-%    \midrule
-%   Tryk på "\textit{Gem data}"-knappen) &    Sysetemet giver beskeden "\textit{Data ikke gemt}" &    \\
-%   Tryk "\textit{OK}"	&	UC3 starter fra pkt. 1\\
-%   \midrule
-%\caption{Accepttest af Use case 3 - undtagelse 2.a}\\
-%\label{AT_UC3}
-%\end{longtabu}
-
 \newpage
 
 %--------------------Use case 5 ---------------------
-\subsection{Use case 5}
+
+\large \textbf{Use case 5}
 \begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
 \midrule
 \textbf{Use case under test} & UC5: Kalibrer system \\
 \midrule
 \textbf{Scenarie} & Hovedscenarie\\
 \midrule
-\textbf{Prækondition} & \\
+\textbf{Forudsætning} & Tekniker er tilkaldt\\
 \midrule
-\textbf{Handling} &    \textbf{Forventet resultat} & \textbf{Resultat}	&    \textbf{Godkendt}\\[-1ex]
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat} & \textbf{Godkendt}\\[-1ex]
     \midrule
-   ... &    ... &    \\
+ 1. Påtryk systemet tre kendte tryk &    Reponserne aflæses på GUI &    \\
+ 2. Noter afvigelserne på de kendte tryk &    Afvigelserne noteres &    \\
+  3. Juster systemets software i forhold til kalibreringen &    Justering foretages &    \\
    \midrule
-\caption{Accepttest af Use case 5}\\
+\caption{Accepttest af Use case 4}\\
+\label{AT_UC4}
+\end{longtabu}
+
+\newpage
+
+%--------------------Use case 5 - undtagelse pkt. 3a---------------------
+
+\large \textbf{Use case 5 - undtagelse 3a}
+\begin{longtabu} to \linewidth{@{} X[j] X[j] X[J] l@{}}
+\midrule
+\textbf{Use case under test} & UC5: Kalibrer system \\
+\midrule
+\textbf{Scenarie} & Undtagelse 3a.\\
+\midrule
+\textbf{Forudsætning} & Tekniker er tilkaldt\\
+\midrule
+\textbf{Handling} &    \textbf{Forventet resultat} &   \textbf{Resultat} & \textbf{Godkendt}\\[-1ex]
+    \midrule
+ 1. Påtryk systemet tre kendte tryk &    Reponserne aflæses på GUI &    \\
+ 2. Noter afvigelserne på de kendte tryk &    Ingen afvigelser forefindes &    \\
+  3. UC5 afsluttes &    UC5 afsluttes &    \\
+   \midrule
+\caption{Accepttest af Use case 5 - undtagelse pkt. 3a}\\
 \label{AT_UC5}
 \end{longtabu}
 
@@ -228,31 +278,40 @@ Formålet med dokumentet.
 \hline
 3	&	Blodtrykket skal kunne gemmes i database &	 Det tjekkes, om det korrekte data er gemt i en database 	&	Det korrekte data er gemt i databasen	&	\\
 \hline
-4	&	Programmet skal kunne foretage en nulpunktsjustering &	 Det tjekkes, om systemet er nulpunktsjusteret ved opstart af hver måling 	&	Systemet har foretaget korrekt nulpunktsjustering	&	\\
+%4	&	Programmet skal kunne foretage en nulpunktsjustering &	 Det tjekkes, om systemet er nulpunktsjusteret ved opstart af hver måling 	&	Systemet har foretaget korrekt nulpunktsjustering	&	\\
+4	&	Blodtrykket skal måles inden for 10 mmHg præcision &	 Det tjekkes at systemet måler blodtrykket inden for den angivne værdi 	&	Blodtrykket er målt inden for 10 mmHg præcision	&	\\
 \hline
-5	&	Blodtrykket skal måles inden for 10 mmHg præcision &	 Det tjekkes at systemet måler blodtrykket inden for den angivne værdi 	&	Blodtrykket er målt inden for 10 mmHg præcision	&	\\
+5	&	Forstærkeren skal kunne forstærke det elektriske signal &	 Et signal sendes igennem forstærkeren	&	Signalet forstærkes	&	\\
+\hline
+6	&	Lavpasfilteret skal kunne filtrere støj fra det elektriske signal &	 Et signal sendes igennem lavpasfilteret	&	Signalet filtreres og støjen fjernes	&	\\
 \hline
 %6	&	Systemet skal kunne filtrere blodtrykket i selve programmet via et digitalt filter, som skal kunne slås til og fra &	 Det tjekkes i programmet, om blodtrykket er filtreret og om det digitale filter kan slås til/fra 	&	Systemet filtrerer blodtrykket i programmet	&	\\
 %\hline
-6	&	Programmet skal indeholde en "\textit{Log ind}"\- -knap &	 Det ses i \textit{Log ind}-GUI, om programmet indeholder en "\textit{Log ind}"\- -knap 	&	Programmet indeholder en "\textit{Log ind}"\- -knap	&	\\
+7	&	Programmet skal indeholde en "\textit{Log ind}"\- -knap &	 Det ses i \textit{Log ind}-GUI, om programmet indeholder en "\textit{Log ind}"\- -knap 	&	Programmet indeholder en "\textit{Log ind}"\- -knap	&	\\
 \hline
-7	&	Programmet skal indeholde en "\textit{Hent patientoplysninger}"\- -knap &	 Det ses i \textit{Patient}-GUI, om programmet indeholder en "\textit{Hent patientoplysninger}"\- -knap 	&	Programmet indeholder en "\textit{Hent patientoplysninger}"\- -knap	&	\\
+8	&	Programmet skal indeholde en "\textit{Hent patientoplysninger}"\- -knap &	 Det ses i \textit{Diagnostik}-GUI, om programmet indeholder en "\textit{Hent patientoplysninger}"\- -knap 	&	Programmet indeholder en "\textit{Hent patientoplysninger}"\- -knap	&	\\
 \hline
-8	&	Programmet skal indeholde en "\textit{Gem data}"\- -knap &	 Det ses i \textit{Gem data}-GUI, om programmet indeholder en "\textit{Gem data}"\- -knap 	&	Programmet indeholder en "\textit{Gem data}"\- -knap	&	\\
+9	&	Programmet skal indeholde en "\textit{Ny nulpunktsjustering}"\- -knap &	 Det ses i \textit{Diagnostik}-GUI, om programmet indeholder en "\textit{Ny nulpunktsjustering}"\- -knap 	&	Programmet indeholder en "\textit{Ny nulpunktsjustering}"\- -knap	&	\\
 \hline
-9	&	Programmet skal indeholde en "\textit{Lydløs}"\- -knap &	 Det ses i \textit{Diagnostik}-GUI, om programmet indeholder en "\textit{Lydløs}"\- -knap 	&	Programmet indeholder en "\textit{Lydløs}"\- -knap	&	\\
+10	&	Programmet skal indeholde en "\textit{Lydløs}"\- -knap &	 Det ses i \textit{Diagnostik}-GUI, om programmet indeholder en "\textit{Lydløs}"\- -knap 	&	Programmet indeholder en "\textit{Lydløs}"\- -knap	&	\\
+\hline
+11	&	Programmet skal indeholde en "\textit{Gem data}"\- -knap &	 Det ses i \textit{Gem data}-GUI, om programmet indeholder en "\textit{Gem data}"\- -knap 	&	Programmet indeholder en "\textit{Gem data}"\- -knap	&	\\
+\hline
+12	&	Programmet skal indeholde en "\textit{Til}"\- -radiobutton &	 Det ses i \textit{Diagnostik}-GUI, om programmet indeholder en "\textit{Til}"\- -radiobutton 	&	Programmet indeholder en "\textit{Til}"\- -radiobutton	&	\\
+\hline
+13	&	Programmet skal indeholde en "\textit{Fra}"\- -radiobutton &	 Det ses i \textit{Diagnostik}-GUI, om programmet indeholder en "\textit{Fra}"\- -radiobutton 	&	Programmet indeholder en "\textit{Fra}"\- -radiobutton	&	\\
 \hline
 %11	&	Det bør være muligt at starte/stoppe uden at skulle genstarte programmet  &	 Programmet stoppes, hvorved det tjekkes om programmet genstarter 	&	Programmet kan startes/stoppes uden at genstarte	&	\\
 %\hline
 %12	&	Blodtrykket skal vises kontinuert på en GUI, hvor der ses systolisk og diastolisk tryk  &	 Det ses på brugergrænsefladen om blodtrykket vises kontinuert, og om systolisk samt diastolisk tryk vises 	&	Blodtrykket vises kontinuert og diastolisk samt systolisk tryk vises	&	\\
 %\hline
-10	&	Systemet bør kunne køre fejlfrit i et år &	 Kan ikke testes 	&		&	\\
+14	&	Systemet bør kunne køre fejlfrit i et år &	 Kan ikke testes 	&		&	\\
 \hline
-11	&	Systemet bør have en MTTR på højst 24 timer & Kan ikke testes	  	&		&	\\
+15	&	Systemet bør have en MTTR på højst 24 timer & Kan ikke testes	  	&		&	\\
 \hline
-12	&	Systemet skal kontinuert vise en grafisk afbildning af blodtrykket, hvor tryk er op af y-aksen og tiden er på x-aksen i intervaller af 6 sekunder &	 Det ses på \textit{Diagnostik}-GUI om denne indeholder en grafisk afbildning, hvor tryk er op ad y-aksen og tid er op ad x-aksen 	&	\textit{Diagnostik}-GUI indeholder en grafisk afbildning med de korrekte værdier op af y- og x-aksen	&	\\
+16	&	Systemet skal kontinuert vise en grafisk afbildning af blodtrykket, hvor tryk er op af y-aksen og tiden er på x-aksen i intervaller af 6 sekunder &	 Det ses på \textit{Diagnostik}-GUI om denne indeholder en grafisk afbildning, hvor tryk er op ad y-aksen og tid er op ad x-aksen 	&	\textit{Diagnostik}-GUI indeholder en grafisk afbildning med de korrekte værdier op af y- og x-aksen	&	\\
 \hline
-13	&	Softwaren bør være opbygget af trelagsmodellen &	 Det ses i programmet, om dette er opbygget af trelagsmodellen 	&	Programmet er opbygget af trelagsmodellen	&	\\
+17	&	Softwaren bør være opbygget af trelagsmodellen &	 Det ses i programmet, om dette er opbygget af trelagsmodellen 	&	Programmet er opbygget af trelagsmodellen	&	\\
 %\hline
 %12	&	Systemet skal kunne kalibreres af tekniker &	 Systemet kalibreres  	&	Systemet kalibreres korrekt	&	\\
 %\hline
