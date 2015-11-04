@@ -11,3 +11,7 @@ Tilstede: Helle, Rune og Finja
 -Arbejder på at nedsætte offsettet som fremkommer. 
 -Påbegyndt beskrivelse af hardware design
 
+Software
+Tilstede: Lars og Joakim
+-Forsøg på oprettelse til database
+-Design af GUI
