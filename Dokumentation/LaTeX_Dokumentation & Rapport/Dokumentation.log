@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  4 NOV 2015 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  4 NOV 2015 14:13
 entering extended mode
 **Dokumentation.tex
 (Dokumentation.tex
@@ -1691,7 +1691,14 @@ Package xr Info: IMPORTING LABELS FROM rfiler/Udvikling.aux on input line 4.
 Package xr Info: IMPORTING LABELS FROM rfiler/Bilagliste.aux on input line 4.
  (Dokumentation.aux (formalia/DForside.aux) (formalia/Underskrifter.aux)
 (dfiler/Forkortelser.aux) (dfiler/Kravspecifikation.aux)
-(dfiler/Systemarkitektur.aux) (dfiler/Produktet.aux) (dfiler/Accepttest.aux
+(dfiler/Systemarkitektur.aux
+
+LaTeX Warning: Label `version_Systemark' multiply defined.
+
+
+LaTeX Warning: Label `version_Systemark@cref' multiply defined.
+
+) (dfiler/Produktet.aux) (dfiler/Accepttest.aux
 
 LaTeX Warning: Label `version_Systemark' multiply defined.
 
@@ -2216,67 +2223,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
-File: ak.PNG Graphic file (type png)
-<use ak.PNG>
-Package pdftex.def Info: ak.PNG used on input line 27.
-(pdftex.def)             Requested size: 504.7561pt x 368.57358pt.
+<so.PNG, id=283, 666.99188pt x 103.13531pt>
+File: so.PNG Graphic file (type png)
+ <use so.PNG>
+Package pdftex.def Info: so.PNG used on input line 27.
+(pdftex.def)             Requested size: 433.53958pt x 67.03714pt.
 
-Overfull \hbox (78.7561pt too wide) in paragraph at lines 27--28
+Overfull \hbox (7.53958pt too wide) in paragraph at lines 27--28
  [][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 [13
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 31--35
+ <./so.PNG>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 35.
+ <bdd.PNG, id=291, 626.34pt x 250.68657pt>
+File: bdd.PNG Graphic file (type png)
+ <use bdd.PNG>
+Package pdftex.def Info: bdd.PNG used on input line 40.
+(pdftex.def)             Requested size: 501.07266pt x 200.54951pt.
 
+Overfull \hbox (75.07266pt too wide) in paragraph at lines 40--41
+ [][] 
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 52.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 52.
+<ibd.PNG, id=292, 670.75594pt x 274.02374pt>
+File: ibd.PNG Graphic file (type png)
+ <use ibd.PNG>
+Package pdftex.def Info: ibd.PNG used on input line 56.
+(pdftex.def)             Requested size: 435.98619pt x 178.11331pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--35
-
+Overfull \hbox (9.98619pt too wide) in paragraph at lines 56--57
+ [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--35
-
- []
-
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 59.
+[14 <./bdd.PNG>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 42.
-[14]
+(babel)             in language  on input line 65.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 43.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 46.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 47.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 66.
 )
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 17.
@@ -2286,7 +2305,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 17.
- [15] (dfiler/Produktet.tex
+ [15 <./ibd.PNG>] (dfiler/Produktet.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2313,7 +2332,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 18.
- [17] (dfiler/Accepttest.tex
+ [17]
+(dfiler/Accepttest.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2339,8 +2359,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 15.
-
-[19]
+ [19]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining danish shorthand "~
@@ -2762,7 +2781,7 @@ as been already used, duplicate ignored
                    \relax 
 l.45 ...{longtabu} to \linewidth{@{}l l l X[j]@{}}
                                                   
-<figurer/Tidsplan.pdf, id=402, 691.06404pt x 444.62651pt>
+<figurer/Tidsplan.pdf, id=410, 691.06404pt x 444.62651pt>
 File: figurer/Tidsplan.pdf Graphic file (type pdf)
 
 <use figurer/Tidsplan.pdf>
@@ -2892,7 +2911,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `Dokumentation.out' has not changed.
-(rerunfilecheck)             Checksum: 2BDD437183EDF0A2DE3176B0B4478240;1863.
+(rerunfilecheck)             Checksum: 941FA749E8152BB150F8CCCED2C6AF38;1863.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2900,10 +2919,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 27450 strings out of 493698
- 485967 string characters out of 3141958
+ 27468 strings out of 493698
+ 486166 string characters out of 3141958
  842085 words of memory out of 3000000
- 30216 multiletter control sequences out of 15000+200000
+ 30229 multiletter control sequences out of 15000+200000
  26746 words of font info for 71 fonts, out of 3000000 for 9000
  1027 hyphenation exceptions out of 8191
  53i,12n,90p,10465b,1030s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2927,9 +2946,9 @@ lic/cm-super/sfti1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 -super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/
 ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pf
 b>
-Output written on Dokumentation.pdf (50 pages, 587472 bytes).
+Output written on Dokumentation.pdf (50 pages, 660321 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 

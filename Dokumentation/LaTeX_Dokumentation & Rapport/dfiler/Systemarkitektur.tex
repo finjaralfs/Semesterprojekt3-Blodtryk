@@ -24,23 +24,42 @@ Til at skabe overblik over blodtryksmålesystemets hardware er der uarbejdet en 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.90]{ak.PNG}
+\includegraphics[scale=0.65]{so.PNG}
 \caption{Blodtryksmålersystemet}
 \end{figure}
 
 Denne illustrerer, at der ind i transduceren kommer tryk og ud kommer et støjfyldt signal. Dette signal bliver ved forstærkeren forstærket og heraf et forstærket støjfyldt signal. Igennem filtret bliver støjen filtreret fra. Det filtrerede signal føres igennem DAQ’en, som omdanner det til et digitalt signal, som anvendes i computerens softwareprogram.\\
 \newline
-Til at præcisere komponenterne i blodtryksmålesystemets hardware, er der valgt at lave strukturdiagrammer. Her er der anvendt blokdefinitionsdiagram (BDD) og et internt blokdiagram (IBD).\\
-\newline 
+Til at præcisere komponenterne i blodtryksmålesystemets hardware, er der valgt at lave strukturdiagrammer. Her er der anvendt blokdefinitionsdiagram (BDD) og et internt blokdiagram (IBD).
 
 \subsection{BDD}
 BDD'et er anvendt til, at dokumentere nedbrydningen af systemet og forholdene mellem blokkene. Det interne blokdiagram er anvendt til, at dokumentere den interne struktur i blokkene. 
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.80]{bdd.PNG}
+\caption{BDD}
+\end{figure}
+
 \textbf{Blokbeskrivelser:}
 \begin{itemize}
-\item 
+\item Transducer: En tryktransducer, som konverterer et tryk til et analogt elektrisk signal
+\item Forstærker: Signalet forstærkes således at hele forsyningsspændingen udnyttes
+\item Filter: Et 2. ordens lavpasfilter fjerner højfrekvent støj
+\item DAQ: A/D konverter omsætter den analoge indgangsspænding til et digitalt signal
+\item Computer: Enheden som indeholder softwareprogrammet til visning af blodtryk
 \end{itemize}
 \subsection{IBD}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65]{ibd.PNG}
+\caption{IBD}
+\end{figure}
+
+
+
+
 \subsubsection{Signalbeskrivelse}
 
 \section{Software}
