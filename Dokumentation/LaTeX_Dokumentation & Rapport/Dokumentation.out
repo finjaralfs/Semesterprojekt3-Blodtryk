@@ -13,17 +13,18 @@
 \BOOKMARK [2][-]{subsection.2.1.1}{BDD}{section.2.1}% 13
 \BOOKMARK [2][-]{subsection.2.1.2}{IBD}{section.2.1}% 14
 \BOOKMARK [1][-]{section.2.2}{Software}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.1}{Applikationsmodel}{section.2.2}% 16
-\BOOKMARK [0][-]{chapter.3}{Produktet}{}% 17
-\BOOKMARK [0][-]{chapter.4}{Accepttest}{}% 18
-\BOOKMARK [1][-]{section.4.1}{Funktionelle krav}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.1.1}{Accepttest af use cases}{section.4.1}% 20
-\BOOKMARK [1][-]{section.4.2}{Ikke-funktionelle krav}{chapter.4}% 21
-\BOOKMARK [0][-]{chapter*.12}{Bilag}{}% 22
-\BOOKMARK [1][-]{section*.13}{Bilag 1: Samarbejdsaftale}{chapter*.12}% 23
-\BOOKMARK [1][-]{section*.14}{Bilag 2: Tidsplan}{chapter*.12}% 24
-\BOOKMARK [1][-]{section*.16}{Bilag 3: Hardware versioner}{chapter*.12}% 25
-\BOOKMARK [1][-]{section*.17}{Bilag 4: Software versioner}{chapter*.12}% 26
-\BOOKMARK [1][-]{section*.18}{Bilag 5: Logbog}{chapter*.12}% 27
-\BOOKMARK [1][-]{section*.19}{Bilag 6: M\370dereferater}{chapter*.12}% 28
-\BOOKMARK [1][-]{section*.20}{Bilag 7: Datasheet NI-6009 DAQ}{chapter*.12}% 29
+\BOOKMARK [2][-]{subsection.2.2.1}{Dom\346nemodel}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.2}{Klassediagram}{section.2.2}% 17
+\BOOKMARK [0][-]{chapter.3}{Produktet}{}% 18
+\BOOKMARK [0][-]{chapter.4}{Accepttest}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Funktionelle krav}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{Accepttest af use cases}{section.4.1}% 21
+\BOOKMARK [1][-]{section.4.2}{Ikke-funktionelle krav}{chapter.4}% 22
+\BOOKMARK [0][-]{chapter*.19}{Bilag}{}% 23
+\BOOKMARK [1][-]{section*.20}{Bilag 1: Samarbejdsaftale}{chapter*.19}% 24
+\BOOKMARK [1][-]{section*.21}{Bilag 2: Tidsplan}{chapter*.19}% 25
+\BOOKMARK [1][-]{section*.23}{Bilag 3: Hardware versioner}{chapter*.19}% 26
+\BOOKMARK [1][-]{section*.24}{Bilag 4: Software versioner}{chapter*.19}% 27
+\BOOKMARK [1][-]{section*.25}{Bilag 5: Logbog}{chapter*.19}% 28
+\BOOKMARK [1][-]{section*.26}{Bilag 6: M\370dereferater}{chapter*.19}% 29
+\BOOKMARK [1][-]{section*.27}{Bilag 7: Datasheet NI-6009 DAQ}{chapter*.19}% 30
