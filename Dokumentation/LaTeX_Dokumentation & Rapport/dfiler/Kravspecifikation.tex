@@ -103,6 +103,7 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
     \toprule
     Undtagelser &    3a. & [\textit{Fejl i indtastede ID eller password}] \\[-1ex]
     & 1. &  Systemet gør opmærksom på fejl, og lader bruger indtaste password og ID igen\\[-1ex]
+    &	2.	&	Sundhedsfagligt personale trykker på "OK"\- -knappen\\[-1ex]
                 \toprule
    
 \caption{Fully dressed Use case 1}
@@ -114,41 +115,35 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
 
 \begin{longtabu} to \linewidth{@{}l r X[j]@{}}
 \toprule
-    {\large \textbf{Use case 2 - Mål blodtryk}} && \\
+    {\large \textbf{Use case 2 - Hent patientdata}} && \\
     \toprule
-    Navn &&    Mål blodtryk\\
+    Navn &&    Hent patientdata\\
     Scenarie &&    Hovedscenarie\\
     Use case ID &&    UC2\\
     Primær aktør &&    Sundhedsfagligt personale\\
-    Sekundær aktør(er) &&    Transducer, database\\
+    Sekundær aktør(er) &&    Database\\
     Initialisere &&    Efter UC1 er kørt succesfuldt\\
-    Mål &&    At overvåge patientens blodtryk og vise dette kontinuert på en graf\\
-    Forudsætninger &&    UC1 er kørt succesfuldt. Sundhedsfagligt personale har placeret intraarteriel nål i patienten\\
-    Resultat &&    Sundhedsfagligt personale kan aflæse blodtryk i form af en kontinuerlig graf på GUI.\\
+    Mål &&    At indhente patientens personlige oplysninger og vise patientens CPR-nummer på GUI'en\\
+    Forudsætninger &&    UC1 er kørt succesfuldt\\
+    Resultat &&    Patientens personlige oplysninger er hentet og CPR-nummeret vises i GUI'en\\
     \toprule
     Hovedforløb &    1. &    Sundhedsfagligt personale indtaster patientens CPR-nummer\\[-1ex]
     			&    2. &    Sundhedsfagligt personale trykker på knappen \textit{"Hent patientoplysninger"}\newline
     			[2a. \textit{Det indtastede CPR-nummer er ikke gyldigt}]\\[-1ex]
-    			&	3.	&	Automatisk nulpunktsjustering foretages\newline
-    			[3a. \textit{Ny nulpunktsjustering}]\\[-1ex]
-                &    4. &    Systemet viser målingen kontinuert i en graf på GUI\newline
-                [4a. \textit{Blodtryk er for højt eller lavt}]\\
-%                &    4. &    Sundhedsfagligt personale har mulighed for, på GUI'en, at vælge mellem funktionerne:\\[-1ex]
- %               &	a. &	"\textit{Med digitalt filter}"\\[-1ex]
- %               &	b.	&	"\textit{Uden digitalt filter}"\\[-1ex]
+    			&	3.	&	Patientens CPR-nummer vises i GUI'en\\[-1ex]
+%    			&	3.	&	Automatisk nulpunktsjustering foretages\newline
+%    			[3a. \textit{Ny nulpunktsjustering}]\\[-1ex]
+%                &    3. &    Systemet viser målingen kontinuert i en graf på GUI\newline
+%                [4a. \textit{Blodtryk er for højt eller lavt}]\\
                              %[3a. \textit{Blodtryk er for højt/lavt og SP alarmeres.}]\newline
                              %[3a. \textit{Blodtryk er for højt/lavt og SP alarmeres}]\\[-1ex]
                 %&    4. &    ...\\[-1ex]
     \toprule
     Undtagelser &    2a. &    [\textit{Det indtastede CPR nummer er ikke gyldigt}]\\[-1ex]
     &	1. &	Systemet gør bruger opmærksom på fejl, og beder om ny indtastning af CPR nummer\\[-1ex]
-    &	3a.	&	[\textit{Ny nulpunktsjustering}]\\[-1ex]
-    &	1.	&	Sundhedsfagligt personale trykker på "\textit{Ny nulpunktsjustering}"\- -knappen\\[-1ex]
-    &	2.	&	Der foretages ny nulpunktsjustering\\[-1ex]
-    &	4a.	&	[\textit{Blodtryk er for højt eller lavt}]\\[-1ex]
-    &	1.	&	Systemet alarmerer sundhedsfagligt personale\\[-1ex]
-    &	2.	&	Sundhedsfagligt personale har nu mulighed for at slå systemets alarm på "\textit{Lydløs}"\- -tilstand i en periode på tre minutter\\[-1ex]
-    &	3.	&	Alarmen stopper ved normalisering af blodtrykket\\
+%    &	3a.	&	[\textit{Ny nulpunktsjustering}]\\[-1ex]
+%    &	1.	&	Sundhedsfagligt personale trykker på "\textit{Ny nulpunktsjustering}"\- -knappen\\[-1ex]
+%    &	2.	&	Der foretages ny nulpunktsjustering\\[-1ex]
                 \toprule
        
   
@@ -157,15 +152,86 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
 \end{longtabu}
 \newpage
 
-%% --------------------------Use Case 3---------------------
+%-------------------Use case 3------------------------
 
 \begin{longtabu} to \linewidth{@{}l r X[j]@{}}
 \toprule
-    {\large \textbf{Use Case 3 - Filtrer signal}} && \\
+    {\large \textbf{Use Case 3 - Nulpunktsjuster}} && \\
+    \toprule
+    Navn &&    Nulpunktsjuster\\
+    Scenarie &&    Hovedscenarie\\
+    Use case ID &&    UC3\\
+    Primær aktør &&    Tekniker\\
+    Sekundær aktør(er) &&   Transducer \\
+    Initialisere &&    Systemet\\
+    Mål &&    At nulpunktsjustere systemet i forhold til det aktuelle tryk samt at blodtryksmålingen starter og vises grafisk\\
+    Forudsætninger &&    UC1 og UC2 er kørt succesfuldt\\
+    Resultat &&    Systemet er nulpunktsjusteret i forhold til det aktuelle tryk og blodtryksmålingen starter og vises grafisk\\
+    \toprule
+    Hovedforløb &    1. &    Sundhedsfagligt personale trykker på "Nulpunktsjustering"\- -knappen\\[-1ex]
+                &    2. &   Nulpunktsjustering foretages\\[-1ex]
+                &    3. &    Blodtrykket vises i GUI'en\newline
+                             [3a. \textit{Blodtryk for højt eller lavt}]\\[-1ex]
+                             %[3a. \textit{Der er ingen afvigelser}]\\[-1ex]
+                %&    4. &    ....\\[-1ex]
+                %&    4. &   Tekniker justerer afvigelsen i systemets software\\[-1ex]
+                             %[5a. \textit{...}]\\
+               %&	5.	&	UC5 startes forfra\\[-1ex]
+    \toprule
+    Undtagelser &    3a. &    [\textit{Blodtryk for højt eller lavt}]\\[-1ex]
+    %&	1.	&	..\\[-1ex]
+    &	1.	&	UC4 startes\\
+                %&    3b. &    ....\\[-1ex]
+                %&    5a. &    ....\\
+                \toprule
+\caption{Fully dressed Use case 3}
+\label{UC3}
+\end{longtabu}
+\newpage
+
+%-------------------Use case 4------------------------
+
+\begin{longtabu} to \linewidth{@{}l r X[j]@{}}
+\toprule
+    {\large \textbf{Use Case 4 - Alarmer}} && \\
+    \toprule
+    Navn &&    Alarmer\\
+    Scenarie &&    Hovedscenarie\\
+    Use case ID &&    UC4\\
+    Primær aktør &&    Sundhedsfagligt personale\\
+    Sekundær aktør(er) &&    \\
+    Initialisere &&    UC3 undtagelse 3a\\
+    Mål &&    At alarmere sundhedsfagligt personale om for højt eller lavt blodtryk\\
+    Forudsætninger &&    UC1, UC2 og UC3 er kørt succesfuldt\\
+    Resultat &&    Sundhedsfagligt personale er alarmeret om for højt eller lavt blodtryk\\
+    \toprule
+    Hovedforløb &    1. &    Systemet alarmerer sundhedsfagligt personale med lyd\\[-1ex]
+                &	2.	&	Sundhedsfagligt personale har nu mulighed for at slå systemets alarm på "\textit{Lydløs}"\- -tilstand i en periode på tre minutter\\[-1ex]
+                    &	3.	&	Alarmen stopper ved normalisering af blodtrykket\\[-1ex]
+                             %[3a. \textit{...}]\newline
+
+%    \toprule
+%    Undtagelser &    3a. &    [\textit{Der er ingen afvigelse}]\\[-1ex]
+    %&	1.	&	..\\[-1ex]
+%    &	1.	&	UC5 afsluttes\\
+                %&    3b. &    ....\\[-1ex]
+                %&    5a. &    ....\\
+                \toprule
+\caption{Fully dressed Use case 3}
+\label{UC3}
+\end{longtabu}
+\newpage
+
+
+%% --------------------------Use Case 5---------------------
+
+\begin{longtabu} to \linewidth{@{}l r X[j]@{}}
+\toprule
+    {\large \textbf{Use Case 4 - Filtrer signal}} && \\
     \toprule
     Navn &&    Filtrer signal\\
     Scenarie &&    Hovedscenarie\\
-    Use case ID &&    UC3\\
+    Use case ID &&    UC5\\
     Primær aktør &&    Sundhedsfagligt personale\\
     Sekundær aktør(er) &&    \\
     Initialisere &&    Sundhedsfagligt personale\\
@@ -190,25 +256,25 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
                 %&    3b. &    ....\\[-1ex]
                 %&    5a. &    ....\\
 %                \toprule
-\caption{Fully dressed Use case 3}
-\label{UC3}
+\caption{Fully dressed Use case 5}
+\label{UC5}
 \end{longtabu}
 \newpage
 
-%% --------------------------Use Case 4---------------------
+%% --------------------------Use Case 6---------------------
 
 \begin{longtabu} to \linewidth{@{}l r X[j]@{}}
 \toprule
-    {\large \textbf{Use Case 4 - Gem data}} && \\
+    {\large \textbf{Use Case 6 - Gem data}} && \\
     \toprule
     Navn &&    Gem data\\
     Scenarie &&    Hovedscenarie\\
-    Use case ID &&    UC4\\
+    Use case ID &&    UC6\\
     Primær aktør &&    Sundhedsfagligt personale\\
     Sekundær aktør(er) &&    Database, tekniker\\
     Initialisere &&    Sundhedsfagligt personale\\
     Mål &&    At gemme måledataene i en database\\
-    Forudsætninger &&    UC2 er gennemført\\
+    Forudsætninger &&    UC2 og UC3 er gennemført\\
     Resultat &&    Måledata er gemt korrekt i databasen\\
     \toprule
     Hovedforløb &    1. &    Sundhedsfagligt personale trykker på "\textit{Gem data}"\- -knappen\\[-1ex]
@@ -228,20 +294,20 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
                 %&    3b. &    ....\\[-1ex]
                 %&    5a. &    ....\\
                 \toprule
-\caption{Fully dressed Use case 4}
-\label{UC4}
+\caption{Fully dressed Use case 6}
+\label{UC6}
 \end{longtabu}
 \newpage
 
-%-------------------Use case 5------------------------
+%-------------------Use case 7------------------------
 
 \begin{longtabu} to \linewidth{@{}l r X[j]@{}}
 \toprule
-    {\large \textbf{Use Case 5 - Kalibrer system}} && \\
+    {\large \textbf{Use Case 7 - Kalibrer system}} && \\
     \toprule
     Navn &&    Kalibrer system\\
     Scenarie &&    Hovedscenarie\\
-    Use case ID &&    UC5\\
+    Use case ID &&    UC7\\
     Primær aktør &&    Tekniker\\
     Sekundær aktør(er) &&    \\
     Initialisere &&    Systemet\\
@@ -265,8 +331,8 @@ Ud fra use case-diagrammet, er der udarbejdet en fully-dressed use case til hver
                 %&    3b. &    ....\\[-1ex]
                 %&    5a. &    ....\\
                 \toprule
-\caption{Fully dressed Use case 5}
-\label{UC5}
+\caption{Fully dressed Use case 7}
+\label{UC7}
 \end{longtabu}
 \newpage
 
@@ -301,11 +367,12 @@ MoSCoW er angivet i en parantes med enten M, S, C eller W.
 \textbf{Usability}
 \item (M) Programmet skal indeholde en "\textit{Log ind}"\- -knap
 \item (M) Programmet skal indeholde en "\textit{Hent patientoplysninger}"\- -knap
-\item (M) Programmet skal indeholde en "\textit{Ny nulpunktsjustering}"\- -knap
+\item (M) Programmet skal indeholde en "\textit{Nulpunktsjustering}"\- -knap
 \item (M) Programmet skal indeholde en "\textit{Lydløs}"\- -knap
 \item (M) Programmet skal indeholde en "\textit{Gem data}"\- -knap
 \item (M) Programmet skal indeholde en "\textit{Til}"\- -radiobutton
 \item (M) Programmet skal indeholde en "\textit{Fra}"\- -radiobutton
+\item (M) Programmet skal indeholde en "\textit{OK}"\- -knap i pop-up vinduet
 
 %\item (S) Det bør være muligt at starte/stoppe uden at skulle genstarte programmet
 %\item (M) Blodtrykket skal vises kontinuert i en graf på en GUI, hvor både diastolisk og systolisk tryk indgår
