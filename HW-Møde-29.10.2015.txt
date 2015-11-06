@@ -1,7 +1,0 @@
-Møde 29/10-2015-Hardware
-Tilstede: Helle, Rune, Finja
-
--Beregning af forstærkning samt komponentværdier af modstandene. 
--Opbygningen af forstærker
--Benytter datablad for vores operationsforstærker INA114.
--Der kommer et ukendt offset? 
