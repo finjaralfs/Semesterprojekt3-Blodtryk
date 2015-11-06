@@ -15,20 +15,21 @@
 \BOOKMARK [1][-]{section.2.2}{Software}{chapter.2}% 15
 \BOOKMARK [2][-]{subsection.2.2.1}{Dom\346nemodel}{section.2.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.2}{Klassediagram}{section.2.2}% 17
-\BOOKMARK [0][-]{chapter.3}{Design}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Designproces \(GUI\)}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Hardware}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.3}{Software}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.4}{Produktet}{}% 22
-\BOOKMARK [0][-]{chapter.5}{Accepttest}{}% 23
-\BOOKMARK [1][-]{section.5.1}{Funktionelle krav}{chapter.5}% 24
-\BOOKMARK [2][-]{subsection.5.1.1}{Accepttest af use cases}{section.5.1}% 25
-\BOOKMARK [1][-]{section.5.2}{Ikke-funktionelle krav}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter*.26}{Bilag}{}% 27
-\BOOKMARK [1][-]{section*.27}{Bilag 1: Samarbejdsaftale}{chapter*.26}% 28
-\BOOKMARK [1][-]{section*.28}{Bilag 2: Tidsplan}{chapter*.26}% 29
-\BOOKMARK [1][-]{section*.30}{Bilag 3: Hardware versioner}{chapter*.26}% 30
-\BOOKMARK [1][-]{section*.31}{Bilag 4: Software versioner}{chapter*.26}% 31
-\BOOKMARK [1][-]{section*.32}{Bilag 5: Logbog}{chapter*.26}% 32
-\BOOKMARK [1][-]{section*.33}{Bilag 6: M\370dereferater}{chapter*.26}% 33
-\BOOKMARK [1][-]{section*.34}{Bilag 7: Datasheet NI-6009 DAQ}{chapter*.26}% 34
+\BOOKMARK [2][-]{subsection.2.2.3}{Sekvensdiagram}{section.2.2}% 18
+\BOOKMARK [0][-]{chapter.3}{Design}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Designproces \(GUI\)}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.2}{Hardware}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.3}{Software}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Produktet}{}% 23
+\BOOKMARK [0][-]{chapter.5}{Accepttest}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Funktionelle krav}{chapter.5}% 25
+\BOOKMARK [2][-]{subsection.5.1.1}{Accepttest af use cases}{section.5.1}% 26
+\BOOKMARK [1][-]{section.5.2}{Ikke-funktionelle krav}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter*.40}{Bilag}{}% 28
+\BOOKMARK [1][-]{section*.41}{Bilag 1: Samarbejdsaftale}{chapter*.40}% 29
+\BOOKMARK [1][-]{section*.42}{Bilag 2: Tidsplan}{chapter*.40}% 30
+\BOOKMARK [1][-]{section*.44}{Bilag 3: Hardware versioner}{chapter*.40}% 31
+\BOOKMARK [1][-]{section*.45}{Bilag 4: Software versioner}{chapter*.40}% 32
+\BOOKMARK [1][-]{section*.46}{Bilag 5: Logbog}{chapter*.40}% 33
+\BOOKMARK [1][-]{section*.47}{Bilag 6: M\370dereferater}{chapter*.40}% 34
+\BOOKMARK [1][-]{section*.48}{Bilag 7: Datasheet NI-6009 DAQ}{chapter*.40}% 35

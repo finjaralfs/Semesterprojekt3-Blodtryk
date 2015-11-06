@@ -25,21 +25,29 @@
 \contentsline {subsubsection}{Klassediagram UC5}{20}{section*.17}
 \contentsline {subsubsection}{Klassediagram UC6}{21}{section*.19}
 \contentsline {subsubsection}{Klassediagram UC7}{21}{section*.21}
-\contentsline {chapter}{\chapternumberline {3}Design}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Designproces (GUI)}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}Hardware}{23}{section.3.2}
-\contentsline {subsubsection}{Lavpasfilter}{23}{section*.23}
-\contentsline {section}{\numberline {3.3}Software}{24}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Produktet}{25}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Accepttest}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Funktionelle krav}{28}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Accepttest af use cases}{28}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Ikke-funktionelle krav}{38}{section.5.2}
-\contentsline {chapter}{Bilag}{41}{chapter*.26}
-\contentsline {section}{Bilag 1: Samarbejdsaftale}{42}{section*.27}
-\contentsline {section}{Bilag 2: Tidsplan}{44}{section*.28}
-\contentsline {section}{Bilag 3: Hardware versioner}{46}{section*.30}
-\contentsline {section}{Bilag 4: Software versioner}{47}{section*.31}
-\contentsline {section}{Bilag 5: Logbog}{48}{section*.32}
-\contentsline {section}{Bilag 6: M\IeC {\o }dereferater}{49}{section*.33}
-\contentsline {section}{Bilag 7: Datasheet NI-6009 DAQ}{50}{section*.34}
+\contentsline {subsection}{\numberline {2.2.3}Sekvensdiagram}{22}{subsection.2.2.3}
+\contentsline {subsubsection}{Sekvensdiagram UC1}{22}{section*.23}
+\contentsline {subsubsection}{Sekvensdiagram UC2}{22}{section*.25}
+\contentsline {subsubsection}{Sekvensdiagram UC3}{23}{section*.27}
+\contentsline {subsubsection}{Sekvensdiagram UC4}{23}{section*.29}
+\contentsline {subsubsection}{Sekvensdiagram UC5}{23}{section*.31}
+\contentsline {subsubsection}{Sekvensdiagram UC6}{24}{section*.33}
+\contentsline {subsubsection}{Sekvensdiagram UC7}{24}{section*.35}
+\contentsline {chapter}{\chapternumberline {3}Design}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Designproces (GUI)}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Hardware}{25}{section.3.2}
+\contentsline {subsubsection}{Lavpasfilter}{25}{section*.37}
+\contentsline {section}{\numberline {3.3}Software}{26}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Produktet}{27}{chapter.4}
+\contentsline {chapter}{\chapternumberline {5}Accepttest}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Funktionelle krav}{30}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Accepttest af use cases}{30}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Ikke-funktionelle krav}{40}{section.5.2}
+\contentsline {chapter}{Bilag}{43}{chapter*.40}
+\contentsline {section}{Bilag 1: Samarbejdsaftale}{44}{section*.41}
+\contentsline {section}{Bilag 2: Tidsplan}{46}{section*.42}
+\contentsline {section}{Bilag 3: Hardware versioner}{48}{section*.44}
+\contentsline {section}{Bilag 4: Software versioner}{49}{section*.45}
+\contentsline {section}{Bilag 5: Logbog}{50}{section*.46}
+\contentsline {section}{Bilag 6: M\IeC {\o }dereferater}{51}{section*.47}
+\contentsline {section}{Bilag 7: Datasheet NI-6009 DAQ}{52}{section*.48}
