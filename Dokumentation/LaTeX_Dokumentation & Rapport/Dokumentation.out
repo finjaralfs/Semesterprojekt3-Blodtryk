@@ -15,16 +15,20 @@
 \BOOKMARK [1][-]{section.2.2}{Software}{chapter.2}% 15
 \BOOKMARK [2][-]{subsection.2.2.1}{Dom\346nemodel}{section.2.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.2}{Klassediagram}{section.2.2}% 17
-\BOOKMARK [0][-]{chapter.3}{Produktet}{}% 18
-\BOOKMARK [0][-]{chapter.4}{Accepttest}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Funktionelle krav}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.1.1}{Accepttest af use cases}{section.4.1}% 21
-\BOOKMARK [1][-]{section.4.2}{Ikke-funktionelle krav}{chapter.4}% 22
-\BOOKMARK [0][-]{chapter*.21}{Bilag}{}% 23
-\BOOKMARK [1][-]{section*.22}{Bilag 1: Samarbejdsaftale}{chapter*.21}% 24
-\BOOKMARK [1][-]{section*.23}{Bilag 2: Tidsplan}{chapter*.21}% 25
-\BOOKMARK [1][-]{section*.25}{Bilag 3: Hardware versioner}{chapter*.21}% 26
-\BOOKMARK [1][-]{section*.26}{Bilag 4: Software versioner}{chapter*.21}% 27
-\BOOKMARK [1][-]{section*.27}{Bilag 5: Logbog}{chapter*.21}% 28
-\BOOKMARK [1][-]{section*.28}{Bilag 6: M\370dereferater}{chapter*.21}% 29
-\BOOKMARK [1][-]{section*.29}{Bilag 7: Datasheet NI-6009 DAQ}{chapter*.21}% 30
+\BOOKMARK [0][-]{chapter.3}{Design}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Designproces \(GUI\)}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{Hardware}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Software}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Produktet}{}% 22
+\BOOKMARK [0][-]{chapter.5}{Accepttest}{}% 23
+\BOOKMARK [1][-]{section.5.1}{Funktionelle krav}{chapter.5}% 24
+\BOOKMARK [2][-]{subsection.5.1.1}{Accepttest af use cases}{section.5.1}% 25
+\BOOKMARK [1][-]{section.5.2}{Ikke-funktionelle krav}{chapter.5}% 26
+\BOOKMARK [0][-]{chapter*.26}{Bilag}{}% 27
+\BOOKMARK [1][-]{section*.27}{Bilag 1: Samarbejdsaftale}{chapter*.26}% 28
+\BOOKMARK [1][-]{section*.28}{Bilag 2: Tidsplan}{chapter*.26}% 29
+\BOOKMARK [1][-]{section*.30}{Bilag 3: Hardware versioner}{chapter*.26}% 30
+\BOOKMARK [1][-]{section*.31}{Bilag 4: Software versioner}{chapter*.26}% 31
+\BOOKMARK [1][-]{section*.32}{Bilag 5: Logbog}{chapter*.26}% 32
+\BOOKMARK [1][-]{section*.33}{Bilag 6: M\370dereferater}{chapter*.26}% 33
+\BOOKMARK [1][-]{section*.34}{Bilag 7: Datasheet NI-6009 DAQ}{chapter*.26}% 34

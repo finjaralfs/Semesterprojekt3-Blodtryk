@@ -13,27 +13,33 @@
 \contentsline {chapter}{\chapternumberline {2}Systemarkitektur}{15}{chapter.2}
 \contentsline {section}{\numberline {2.1}Hardware}{15}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}BDD}{16}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}IBD}{16}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}IBD}{17}{subsection.2.1.2}
 \contentsline {subsubsection}{Signalbeskrivelse}{17}{section*.7}
-\contentsline {section}{\numberline {2.2}Software}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Dom\IeC {\ae }nemodel}{17}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Klassediagram}{18}{subsection.2.2.2}
-\contentsline {subsubsection}{Klassediagram UC1}{18}{section*.9}
-\contentsline {subsubsection}{Applikationsmodel UC2}{19}{section*.11}
-\contentsline {subsubsection}{Applikationsmodel UC3}{19}{section*.13}
-\contentsline {subsubsection}{Applikationsmodel UC4}{19}{section*.15}
-\contentsline {subsubsection}{Applikationsmodel UC5}{20}{section*.17}
-\contentsline {subsubsection}{Applikationsmodel UC6}{20}{section*.19}
-\contentsline {chapter}{\chapternumberline {3}Produktet}{21}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Accepttest}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Funktionelle krav}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Accepttest af use cases}{24}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Ikke-funktionelle krav}{34}{section.4.2}
-\contentsline {chapter}{Bilag}{37}{chapter*.21}
-\contentsline {section}{Bilag 1: Samarbejdsaftale}{38}{section*.22}
-\contentsline {section}{Bilag 2: Tidsplan}{40}{section*.23}
-\contentsline {section}{Bilag 3: Hardware versioner}{42}{section*.25}
-\contentsline {section}{Bilag 4: Software versioner}{43}{section*.26}
-\contentsline {section}{Bilag 5: Logbog}{44}{section*.27}
-\contentsline {section}{Bilag 6: M\IeC {\o }dereferater}{45}{section*.28}
-\contentsline {section}{Bilag 7: Datasheet NI-6009 DAQ}{46}{section*.29}
+\contentsline {section}{\numberline {2.2}Software}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Dom\IeC {\ae }nemodel}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Klassediagram}{19}{subsection.2.2.2}
+\contentsline {subsubsection}{Klassediagram UC1}{19}{section*.9}
+\contentsline {subsubsection}{Klassediagram UC2}{19}{section*.11}
+\contentsline {subsubsection}{Klassediagram UC3}{20}{section*.13}
+\contentsline {subsubsection}{Klassediagram UC4}{20}{section*.15}
+\contentsline {subsubsection}{Klassediagram UC5}{20}{section*.17}
+\contentsline {subsubsection}{Klassediagram UC6}{21}{section*.19}
+\contentsline {subsubsection}{Klassediagram UC7}{21}{section*.21}
+\contentsline {chapter}{\chapternumberline {3}Design}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Designproces (GUI)}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Hardware}{23}{section.3.2}
+\contentsline {subsubsection}{Lavpasfilter}{23}{section*.23}
+\contentsline {section}{\numberline {3.3}Software}{24}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Produktet}{25}{chapter.4}
+\contentsline {chapter}{\chapternumberline {5}Accepttest}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Funktionelle krav}{28}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Accepttest af use cases}{28}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Ikke-funktionelle krav}{38}{section.5.2}
+\contentsline {chapter}{Bilag}{41}{chapter*.26}
+\contentsline {section}{Bilag 1: Samarbejdsaftale}{42}{section*.27}
+\contentsline {section}{Bilag 2: Tidsplan}{44}{section*.28}
+\contentsline {section}{Bilag 3: Hardware versioner}{46}{section*.30}
+\contentsline {section}{Bilag 4: Software versioner}{47}{section*.31}
+\contentsline {section}{Bilag 5: Logbog}{48}{section*.32}
+\contentsline {section}{Bilag 6: M\IeC {\o }dereferater}{49}{section*.33}
+\contentsline {section}{Bilag 7: Datasheet NI-6009 DAQ}{50}{section*.34}
