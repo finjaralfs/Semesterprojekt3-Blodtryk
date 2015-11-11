@@ -168,8 +168,12 @@ I klassediagrammet for UC6 ses det, at tekniker og brugergrænsefladen er bounda
 
 \subsection{Sekvensdiagram}
 
+Controlleren i sekvensdiagrammerne er logiklaget, hvor domainklasserne er klasser tilkoblet logiklaget.
+
 %------------------UC1------------------------
 \subsubsection{Sekvensdiagram UC1}
+Sekvensdiagrammet for UC1 viser, at sundhedsfagligt personale indtaster Log ind data i brugergrænsefladen. Disse behandles - vha. metoden TjekLogInd() - i controlleren Log Ind. Dataen hentes i databasen - vha. getLogIndData() - Log Ind data og sendes tilbage til controlleren og tjekkes heri. Er oplysningerne korrekte, vises Diagnostik-GUI'en. \\
+Der er en alternativ rute, hvor de indtastede oplysninger er forkerte. Dette vises i LogInd-GUI'en, og bruger indtaster oplysningerne forfra.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.70]{sd1.PNG}
@@ -178,6 +182,8 @@ I klassediagrammet for UC6 ses det, at tekniker og brugergrænsefladen er bounda
 
 %------------------UC2------------------------
 \subsubsection{Sekvensdiagram UC2}
+I diagrammet for UC2 ses det, at sundhedsfagligt personale indtaster patientens CPR i brugergrænsefladen. Patienten tjekkes i controlleren vha. TjekCPR(). Data hentes fra Patient data - vha. getPatientdata() - og sendes tilbage til controlleren, som tjekker disse. \\
+Den alternative rute består i, at det indtastede CPR er forkert. I det tilfælde, sendes en besked til brugeren herom, og der kan ske en ny indtastning.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.70]{sd2.PNG}
@@ -186,6 +192,7 @@ I klassediagrammet for UC6 ses det, at tekniker og brugergrænsefladen er bounda
 
 %------------------UC3------------------------
 \subsubsection{Sekvensdiagram UC3}
+Diagrammet for UC3 viser at sundhedsfagligt personale, igennem brugergrænsefladen, beder om at få systemet nulpunktsjusteret. Nulpunktjusteringen sendes som besked fra brugergrænsefladen til controlleren via metoden NulpunktsJuster(). Denne metode sendes videre til Nulpunktsjustering-klassen, som sender en besked, igennem controlleren, til brugergrænsefladen om, at blodtryksmålingen skal vises i brugergrænsefladen.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.70]{sd3.PNG}
@@ -194,6 +201,7 @@ I klassediagrammet for UC6 ses det, at tekniker og brugergrænsefladen er bounda
 
 %------------------UC4------------------------
 \subsubsection{Sekvensdiagram UC4}
+I sekvensdiagrammet over UC4 ses det, at det er controlleren der sætter alarmen igang så snart blodtryksværdierne er udenfor de angivne grænseværdier. 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.70]{sd4.PNG}
@@ -236,7 +244,37 @@ I klassediagrammet for UC6 ses det, at tekniker og brugergrænsefladen er bounda
 \label{version_Design}
 \end{longtabu}
 
+\textbf{Formål}
+I dette kapitel er design af SW og HW illustreret med figurer og forklaret.
+
 \section{Designproces (GUI)}
+I udvikling af projektets brugergrænseflader er der brugt generelle principper om gode brugergrænseflader, MMI. Det er specielt prioriteret at brugeren skal være i kontrol, og at brugerens sprog skal være det gennemgående, da sproget gerne skal ligge til brugerens logik og ikke udviklerens. Brugergrænsefladen er udviklet med sigende knapper, radiobuttons, labels og tekstbokse. \\
+\newline
+Efter et besøg på dagkirurgisk afsnit på Aarhus Universitets Hospital, Skejby, er brugergrænsefladen forsøgt udviklet således at den passer til brug på en operationsstue. Ideelt set skulle der være to forskellige skærme, og dermed to forskellige brugergrænseflader - én til indtastning af brugeroplysninger og patientdata, og én til diastolisk,- systolisk- og pulsmåling. Brugergrænsefladen med patientoplysninger er til anæstesisygeplejerske/læge hvor brugergrænsefladen indeholdende målinger er til kirurgen. Kirurgens brugergrænseflade skal være simpel og indeholde så få oplysninger som muligt. Denne skal også have en alarmeringsfunktion, som kan sættes på lydløs i eksempelvis tre minutter. Anæstesisygeplejerskens brugergrænseflade skal indeholde mange (nødvendige) informationer om patienten, og skal derfor opbygges så dette er overskueligt.\\
+Ud fra den erfarede viden på Dagkirurgisk Afsnit, er det besluttet at sammensmelte de to omtalte skærme, men dog udvikle to forskellige brugergrænseflader. Den første brugergrænseflade indeholder bruger log ind, og en fejlmelding hvis de indtastede data er forkerte. Den anden brugergrænseflade indeholder patientdata samt målingen med de nødvendige informationer og funktioner. For at brugergrænsefladerne skal kunne udgøres for de to skærme på operationstuen, er disse gjort overskuelige og selvsigende. \\
+\newline
+\textit{Feedback to user}\\
+Feedback til brugeren skal gives for, at bruger kan se om en evnetuel kommando er forstået. Hvis ikke der er noget feedback efter en given kommando, ved brugeren ikke, om kommandoen er forstået eller accepteret - og tror dermed, at der er fejl i systemet. En sådan feedback skal have kort reponstid og/eller et \textit{arbejder}-symbol som viser at systemet bearbejder kommandoen.\\
+Feedback til brugeren er implementeret således, at der eksempelvis kommer en pop-up meddelelse ved forkert log ind. Når bruger logger ind, skifter brugergrænsefladen hurtigt, så brugeren ved, at handlingen er accepteret.  ....  
+
+\textit{Never interrupt the user}\\
+Brugeren skal aldrig forstyrres unødvendigt. Eksempelvis pop-up vinduer, som bruger ikke selv har bedt om, er forstyrrende. De forstyrrende elementer flytter brugers fokus, sætter bruger ud af kontrol og bryder brugers koncentration. Dog kan advarsler være vigtige, og dem af helt vigtig karakter, kan være nødvendig som pop-up. Advarsler af mindre vigtig karakter, kan opstå som pop-up ikoner i et hjørne - uden brug af lyde, pop-up eller andet - så bruger kan reagere når hen ikke længere er fuldt optaget.\\
+HVORDAN ER DET IMPLEMENTERET?
+
+\textit{The user should be in control}\\
+Brugeren skal lave kommandoerne og systemer skal adlyde disse, og ikke omvendt. Dette kan eksempelvis være en dialogbox på computer med knapperne "OK"\ til at acceptere, "Cancel"\ hvis bruger fortryder og "Help"\ hvis bruger har brug for hjælp.\\
+HVORDAN ER DET IMPLEMENTERET?
+
+\textit{Speak the users language}\\
+
+
+\textit{Design should reflect the user's logic, not the constructor's logic}\\
+\newline
+\textit{The design of a button should reflect its importance}\\
+\newline
+
+  
+    
 
 \section{Hardware}
 \subsubsection{Lavpasfilter}
@@ -291,4 +329,7 @@ Dette er en relativ lille afvigelse.
 \subsubsection{Forstærker}
 
 \section{Software}
+
+\subsubsection{Trelagsmodellen}
+Softwaren er opbygget af trelagsmodellen. 
 
