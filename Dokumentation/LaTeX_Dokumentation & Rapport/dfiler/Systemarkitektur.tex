@@ -4,7 +4,7 @@
     Version &    Dato &    Ansvarlig &    Beskrivelse\\[-1ex]
     \midrule
     0.1 &    4/11-15 &    Alle &    Tilføjelse af arkitektur\\
-    Tekst &    Tekst &    Tekst &    Tekst.\\
+    Tekst &    Tekst &    Tekst &    Tekst\\
     Tekst &    Tekst &    Tekst &    Tekst.\\
     Tekst &    Tekst &    Tekst &    Tekst.\\
 \label{version_Systemark}
@@ -230,7 +230,7 @@ I klassediagrammet for UC6 ses det, at tekniker og brugergrænsefladen er bounda
     Version &    Dato &    Ansvarlig &    Beskrivelse\\[-1ex]
     \midrule
     0.1 &    6/11-15 &    SV &    Tilføjelse af arkitektur\\
-    Tekst &    Tekst &    Tekst &    Tekst.\\
+    0.2 &    11/11-15 &    SV &    Tilføjelse af design\\
     Tekst &    Tekst &    Tekst &    Tekst.\\
     Tekst &    Tekst &    Tekst &    Tekst.\\
 \label{version_Design}
@@ -263,6 +263,32 @@ I projektet designes filtret med en knækfrekvens på 50 Hz. Operationsforstærk
 
 Til at bestemme komponentværdier er der taget udgangspunkt i knækfrekvensen:
 $$f_c=\frac{1}{2 \pi \sqrt{C1 \cdot C2 \cdot R1 \cdot R2}} = \frac{1}{2 \pi \sqrt{C1 \cdot C2 \cdot R^2}}$$
+Herudfra bestemmes R1 og R2:
+$$solve(50=\frac{1}{2 \pi \sqrt{10^{-6} \cdot (680 \cdot 10^{-9}) \cdot R^2}},R)$$
+$$R=3860 \ \Omega \approx 3,9 \ k \Omega$$
+C1 bestemmes til $1 \ \mu F$
+Overføringsfunktionen:
+$$T_v(s)=\frac{\frac{1}{R1 \cdot C1 \cdot R2 \cdot C2}}{s^2+s(\frac{1}{R2 \cdot C1}+\frac{1}{R1 \cdot C1})+\frac{1}{R1 \cdot C1 \cdot R2 \cdot C2}}$$
+
+$$T_v(s)=\frac{\frac{1}{(3900(1 \cdot 10^{-6}) \cdot 3900  (680 \cdot 10^{-9}))}}{(s^2+(s(\frac{1}{3900(1 \cdot 10^{-6})}+ \frac{1}{3900(1 \cdot 10^{-6})}))+\frac{1}{(3900(1 \cdot 10^{-6}) \cdot 3900 (680 \cdot 10^{-9})}))}$$
+
+$$T_v(s)=\frac{1}{\frac{25857}{2500000000}s^2 + \frac{663}{125000}s+1}$$
+
+$$T_v(s)=\frac{96685,6170476}{s^2+512,820512821 \cdot s+96685,6170476}$$
+
+Optegner bodeplot vha. værktøj i Maple:
+$$sys := TransferFunction(\frac{96685,6170476}{s^2+512,82 \cdot s + 96685,6170476}):$$
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.50]{bodeplot.PNG}
+\caption{Bodeplot lavpasfilter}
+\end{figure}
+
+Bodeplottet bekræfter, at det er et lavpas filter. Der aflæses en knækfrekvens ved -3db til 269 rad/s $\approx$ 42,81Hz. Den beregnede knækfrekvens er blevet beregnet til 49,48 Hz. (Evt udregning i bilag)	
+Dette er en relativ lille afvigelse. 
+
+\subsubsection{Forstærker}
 
 \section{Software}
 

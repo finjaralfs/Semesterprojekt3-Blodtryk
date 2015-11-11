@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  11 NOV 2015 08:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  11 NOV 2015 08:45
 entering extended mode
 **Logbog.tex
 (Logbog.tex
@@ -902,7 +902,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 696--708
 
  []
 
-[18] (Logbog.aux) ) 
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 730--742
+
+ []
+
+[19] (Logbog.aux) ) 
 Here is how much of TeX's memory you used:
  6938 strings out of 493698
  88594 string characters out of 3141958
@@ -919,9 +924,9 @@ X 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy1
 0.pfb>
-Output written on Logbog.pdf (18 pages, 148189 bytes).
+Output written on Logbog.pdf (19 pages, 149218 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
