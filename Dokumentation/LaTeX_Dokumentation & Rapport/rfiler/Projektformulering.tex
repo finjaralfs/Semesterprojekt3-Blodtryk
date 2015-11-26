@@ -1,11 +1,24 @@
 \chapter{Projektformulering}\label{kapitel_Projektformulering}
 
 \section{Projektformulering}
+I projektet vil der blive arbejdet med design og udvikling af et blodtryksmålesystem med henblik på måling af blodtryk. Dette skal måles invasivt, dvs. systemet skal kunne tilsluttes patientens arterier via et væskefyldt kateter.
+Der arbejdes med problemstillingen set fra et sundhedsfagligt aspekt, da produktet tiltænkes i brug på en operationsstue, hvor der ofte er behov for kontinuert at monitorere patientens blodtryk. Blodtrykket er en vigtig parameter til monitorering af patientens helbredstilstand. Blodtryksmålesystemet ses derfor som et redskab for det sundhedsfaglige personale.
+Visionen for projektet er at udvikle et system, der kan tilsluttes det væskefyldte kateter og vise en blodtrykskurve på en skærm. 
+
 
 
 \section{Præcisering}
 
 
+Projektet kommer til at indeholde to primære elementer. Et elektronisk kredsløb, som forstærker signalet fra transduceren og filtrerer det med et indbygget analogt filter. Projektet bygges op af et program, udviklet i C$\#$, til at vise blodtrykket som funktion af tiden. Programmet skal kunne kalibrere blodtrykssignalet og foretage en nulpunktsjustering. Blodtryksmålingen kan ikke startes før nulpunktsjusteringen er foretaget. Derudover skal programmet indeholde et digitalt filter, som kan filtrere blodtrykket - dette filter skal kunne slås til/fra. Programmet skal kunne gemme de målte data i en database.
+Der stræbes efter at opbygge systemet efter 3-lagsmodellen med præsentationlag, logiklag og datalag.  
+
+
 \section{Målgruppe}
+Blodtryksmålersystemet er tænkt udviklet til en operationsstue. Der er udviklet én skærm, hvor der både skal indskrives data og målingen skal foretages. Det er derfor en rimelig bred målskare af sundhedsfagligt personale der skal kunne bruge skærmen.
+\begin{itemize}
+\item Anæstesisygeplejersker- og læger
+\item Operationssygeplejersker- og læger
+\end{itemize}
 
  

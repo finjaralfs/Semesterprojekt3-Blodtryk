@@ -29,7 +29,7 @@
 \contentsline {subsubsection}{Sekvensdiagram UC1}{22}{section*.23}
 \contentsline {subsubsection}{Sekvensdiagram UC2}{22}{section*.25}
 \contentsline {subsubsection}{Sekvensdiagram UC3}{23}{section*.27}
-\contentsline {subsubsection}{Sekvensdiagram UC4}{24}{section*.29}
+\contentsline {subsubsection}{Sekvensdiagram UC4}{23}{section*.29}
 \contentsline {subsubsection}{Sekvensdiagram UC5}{24}{section*.31}
 \contentsline {subsubsection}{Sekvensdiagram UC6}{24}{section*.33}
 \contentsline {subsubsection}{Sekvensdiagram UC7}{25}{section*.35}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  27 OCT 2015 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  26 NOV 2015 08:35
 entering extended mode
 **vejledermode.tex
 (vejledermode.tex
@@ -912,7 +912,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 538--550
 
  []
 
-[14] (vejledermode.aux) ) 
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 587--599
+
+ []
+
+[15] (vejledermode.aux) ) 
 Here is how much of TeX's memory you used:
  7045 strings out of 493698
  90792 string characters out of 3141958
@@ -929,9 +934,9 @@ TeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
 i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on vejledermode.pdf (14 pages, 166413 bytes).
+Output written on vejledermode.pdf (15 pages, 168457 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
