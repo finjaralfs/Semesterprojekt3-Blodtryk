@@ -18,17 +18,20 @@
 \contentsline {subsubsection}{Use case 1: Log ind}{8}{section*.4}
 \contentsline {subsubsection}{Use case 2: Hent patientdata}{8}{section*.5}
 \contentsline {subsubsection}{Use case 3: Nulpunktsjustering}{9}{section*.6}
-\contentsline {subsubsection}{Use case 4: Filtrer signal}{9}{section*.7}
+\contentsline {subsubsection}{Use case 4: Alarmer}{9}{section*.7}
+\contentsline {subsubsection}{Use case 5: Filtrer signal}{9}{section*.8}
+\contentsline {subsubsection}{Use case 6: Gem data}{9}{section*.9}
+\contentsline {subsubsection}{Use case 7: Kalibrer system}{9}{section*.10}
 \contentsline {subsection}{\numberline {4.1.4}Fullydressed use case for use case X}{9}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}Systemarkitektur}{9}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Hardware}{9}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Software}{9}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Produktet}{9}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Hardware}{9}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Software}{9}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Accepttest}{9}{section.4.4}
-\contentsline {section}{\numberline {4.5}Opfyldelse af kravspecifikation}{9}{section.4.5}
-\contentsline {section}{\numberline {4.6}Videreudvikling}{9}{section.4.6}
+\contentsline {subsection}{\numberline {4.3.1}Hardware}{10}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Software}{10}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Accepttest}{10}{section.4.4}
+\contentsline {section}{\numberline {4.5}Opfyldelse af kravspecifikation}{10}{section.4.5}
+\contentsline {section}{\numberline {4.6}Videreudvikling}{10}{section.4.6}
 \contentsline {chapter}{\chapternumberline {5}Arbejdsmetoder}{11}{chapter.5}
 \contentsline {section}{\numberline {5.1}Redskaber}{11}{section.5.1}
 \contentsline {section}{\numberline {5.2}Projektstyring}{11}{section.5.2}
@@ -37,4 +40,4 @@
 \contentsline {chapter}{\chapternumberline {7}Diskussion}{15}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Konklusion}{17}{chapter.8}
 \contentsline {chapter}{\chapternumberline {9}Opn\IeC {\r a}ede erfaringer}{19}{chapter.9}
-\contentsline {chapter}{Bilagsliste}{21}{chapter*.8}
+\contentsline {chapter}{Bilagsliste}{21}{chapter*.11}
