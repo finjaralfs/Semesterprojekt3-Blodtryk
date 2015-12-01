@@ -633,6 +633,65 @@
 
 \newpage
 
+%--------------------------MØDE 9---------------------------------
+
+\begin{center} 
+\huge{\textsc{9. vejledermøde - møde med Thomas}}
+\end{center}
+
+\textbf{ }
+\\
+\textbf{Vejledermøde:} 9
+\\
+\textbf{Dato:} 1/12-15
+\\
+\textbf{Tilstede:} Joakim, Lars, Rune og Signe
+\\
+\textbf{Referent:} Signe
+\\
+\textbf{Varighed:} 30 minutter
+\\
+
+\subsection{Referat:}
+\begin{itemize}
+\item Software skrider frem, systole og diastole er inde
+\item HW venter på printplade
+\item Scrum bruges stadig med PT
+\begin{itemize}
+\item Det er vigtigt at vi kan dokumentere hvordan processen er skredet frem - det behøver ikke nødvendigvis være PT
+\end{itemize}
+\item Fokus nu ligger på at blive klar til accepttest og fra d. 11/12 bruger vi dagene på rapportskrivning
+\item Der skal laves nulpunktsjustering hver gang en måling foretages - kalibrering skal gøres en sjælden gang i mellem (kurven)
+\item Accepttest: gennemgåes slavisk, kan det det som den skal kunne? Starter fra en ende. Det gør ikke noget hvis det ikke virker - opdater det inden eksamen
+\item Accepttest fredag d. 11/12-15 kl. 13-14 (Signe skal på arbejde), hvis ikke det kan lade sig at gøre, så fra 7-8
+\item Filtre
+\begin{itemize}
+\item Analoge filtre: IIR 
+\item IIR/FIR? Knækfrekvens på 50 Hz? (Vi klipper ved 50 Hz i det analoge filter (der er meget støj deromkring fra net osv), vi kan evt. ligge knækfrekvensen lidt lavere)
+\item IIR filteret (analogt) er for at undgå aliasering 
+\item Vi kan designe i frekvensdomæne med vinduer
+\item Eller i tidsdomæne (movingaverage) - tidssignalet skal være pænere - fjerner random-noice (10-15-20 samples, 10-15-20. orden). Lavpas FIR-filter. Regner ikke på hver frekvens, men finder løbende gennemsnittet i tiden. Sampler med 1 kHz
+\item Filter Creator 
+\end{itemize}
+\end{itemize}
+
+\textbf{Møde med Lars}
+\begin{itemize}
+\item Systole og Diastole skal rykkes i logiklaget 
+\item Pulsen findes ved at finde hver top - vi kan hoppe et x-antal step, hvor vi, når vi begynder at gå ned igen, hopper hen og begynder at tælle op igen, og så finde nr. 2 top. 
+\item Systemet skal kunne klare en puls på eksempelvis 220 pulsslag/minuttet, og vi ved så hvor lang tid der går fra en top til en anden (mindst) og så skal linjen ligges lige derunder, for at sikre at alle værdierne kommer med
+\item Vi skal have en betingelse der gør, at vi kun kommer i if-løkken én gang, som finder vores toppunkt
+\item Vi har første udkast til at finde pulsen
+\item Enhedstest og intregrationstest
+\begin{itemize}
+\item Lav en testklasse og se om de rigtige værdier kommer tilbage 
+\item For at teste dataklassen skal vi have et kendt signal for at teste det 
+\item Test umiddelbart det essentielle af koden (filter, målinger osv.) og beskriv det, og hvordan 
+\end{itemize}
+\end{itemize}
+
+\newpage
+
 
 %\begin{itemize}
 %\item Visere, impedans/admittans
