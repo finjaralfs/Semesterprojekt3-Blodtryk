@@ -201,6 +201,9 @@ Diagrammet for UC3 viser at sundhedsfagligt personale, igennem brugergrænseflad
 
 %------------------UC4------------------------
 \subsubsection{Sekvensdiagram UC4}
+I diagrammet beder controlleren ved hjælp af metoden Alarm() om at Alarm-klassen skal tjekke op på om alarmfunktionen skal slås til eller fra. Efter metoden Alarm() er kørt gives der besked tilbage til controlleren og videre til brugergrænseflade, hvor man ville kunne se om amarmen er slået til eller fra.
+Efterfølgende kan der forekomme en alternativ funktion, hvor brugeren ved hjælp af lydløsknappen på brugergrænsefladen kan slå lydløs funktionen til. Når brugeren har trykket på knappen, starter controlleren metoden Lydløs(), som sender videre besked om at blive kørt i Alarm-klassen. Der sendes en returbesked tilbage til gennem controlleren og videre til brugergrænsefladen.
+
 I sekvensdiagrammet over UC4 ses det, at det er controlleren der sætter alarmen igang så snart blodtryksværdierne er udenfor de angivne grænseværdier. 
 \begin{figure}[H]
 \centering
@@ -210,6 +213,7 @@ I sekvensdiagrammet over UC4 ses det, at det er controlleren der sætter alarmen
 
 %------------------UC5------------------------
 \subsubsection{Sekvensdiagram UC5}
+Sundhedsfagligt personale trykker på til/fra-knappen i brugergrænsefladen. Metoden Filtrer() i controllerklassen giver besked om at Filtrer() skal kørers i Domainklassen ”Filter”. Der gives efterfølgende besked til controllerklassen og videre til brugergrænsefladen, hvor der kan ses ved hjælp af en radiobutton om filteret er slået til eller fra.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.70]{sd5.PNG}
@@ -218,6 +222,9 @@ I sekvensdiagrammet over UC4 ses det, at det er controlleren der sætter alarmen
 
 %------------------UC6------------------------
 \subsubsection{Sekvensdiagram UC6}
+Sundhedsfagligt personale trykker på gem knap i brugergrænsefladen. Dette aktiverer metoden GemBlodtryksdata() i controlleren, som giver videre besked til at køre den i boundaryklassen ”Patient Data (DB)”. Hvis der sker en fejl under gemmeprocessen og målingen dermed ikke bliver gemt, vil et alternativt handlingsforløb indtræde. ”Patient data (DB) ” vil i dette tilfælde give en returbesked til controlleren og videre til brugergrænsefladen, som meddeler til det sundhedsfaglige personale at målingen ikke er gemt. Herefter vil det sundhedsfaglige personale kunne prøve igen. 
+Er målingen gemt, vil der blive givet besked til controlleren fra ”Patient data (DB)”, som videre vil give besked til brugergrænsefalden. 
+
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.70]{sd6.PNG}
@@ -226,6 +233,7 @@ I sekvensdiagrammet over UC4 ses det, at det er controlleren der sætter alarmen
 
 %------------------UC7------------------------
 \subsubsection{Sekvensdiagram UC7}
+I diagrammet ses det at teknikeren starter med at påtrykke et kendt tryk i controlleren. Dette vil starte metoden Kalibrer() i Domainklassen ”Kalibrer”. ”Kalibrer” giver besked om afvigelser til controlleren. I tilfælde at der ikke er nogen afvigelser gives der besked om dette og teknikeren fortager ikke nogen ændringer. Ved afvigelser justere teknikeren det ved hjælp af ”Kalibrer”-klassen og der gives direkte besked tilbage til brugergrænsefladen om ændringerne.            
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.70]{sd7.PNG}
