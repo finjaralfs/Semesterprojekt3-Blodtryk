@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.3}M\IeC {\r a}lgruppe}{3}{section.2.3}
 \contentsline {chapter}{\chapternumberline {3}Baggrund}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Sundhedsfaglig teori}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Teknologisk teori}{5}{section.3.2}
+\contentsline {section}{\numberline {3.2}Teknologisk teori}{6}{section.3.2}
 \contentsline {chapter}{\chapternumberline {4}Udvikling}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Kravspecifikation}{7}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Akt\IeC {\o }rbeskrivelse}{7}{subsection.4.1.1}
@@ -33,11 +33,22 @@
 \contentsline {section}{\numberline {4.5}Opfyldelse af kravspecifikation}{10}{section.4.5}
 \contentsline {section}{\numberline {4.6}Videreudvikling}{10}{section.4.6}
 \contentsline {chapter}{\chapternumberline {5}Arbejdsmetoder}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Redskaber}{11}{section.5.1}
-\contentsline {section}{\numberline {5.2}Projektstyring}{11}{section.5.2}
-\contentsline {section}{\numberline {5.3}Udviklingsproces}{11}{section.5.3}
+\contentsline {section}{\numberline {5.1}Udviklingsv\IeC {\ae }rkt\IeC {\o }jer}{11}{section.5.1}
+\contentsline {subsubsection}{DAQ:}{11}{section*.11}
+\contentsline {subsubsection}{Analog Discovery:}{11}{section*.12}
+\contentsline {subsubsection}{WaveForms:}{11}{section*.13}
+\contentsline {subsubsection}{Visual Studio:}{11}{section*.14}
+\contentsline {subsubsection}{Microsoft Visio:}{11}{section*.15}
+\contentsline {subsubsection}{Multisim:}{11}{section*.16}
+\contentsline {subsubsection}{Ultiboard:}{12}{section*.17}
+\contentsline {subsubsection}{Github:}{12}{section*.18}
+\contentsline {subsubsection}{Pivotal Tracker:}{12}{section*.19}
+\contentsline {subsubsection}{Mathad:}{12}{section*.20}
+\contentsline {subsubsection}{Latex:}{12}{section*.21}
+\contentsline {section}{\numberline {5.2}Projektstyring}{12}{section.5.2}
+\contentsline {section}{\numberline {5.3}Udviklingsproces}{12}{section.5.3}
 \contentsline {chapter}{\chapternumberline {6}Resultater}{13}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Diskussion}{15}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Konklusion}{17}{chapter.8}
 \contentsline {chapter}{\chapternumberline {9}Opn\IeC {\r a}ede erfaringer}{19}{chapter.9}
-\contentsline {chapter}{Bilagsliste}{21}{chapter*.11}
+\contentsline {chapter}{Bilagsliste}{21}{chapter*.22}
