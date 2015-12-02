@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  26 NOV 2015 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  2 DEC 2015 13:35
 entering extended mode
 **Dokumentation.tex
 (Dokumentation.tex
@@ -2301,13 +2301,13 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 55.
- <ibd.PNG, id=339, 670.75594pt x 274.02374pt>
+ <ibd.PNG, id=339, 603.0028pt x 240.9pt>
 File: ibd.PNG Graphic file (type png)
  <use ibd.PNG>
 Package pdftex.def Info: ibd.PNG used on input line 59.
-(pdftex.def)             Requested size: 435.98619pt x 178.11331pt.
+(pdftex.def)             Requested size: 452.25099pt x 180.67455pt.
 
-Overfull \hbox (9.98619pt too wide) in paragraph at lines 59--60
+Overfull \hbox (26.25099pt too wide) in paragraph at lines 59--60
  [][] 
  []
 
@@ -2493,16 +2493,16 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 169.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 169.
- <sd1.PNG, id=396, 523.20468pt x 356.83313pt>
-File: sd1.PNG Graphic file (type png)
- <use sd1.PNG>
-Package pdftex.def Info: sd1.PNG used on input line 179.
+ <sd1.png, id=396, 523.20468pt x 356.83313pt>
+File: sd1.png Graphic file (type png)
+ <use sd1.png>
+Package pdftex.def Info: sd1.png used on input line 179.
 (pdftex.def)             Requested size: 366.24077pt x 249.78148pt.
 
-<sd2.PNG, id=397, 539.01375pt x 361.35pt>
-File: sd2.PNG Graphic file (type png)
- <use sd2.PNG>
-Package pdftex.def Info: sd2.PNG used on input line 189.
+<sd2.png, id=397, 539.01375pt x 361.35pt>
+File: sd2.png Graphic file (type png)
+ <use sd2.png>
+Package pdftex.def Info: sd2.png used on input line 189.
 (pdftex.def)             Requested size: 377.30704pt x 252.94327pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 192.
@@ -2512,7 +2512,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 192.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 192.
- [22 <./sd1.PNG>]
+ [22 <./sd1.png>]
 <sd3.PNG, id=406, 515.67656pt x 258.21469pt>
 File: sd3.PNG Graphic file (type png)
  <use sd3.PNG>
@@ -2526,7 +2526,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 206.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 206.
- [23 <./sd2.PNG> <./sd3.PNG>] <sd4.PNG, id=418, 548.0475pt x 290.58563pt>
+ [23 <./sd2.png> <./sd3.PNG>] <sd4.PNG, id=418, 548.0475pt x 290.58563pt>
 File: sd4.PNG Graphic file (type png)
  <use sd4.PNG>
 Package pdftex.def Info: sd4.PNG used on input line 210.
@@ -3327,7 +3327,7 @@ rm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb>
-Output written on Dokumentation.pdf (64 pages, 1247112 bytes).
+Output written on Dokumentation.pdf (64 pages, 1181089 bytes).
 PDF statistics:
  773 PDF objects out of 1000 (max. 8388607)
  187 named destinations out of 1000 (max. 500000)
