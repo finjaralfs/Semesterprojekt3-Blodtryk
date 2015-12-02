@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.3}M\IeC {\r a}lgruppe}{3}{section.2.3}
 \contentsline {chapter}{\chapternumberline {3}Baggrund}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Sundhedsfaglig teori}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Teknologisk teori}{5}{section.3.2}
+\contentsline {section}{\numberline {3.2}Teknologisk teori}{6}{section.3.2}
 \contentsline {chapter}{\chapternumberline {4}Udvikling}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Kravspecifikation}{7}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Akt\IeC {\o }rbeskrivelse}{7}{subsection.4.1.1}
