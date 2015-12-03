@@ -33,22 +33,26 @@
 \contentsline {section}{\numberline {4.5}Opfyldelse af kravspecifikation}{10}{section.4.5}
 \contentsline {section}{\numberline {4.6}Videreudvikling}{10}{section.4.6}
 \contentsline {chapter}{\chapternumberline {5}Arbejdsmetoder}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Udviklingsv\IeC {\ae }rkt\IeC {\o }jer}{11}{section.5.1}
-\contentsline {subsubsection}{DAQ:}{11}{section*.11}
-\contentsline {subsubsection}{Analog Discovery:}{11}{section*.12}
-\contentsline {subsubsection}{WaveForms:}{11}{section*.13}
-\contentsline {subsubsection}{Visual Studio:}{11}{section*.14}
-\contentsline {subsubsection}{Microsoft Visio:}{11}{section*.15}
-\contentsline {subsubsection}{Multisim:}{11}{section*.16}
-\contentsline {subsubsection}{Ultiboard:}{12}{section*.17}
-\contentsline {subsubsection}{Github:}{12}{section*.18}
-\contentsline {subsubsection}{Pivotal Tracker:}{12}{section*.19}
-\contentsline {subsubsection}{Mathad:}{12}{section*.20}
-\contentsline {subsubsection}{Latex:}{12}{section*.21}
-\contentsline {section}{\numberline {5.2}Projektstyring}{12}{section.5.2}
-\contentsline {section}{\numberline {5.3}Udviklingsproces}{12}{section.5.3}
-\contentsline {chapter}{\chapternumberline {6}Resultater}{13}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Diskussion}{15}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Konklusion}{17}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Opn\IeC {\r a}ede erfaringer}{19}{chapter.9}
-\contentsline {chapter}{Bilagsliste}{21}{chapter*.22}
+\contentsline {section}{\numberline {5.1}Projektstyring}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Udviklingsproces}{12}{section.5.2}
+\contentsline {section}{\numberline {5.3}Udviklingsv\IeC {\ae }rkt\IeC {\o }jer}{13}{section.5.3}
+\contentsline {subsubsection}{DAQ:}{13}{section*.13}
+\contentsline {subsubsection}{Analog Discovery:}{13}{section*.14}
+\contentsline {subsubsection}{WaveForms:}{13}{section*.15}
+\contentsline {subsubsection}{Visual Studio:}{14}{section*.16}
+\contentsline {subsubsection}{Microsoft Visio:}{14}{section*.17}
+\contentsline {subsubsection}{Multisim:}{14}{section*.18}
+\contentsline {subsubsection}{Ultiboard:}{14}{section*.19}
+\contentsline {subsubsection}{Github:}{14}{section*.20}
+\contentsline {subsubsection}{Pivotal Tracker:}{14}{section*.21}
+\contentsline {subsubsection}{Mathad:}{14}{section*.22}
+\contentsline {subsubsection}{Latex:}{14}{section*.23}
+\contentsline {section}{\numberline {5.4}Rollefordeling}{14}{section.5.4}
+\contentsline {subsubsection}{M\IeC {\o }destruktur}{14}{section*.24}
+\contentsline {subsubsection}{Deadlines}{15}{section*.25}
+\contentsline {subsubsection}{Review}{15}{section*.26}
+\contentsline {chapter}{\chapternumberline {6}Resultater}{17}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Diskussion}{19}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Konklusion}{21}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Opn\IeC {\r a}ede erfaringer}{23}{chapter.9}
+\contentsline {chapter}{Bilagsliste}{25}{chapter*.27}
