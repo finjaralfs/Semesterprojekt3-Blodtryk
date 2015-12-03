@@ -10,49 +10,51 @@
 \contentsline {chapter}{\chapternumberline {3}Baggrund}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Sundhedsfaglig teori}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Teknologisk teori}{6}{section.3.2}
-\contentsline {chapter}{\chapternumberline {4}Udvikling}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Kravspecifikation}{7}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Akt\IeC {\o }rbeskrivelse}{7}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Use case diagram}{7}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Use case beskrivelser}{8}{subsection.4.1.3}
-\contentsline {subsubsection}{Use case 1: Log ind}{8}{section*.4}
-\contentsline {subsubsection}{Use case 2: Hent patientdata}{8}{section*.5}
-\contentsline {subsubsection}{Use case 3: Nulpunktsjustering}{9}{section*.6}
-\contentsline {subsubsection}{Use case 4: Alarmer}{9}{section*.7}
-\contentsline {subsubsection}{Use case 5: Filtrer signal}{9}{section*.8}
-\contentsline {subsubsection}{Use case 6: Gem data}{9}{section*.9}
-\contentsline {subsubsection}{Use case 7: Kalibrer system}{9}{section*.10}
-\contentsline {subsection}{\numberline {4.1.4}Fullydressed use case for use case X}{9}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Systemarkitektur}{9}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Hardware}{9}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Software}{9}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Produktet}{9}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Hardware}{10}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Software}{10}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Accepttest}{10}{section.4.4}
-\contentsline {section}{\numberline {4.5}Opfyldelse af kravspecifikation}{10}{section.4.5}
-\contentsline {section}{\numberline {4.6}Videreudvikling}{10}{section.4.6}
-\contentsline {chapter}{\chapternumberline {5}Arbejdsmetoder}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Projektstyring}{11}{section.5.1}
-\contentsline {section}{\numberline {5.2}Udviklingsproces}{12}{section.5.2}
-\contentsline {section}{\numberline {5.3}Udviklingsv\IeC {\ae }rkt\IeC {\o }jer}{13}{section.5.3}
-\contentsline {subsubsection}{DAQ:}{13}{section*.13}
-\contentsline {subsubsection}{Analog Discovery:}{13}{section*.14}
-\contentsline {subsubsection}{WaveForms:}{13}{section*.15}
-\contentsline {subsubsection}{Visual Studio:}{14}{section*.16}
-\contentsline {subsubsection}{Microsoft Visio:}{14}{section*.17}
-\contentsline {subsubsection}{Multisim:}{14}{section*.18}
-\contentsline {subsubsection}{Ultiboard:}{14}{section*.19}
-\contentsline {subsubsection}{Github:}{14}{section*.20}
-\contentsline {subsubsection}{Pivotal Tracker:}{14}{section*.21}
-\contentsline {subsubsection}{Mathad:}{14}{section*.22}
-\contentsline {subsubsection}{Latex:}{14}{section*.23}
-\contentsline {section}{\numberline {5.4}Rollefordeling}{14}{section.5.4}
-\contentsline {subsubsection}{M\IeC {\o }destruktur}{14}{section*.24}
-\contentsline {subsubsection}{Deadlines}{15}{section*.25}
-\contentsline {subsubsection}{Review}{15}{section*.26}
-\contentsline {chapter}{\chapternumberline {6}Resultater}{17}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Diskussion}{19}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Konklusion}{21}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Opn\IeC {\r a}ede erfaringer}{23}{chapter.9}
-\contentsline {chapter}{Bilagsliste}{25}{chapter*.27}
+\contentsline {section}{\numberline {3.3}Baggrund fra klinisk praksis}{6}{section.3.3}
+\contentsline {subsubsection}{Operationsstue p\IeC {\r a} AUH Skejby}{6}{section*.3}
+\contentsline {chapter}{\chapternumberline {4}Udvikling}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Kravspecifikation}{9}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Akt\IeC {\o }rbeskrivelse}{9}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Use case diagram}{9}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Use case beskrivelser}{10}{subsection.4.1.3}
+\contentsline {subsubsection}{Use case 1: Log ind}{10}{section*.5}
+\contentsline {subsubsection}{Use case 2: Hent patientdata}{10}{section*.6}
+\contentsline {subsubsection}{Use case 3: Nulpunktsjustering}{11}{section*.7}
+\contentsline {subsubsection}{Use case 4: Alarmer}{11}{section*.8}
+\contentsline {subsubsection}{Use case 5: Filtrer signal}{11}{section*.9}
+\contentsline {subsubsection}{Use case 6: Gem data}{11}{section*.10}
+\contentsline {subsubsection}{Use case 7: Kalibrer system}{11}{section*.11}
+\contentsline {subsection}{\numberline {4.1.4}Fullydressed use case for use case X}{11}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Systemarkitektur}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Hardware}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Software}{11}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Produktet}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Hardware}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Software}{12}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Accepttest}{12}{section.4.4}
+\contentsline {section}{\numberline {4.5}Opfyldelse af kravspecifikation}{12}{section.4.5}
+\contentsline {section}{\numberline {4.6}Videreudvikling}{12}{section.4.6}
+\contentsline {chapter}{\chapternumberline {5}Arbejdsmetoder}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Projektstyring}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Udviklingsproces}{14}{section.5.2}
+\contentsline {section}{\numberline {5.3}Udviklingsv\IeC {\ae }rkt\IeC {\o }jer}{15}{section.5.3}
+\contentsline {subsubsection}{DAQ:}{15}{section*.14}
+\contentsline {subsubsection}{Analog Discovery:}{15}{section*.15}
+\contentsline {subsubsection}{WaveForms:}{15}{section*.16}
+\contentsline {subsubsection}{Visual Studio:}{16}{section*.17}
+\contentsline {subsubsection}{Microsoft Visio:}{16}{section*.18}
+\contentsline {subsubsection}{Multisim:}{16}{section*.19}
+\contentsline {subsubsection}{Ultiboard:}{16}{section*.20}
+\contentsline {subsubsection}{Github:}{16}{section*.21}
+\contentsline {subsubsection}{Pivotal Tracker:}{16}{section*.22}
+\contentsline {subsubsection}{Mathad:}{16}{section*.23}
+\contentsline {subsubsection}{Latex:}{16}{section*.24}
+\contentsline {section}{\numberline {5.4}Rollefordeling}{16}{section.5.4}
+\contentsline {subsubsection}{M\IeC {\o }destruktur}{16}{section*.25}
+\contentsline {subsubsection}{Deadlines}{17}{section*.26}
+\contentsline {subsubsection}{Review}{17}{section*.27}
+\contentsline {chapter}{\chapternumberline {6}Resultater}{19}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Diskussion}{21}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Konklusion}{23}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Opn\IeC {\r a}ede erfaringer}{25}{chapter.9}
+\contentsline {chapter}{Bilagsliste}{27}{chapter*.28}
