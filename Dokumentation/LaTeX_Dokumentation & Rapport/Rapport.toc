@@ -42,7 +42,7 @@
 \contentsline {subsubsection}{DAQ:}{16}{section*.15}
 \contentsline {subsubsection}{Analog Discovery:}{16}{section*.16}
 \contentsline {subsubsection}{WaveForms:}{16}{section*.17}
-\contentsline {subsubsection}{Visual Studio:}{16}{section*.18}
+\contentsline {subsubsection}{Visual Studio:}{17}{section*.18}
 \contentsline {subsubsection}{Microsoft Visio:}{17}{section*.19}
 \contentsline {subsubsection}{Multisim:}{17}{section*.20}
 \contentsline {subsubsection}{Ultiboard:}{17}{section*.21}

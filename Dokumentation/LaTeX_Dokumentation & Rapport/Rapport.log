@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  7 DEC 2015 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.11)  7 DEC 2015 18:46
 entering extended mode
 **Rapport.tex
 (Rapport.tex
@@ -2320,119 +2320,138 @@ Package babel Info: Redefining danish shorthand "~
 
 
  <./tidsplan.PNG>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 37.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 37.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 37.
- [14]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 45.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 45.
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+Underfull \hbox (badness 10000) in paragraph at lines 20--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+Underfull \hbox (badness 10000) in paragraph at lines 20--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--43
+
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 43.
+[14]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 44.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
 
  []
 
 <ase.PNG, id=324, 445.665pt x 261.22594pt>
 File: ase.PNG Graphic file (type png)
  <use ase.PNG>
-Package pdftex.def Info: ase.PNG used on input line 54.
+Package pdftex.def Info: ase.PNG used on input line 53.
 (pdftex.def)             Requested size: 356.53249pt x 208.98102pt.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 55.
  [15]
-Underfull \hbox (badness 10000) in paragraph at lines 58--61
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 71.
 [16 <./ase.PNG>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--95
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--95
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 94.
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 97--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--103
-
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 109.
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--127
+Underfull \hbox (badness 10000) in paragraph at lines 96--102
 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 108.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--126
+
+ []
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 126.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 126.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 126.
 [18])
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
@@ -2625,7 +2644,7 @@ c/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/c
 m-super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman
 /ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.p
 fb>
-Output written on Rapport.pdf (39 pages, 482386 bytes).
+Output written on Rapport.pdf (39 pages, 484360 bytes).
 PDF statistics:
  491 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)
