@@ -58,7 +58,7 @@
 \contentsline {subsubsection}{Use cases}{19}{section*.29}
 \contentsline {subsubsection}{Trelagsmodellen}{19}{section*.30}
 \contentsline {subsubsection}{SysML og UML}{19}{section*.31}
-\contentsline {subsubsection}{MMI}{19}{section*.32}
+\contentsline {subsubsection}{MMI}{20}{section*.32}
 \contentsline {chapter}{\chapternumberline {6}Resultater}{21}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Diskussion}{23}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Konklusion}{25}{chapter.8}
